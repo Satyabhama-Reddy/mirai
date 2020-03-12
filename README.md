@@ -1,8 +1,10 @@
-# mirai
+# MiraiBotNet
 
 ## prerequisites
-mongoDB
-pip
+
+ - mongoDB 
+ - pip
+
 ```bash
 # cd botnet/
 # pip install -r requirement.txt  
@@ -23,7 +25,7 @@ pip
   eg:- # ./command.sh "ls;ping www.google.com"
 ```
 
-## information
+## Information
 ### userPassIPFile.txt file contains the IP,Username,Password of the bots. 
 
 
