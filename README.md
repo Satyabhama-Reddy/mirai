@@ -1,5 +1,12 @@
 # mirai
 
+## prerequisites
+mongoDB
+pip
+```bash
+# cd botnet/
+# pip install -r requirement.txt  
+```
 ## Usage 
 
 ### To get the bots
