@@ -1,0 +1,9 @@
+python3
+nmap
+wget
+curl
+hping3
+openssh-client
+openssh-server
+fswebcam
+sshpass
