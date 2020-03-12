@@ -11,8 +11,6 @@ do
 	uname=$username
         pass=$password
         echo "trying $ip with $username and $password for $1"
-        sshpass -p "$password" ssh -oStrictHostKeyChecking=no $username@$ip /bin/bash << EOF
-	$1
-EOF
+        sshpass -p "$password" ssh -oStrictHostKeyChecking=no $username@$ip "$1" &
 done < $INPUT
 IFS=$OLDIFS
