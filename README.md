@@ -1,11 +1,19 @@
 # mirai
 
 ## Usage 
-  
+
+### To get the bots
 ```bash
 # cd botnet/
 # ./run.sh <ip> 
   eg:- # ./run.sh 192.168.31.X 
+```
+
+### To run the command accross all the bots
+```bash
+# cd botnet/
+# ./command.sh <cmd> 
+  eg:- # ./command.sh "ls;ping www.google.com"
 ```
 
 ## information
