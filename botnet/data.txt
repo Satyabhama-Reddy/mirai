@@ -1,0 +1,1 @@
+ip = 192.168.31.254:data = this is data entered bla staya bama
