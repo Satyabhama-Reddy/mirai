@@ -6,6 +6,8 @@
  - pip
 
 ```bash
+# chmod +x init.sh
+# ./init.sh
 # cd botnet/
 # pip install -r requirement.txt  
 ```
