@@ -150,6 +150,24 @@ def number():
     return jsonify({"number":botCounter})
 
 
+### =========================================================================================================
+###  Get bots with unset loader flag of BOTs API                                                                             done
+### =========================================================================================================
+@app.route('/getbotunset', methods=['GET'])
+def getbotunset():
+    val=bots_table.find()
+    d = dict()
+    botCounter = 1
+    for x in val:
+        x.pop("_id")
+        if(x["loaded"] == 0):
+            d[botCounter] = x
+            botCounter+=1
+    return jsonify(d)
+
+
+
+
 
 
 
