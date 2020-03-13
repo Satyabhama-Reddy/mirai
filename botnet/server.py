@@ -58,7 +58,7 @@ output into a file data.txt
 """
 @app.route('/receiveData', methods=['POST'])
 def data():
-    f = open("data.txt", "w")
+    f = open("data.txt", "a")
     j = request.get_json()
     botip = j['ip']
     data = j['data']
