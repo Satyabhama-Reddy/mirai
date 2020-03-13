@@ -56,7 +56,7 @@ input
 output into a file data.txt
 
 """
-@app.route('/reciveData', methods=['POST'])
+@app.route('/receiveData', methods=['POST'])
 def data():
     f = open("data.txt", "w")
     j = request.get_json()
