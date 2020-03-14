@@ -32,7 +32,7 @@
  
 ### to get data from bots
 ```
-curl --header "Content-Type: application/json" --request POST --data '{"ip":"192.168.31.254","data":"this is data entered bla"}' http://192.168.31.32:5000/reciveData
+curl --header "Content-Type: application/json" --request POST --data '{"ip":"192.168.31.254","data":"this is data entered bla"}' http://192.168.31.32:5000/receiveData
 ```
 
 
