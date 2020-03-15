@@ -1,11 +1,15 @@
 #!/bin/bash
 
+
 echo "Initializing the Database"
 
 read -p "enter the IP ID in the form of x.x.x.x : " IP
 ./init.sh
 
 echo "Database Initialized"
+
+echo "setting up config"
+
 
 sleep 3
 

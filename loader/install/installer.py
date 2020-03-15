@@ -63,6 +63,8 @@ def load(system):
     if("ARCHITECTURE" not in details.keys()):
         details["ARCHITECTURE"]=""
     directoryName = details["ARCHITECTURE"]+"_"+details["UNAME"]+"_"+details["NAME"]+"_"+details["ID"]+"_"+details["VERSION_CODENAME"]+"_"+details["VERSION_ID"]
+    directoryName=directoryName.replace(" ", "")
+    directoryName=directoryName.replace("/", "")
     logger.info("Directory Name: "+directoryName)
     if(directoryName not in os.listdir("debs")):
         logger.info("Downloading Packages...getDebs.sh")
