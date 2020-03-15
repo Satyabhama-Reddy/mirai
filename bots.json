@@ -1,1 +1,2 @@
-{"_id":{"$oid":"5e6a9ca820a8b01884e4e9b2"},"botId":1,"ip":"192.168.31.245","username":"pi","password":"123456789","loaded":0}
+{"_id":{"$oid":"5e6a9ca820a8b01884e4e9b2"},"botId":{"$numberInt":"1"},"ip":"192.168.31.245","username":"pi","password":"123456789","loaded":{"$numberInt":"0"},"directoryName":"/bla/bla/basdasdla"}
+{"_id":{"$oid":"5e6e15a15c0c0af13836c622"},"botId":{"$numberInt":"3"},"ip":"192.168.31.205","username":"admin","password":"123456789","loaded":{"$numberInt":"0"},"directoryName":""}
