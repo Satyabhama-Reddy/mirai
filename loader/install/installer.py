@@ -77,7 +77,7 @@ def load(system):
     for line in execute(['sh', 'install.sh', system["username"],system["password"],system["ip"]]):
         logger.info("IN install.sh\t"+line.strip())
         
-    return directoryName
+    return os.path.abspath("debs/"+directoryName)
 
 
 while(1):
