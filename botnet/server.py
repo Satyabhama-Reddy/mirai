@@ -93,7 +93,7 @@ def addbot():
     if(val is not None):
         bots_table.delete_one({"ip":j['ip']})
     nextId = getNextSequence(counter,"botId")  
-    result=bots_table.insert_one({'botId':nextId,"ip":j['ip'],"username":j['username'],"password":j['password'],"loaded":0})
+    result=bots_table.insert_one({'botId':nextId,"ip":j['ip'],"username":j['username'],"password":j['password'],"loaded":0,"directoryName":""})
     return jsonify({'code':200})
 
 
@@ -165,6 +165,18 @@ def getbotunset():
             botCounter+=1
     return jsonify(d)
 
+
+### =========================================================================================================
+###  adding directoryName to the BOTs API                                                                             done
+### =========================================================================================================
+@app.route('/storeDirectory/<ip>', methods=['POST'])
+def storeDirectory(ip):
+    j = request.get_json()
+    val = bots_table.find_one({"ip":ip})
+    if(val is None):
+        return jsonify({'code':200,"data":"device not available"})
+    bots_table.update_one({ 'ip': ip },{"$set":{"directoryName":j["directoryName"]}})
+    return jsonify({'code':200})
 
 
 
