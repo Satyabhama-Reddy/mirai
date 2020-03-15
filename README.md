@@ -26,6 +26,25 @@
 # ./command.sh <cmd> 
   eg:- # ./command.sh "ls;ping www.google.com"
 ```
+## Loader
+
+### To add a package:
+```bash
+# cd loader/getDependencies
+```
+#####  Add the package name to packages.txt
+##### Run : 
+```bash
+# python3 getter.py
+```
+##### Dependencies will be added to neededDependencies.txt
+
+### To start loader:
+```bash
+# cd loader/install
+# python3 installer.py &
+```
+##### Logs will be present at logs/loader.log
 
 ## Information
 ### userPassIPFile.txt file contains the IP,Username,Password of the bots. 
