@@ -2,13 +2,7 @@
 
 echo "Initializing the Database"
 
-if [ $# -le 0 ]
-then
-	echo "please enter the IP ID in the form of x.x.x as an argument"
-	echo "this program handles only /24 subnet values"
-	exit 0
-fi
-
+read -p "enter the IP ID in the form of x.x.x.x : " IP
 ./init.sh
 
 echo "Database Initialized"
@@ -26,10 +20,10 @@ echo "The CNC Server is up and running"
 echo "The PiD for the server Process "
 lsof -i:5000
 
-echo $1
+echo
 
 
-./run.sh $1
+./run.sh $IP
 
 sleep 2
 
