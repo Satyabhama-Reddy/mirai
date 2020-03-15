@@ -32,19 +32,19 @@
 ```bash
 # cd loader/getDependencies
 ```
-# add the package name to packages.txt
-# Run : 
+#### add the package name to packages.txt
+#### Run : 
 ```bash
 # python3 getter.py
 ```
-# dependencies will be added to neededDependencies.txt
+#### dependencies will be added to neededDependencies.txt
 
 ### To start loader:
 ```bash
 # cd loader/install
 # python3 installer.py &
 ```
-# Logs will be present at logs/loader.log
+#### Logs will be present at logs/loader.log
 
 ## Information
 ### userPassIPFile.txt file contains the IP,Username,Password of the bots. 
