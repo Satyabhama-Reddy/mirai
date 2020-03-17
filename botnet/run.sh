@@ -1,5 +1,5 @@
 #!/bin/bash
-
+rm userPassIPFile.txt
 if [ $# -le 0 ]
 then
 	echo "please enter the IP ID in the form of x.x.x"
