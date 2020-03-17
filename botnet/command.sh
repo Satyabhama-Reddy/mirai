@@ -1,4 +1,5 @@
 #!/bin/bash
+
 INPUT=userPassIPFile.txt
 OLDIFS=$IFS
 IFS=','
@@ -8,7 +9,7 @@ pass=""
 while read ip username password
 do
         ip=$ip
-	uname=$username
+		uname=$username
         pass=$password
         echo "trying $ip with $username and $password for $1"
         sshpass -p "$password" ssh -oStrictHostKeyChecking=no $username@$ip "$1" &
