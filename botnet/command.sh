@@ -1,6 +1,8 @@
 #!/bin/bash
+python command_helper.py > values.txt
 
-INPUT=userPassIPFile.txt
+
+INPUT=values.txt
 OLDIFS=$IFS
 IFS=','
 uname=""
