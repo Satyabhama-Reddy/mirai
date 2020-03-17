@@ -22,11 +22,6 @@ else
 	echo "trying with $ip.0/24"
 fi
 
-n=1
-while (($n <=5 ))
-do
-	#statements
-
 
 echo ""
 echo ""
@@ -54,8 +49,5 @@ echo "Completed!!"
 sleep 1
 echo "IP , User name , Passwords are"
 python command_helper.py
-
-echo "about to retart in seconds"
-sleep 4
-done
 rm temp.txt
+
