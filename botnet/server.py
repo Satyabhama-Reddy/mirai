@@ -25,9 +25,8 @@ botCounter=0
 # client = MongoClient('mongo',27017)
 client = MongoClient(port=27017)
 bots_table  = client.botnet.bots
-print(bots_table.count)
 counter = client.botnet.orgid_counter
-print(counter)
+
 
 ### =========================================================================================================
 ### id increment
