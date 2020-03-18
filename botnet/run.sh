@@ -23,11 +23,12 @@ else
 fi
 
 n=1
+k=1
 while (($n <=5 ))
 do
-	#statements
-
-
+echo ""
+echo ""
+echo "running the script for the $k th time"
 echo ""
 echo ""
 echo "Scanning the Network"
@@ -54,8 +55,10 @@ echo "Completed!!"
 sleep 1
 echo "IP , User name , Passwords are"
 python command_helper.py
-
+k=(($k + 1))
 echo "about to retart in few seconds"
 sleep 4
+echo ""
+echo ""
 done
 rm temp.txt
