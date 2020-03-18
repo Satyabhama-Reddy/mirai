@@ -55,7 +55,7 @@ sleep 1
 echo "IP , User name , Passwords are"
 python command_helper.py
 
-echo "about to retart in seconds"
+echo "about to retart in few seconds"
 sleep 4
 done
 rm temp.txt
