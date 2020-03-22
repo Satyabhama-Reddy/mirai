@@ -54,8 +54,8 @@ done < ips.txt
 echo "Completed!!"
 sleep 1
 echo "IP , User name , Passwords are"
-python command_helper.py
-k=(($k + 1))
+python3 command_helper.py
+k=($k + 1)
 echo "about to retart in few seconds"
 sleep 4
 echo ""

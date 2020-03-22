@@ -1,1518 +1,377 @@
-2020-03-15 21:26:57,552 querying DB...
-2020-03-15 21:26:57,556 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:26:57,559 "GET /getbotunset HTTP/1.1" 200 312
-2020-03-15 21:26:57,559 192.168.1.9
-2020-03-15 21:26:58,482 Directory Name: i386_4.15.0-88-generic_Ubuntu_ubuntu_xenial_16.04
-2020-03-15 21:26:58,482 Pushing Packages...moveDebs.sh
-2020-03-15 21:27:17,894 Installing Packages...install.sh
-2020-03-15 21:27:19,004 IN install.sh	python3-minimal Already Present
-2020-03-15 21:27:19,201 IN install.sh	python3.5 Already Present
-2020-03-15 21:27:19,403 IN install.sh	libpython3-stdlib Already Present
-2020-03-15 21:27:19,599 IN install.sh	dh-python Already Present
-2020-03-15 21:27:19,798 IN install.sh	python3-doc Already Present
-2020-03-15 21:27:19,995 IN install.sh	python3-tk Already Present
-2020-03-15 21:27:20,198 IN install.sh	python3-venv Already Present
-2020-03-15 21:27:20,394 IN install.sh	python3 Already Present
-2020-03-15 21:27:20,590 IN install.sh	libc6 Already Present
-2020-03-15 21:27:20,792 IN install.sh	libgcc1 Already Present
-2020-03-15 21:27:20,991 IN install.sh	liblinear3 Already Present
-2020-03-15 21:27:21,185 IN install.sh	liblua5.2-0 Already Present
-2020-03-15 21:27:21,383 IN install.sh	libpcap0.8 Already Present
-2020-03-15 21:27:21,584 IN install.sh	libpcre3 Already Present
-2020-03-15 21:27:21,784 IN install.sh	libssl1.0.0 Already Present
-2020-03-15 21:27:21,985 IN install.sh	libstdc++6 Already Present
-2020-03-15 21:27:22,183 IN install.sh	lua-lpeg Already Present
-2020-03-15 21:27:22,379 IN install.sh	ndiff Already Present
-2020-03-15 21:27:22,579 IN install.sh	nmap Already Present
-2020-03-15 21:27:22,782 IN install.sh	libidn11 Already Present
-2020-03-15 21:27:22,979 IN install.sh	libuuid1 Already Present
-2020-03-15 21:27:23,181 IN install.sh	zlib1g Already Present
-2020-03-15 21:27:23,378 IN install.sh	ca-certificates Already Present
-2020-03-15 21:27:23,575 IN install.sh	wget Already Present
-2020-03-15 21:27:23,772 IN install.sh	libcurl3-gnutls Already Present
-2020-03-15 21:27:23,976 IN install.sh	curl Already Present
-2020-03-15 21:27:24,177 IN install.sh	libtcl8.6 Already Present
-2020-03-15 21:27:24,373 IN install.sh	hping3 Already Present
-2020-03-15 21:27:24,569 IN install.sh	libedit2 Already Present
-2020-03-15 21:27:24,768 IN install.sh	libgssapi-krb5-2 Already Present
-2020-03-15 21:27:24,965 IN install.sh	libselinux1 Already Present
-2020-03-15 21:27:25,168 IN install.sh	adduser Already Present
-2020-03-15 21:27:25,366 IN install.sh	dpkg Already Present
-2020-03-15 21:27:25,566 IN install.sh	passwd Already Present
-2020-03-15 21:27:25,763 IN install.sh	xauth Already Present
-2020-03-15 21:27:25,963 IN install.sh	ssh-askpass Already Present
-2020-03-15 21:27:26,162 IN install.sh	libpam-ssh Already Present
-2020-03-15 21:27:26,365 IN install.sh	keychain Already Present
-2020-03-15 21:27:26,560 IN install.sh	monkeysphere Already Present
-2020-03-15 21:27:26,807 IN install.sh	openssh-client Already Present
-2020-03-15 21:27:26,965 IN install.sh	libaudit1 Already Present
-2020-03-15 21:27:27,187 IN install.sh	libcomerr2 Already Present
-2020-03-15 21:27:27,361 IN install.sh	libkrb5-3 Already Present
-2020-03-15 21:27:27,568 IN install.sh	libpam0g Already Present
-2020-03-15 21:27:27,761 IN install.sh	libsystemd0 Already Present
-2020-03-15 21:27:27,965 IN install.sh	libwrap0 Already Present
-2020-03-15 21:27:28,326 IN install.sh	debconf Already Present
-2020-03-15 21:27:28,362 IN install.sh	debconf-2.0 Not there..Installing
-2020-03-15 21:27:29,140 IN install.sh	init-system-helpers Already Present
-2020-03-15 21:27:29,467 IN install.sh	lsb-base Already Present
-2020-03-15 21:27:29,522 IN install.sh	libpam-runtime Already Present
-2020-03-15 21:27:29,847 IN install.sh	libpam-modules Already Present
-2020-03-15 21:27:29,924 IN install.sh	procps Already Present
-2020-03-15 21:27:30,227 IN install.sh	openssh-sftp-server Already Present
-2020-03-15 21:27:30,326 IN install.sh	ncurses-term Already Present
-2020-03-15 21:27:30,612 IN install.sh	ssh-import-id Already Present
-2020-03-15 21:27:30,723 IN install.sh	rssh Already Present
-2020-03-15 21:27:31,035 IN install.sh	molly-guard Already Present
-2020-03-15 21:27:31,129 IN install.sh	ufw Already Present
-2020-03-15 21:27:31,475 IN install.sh	openssh-server Already Present
-2020-03-15 21:27:31,544 IN install.sh	libgd3 Already Present
-2020-03-15 21:27:31,741 IN install.sh	fswebcam Already Present
-2020-03-15 21:27:31,745 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:27:31,749 "GET /setloaded/192.168.1.9 HTTP/1.1" 200 18
-2020-03-15 21:27:31,751 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:27:31,755 "POST /storeDirectory/192.168.1.9 HTTP/1.1" 200 18
-2020-03-15 21:27:31,755 Loaded 192.168.1.9
-2020-03-15 21:27:31,755 192.168.1.10
-2020-03-15 21:27:32,115 Directory Name: armhf_4.9.35-v7+_RaspbianGNULinux_raspbian__8
-2020-03-15 21:27:32,115 Downloading Packages...getDebs.sh
-2020-03-15 21:27:35,721 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main python3-minimal armhf 3.4.2-2 [34.7 kB]
-2020-03-15 21:27:36,471 IN getDebs.sh	Fetched 34.7 kB in 2s (16.5 kB/s)
-2020-03-15 21:27:36,491 IN getDebs.sh	python3-minimal
-2020-03-15 21:27:37,792 IN getDebs.sh	python3.5
-2020-03-15 21:27:40,331 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main libpython3-stdlib armhf 3.4.2-2 [18.1 kB]
-2020-03-15 21:27:40,732 IN getDebs.sh	Fetched 18.1 kB in 1s (10.5 kB/s)
-2020-03-15 21:27:40,749 IN getDebs.sh	libpython3-stdlib
-2020-03-15 21:27:43,424 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main dh-python all 1.20141111-2 [66.4 kB]
-2020-03-15 21:27:44,978 IN getDebs.sh	Fetched 66.4 kB in 2s (22.4 kB/s)
-2020-03-15 21:27:44,999 IN getDebs.sh	dh-python
-2020-03-15 21:27:47,611 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main python3-doc all 3.4.2-2 [18.3 kB]
-2020-03-15 21:27:48,002 IN getDebs.sh	Fetched 18.3 kB in 1s (10.3 kB/s)
-2020-03-15 21:27:48,021 IN getDebs.sh	python3-doc
-2020-03-15 21:27:51,834 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main python3-tk armhf 3.4.2-1 [22.2 kB]
-2020-03-15 21:27:52,590 IN getDebs.sh	Fetched 22.2 kB in 3s (6,828 B/s)
-2020-03-15 21:27:52,612 IN getDebs.sh	python3-tk
-2020-03-15 21:27:54,203 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main python3-venv armhf 3.4.2-2 [1,100 B]
-2020-03-15 21:27:54,212 IN getDebs.sh	Fetched 1,100 B in 0s (2,919 B/s)
-2020-03-15 21:27:54,237 IN getDebs.sh	python3-venv
-2020-03-15 21:27:56,912 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main python3 armhf 3.4.2-2 [21.2 kB]
-2020-03-15 21:27:57,214 IN getDebs.sh	Fetched 21.2 kB in 1s (12.1 kB/s)
-2020-03-15 21:27:57,234 IN getDebs.sh	python3
-2020-03-15 21:27:59,810 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main libc6 armhf 2.19-18+deb8u10 [4,083 kB]
-2020-03-15 21:29:13,718 IN getDebs.sh	Fetched 4,083 kB in 1min 15s (54.3 kB/s)
-2020-03-15 21:29:13,742 IN getDebs.sh	libc6
-2020-03-15 21:29:16,352 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main libgcc1 armhf 1:4.9.2-10+deb8u2 [39.5 kB]
-2020-03-15 21:29:17,110 IN getDebs.sh	Fetched 39.5 kB in 2s (19.0 kB/s)
-2020-03-15 21:29:17,124 IN getDebs.sh	libgcc1
-2020-03-15 21:29:18,292 IN getDebs.sh	liblinear3
-2020-03-15 21:29:20,778 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main liblua5.2-0 armhf 5.2.3-1.1 [64.8 kB]
-2020-03-15 21:29:22,298 IN getDebs.sh	Fetched 64.8 kB in 2s (23.0 kB/s)
-2020-03-15 21:29:22,320 IN getDebs.sh	liblua5.2-0
-2020-03-15 21:29:24,978 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main libpcap0.8 armhf 1.6.2-2+deb8u1 [121 kB]
-2020-03-15 21:29:27,628 IN getDebs.sh	Fetched 121 kB in 4s (29.7 kB/s)
-2020-03-15 21:29:27,648 IN getDebs.sh	libpcap0.8
-2020-03-15 21:29:31,047 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main libpcre3 armhf 2:8.35-3.3+deb8u4 [301 kB]
-2020-03-15 21:29:37,197 IN getDebs.sh	Fetched 301 kB in 8s (36.3 kB/s)
-2020-03-15 21:29:37,218 IN getDebs.sh	libpcre3
-2020-03-15 21:29:39,832 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main libssl1.0.0 armhf 1.0.1t-1+deb8u12 [854 kB]
-2020-03-15 21:29:57,661 IN getDebs.sh	Fetched 854 kB in 19s (44.6 kB/s)
-2020-03-15 21:29:57,683 IN getDebs.sh	libssl1.0.0
-2020-03-15 21:30:00,347 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main libstdc++6 armhf 4.9.2-10+deb8u2 [234 kB]
-2020-03-15 21:30:05,015 IN getDebs.sh	Fetched 234 kB in 5s (39.1 kB/s)
-2020-03-15 21:30:05,016 IN getDebs.sh	libstdc++6
-2020-03-15 21:30:07,653 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main lua-lpeg armhf 0.12-1 [38.8 kB]
-2020-03-15 21:30:08,411 IN getDebs.sh	Fetched 38.8 kB in 2s (18.1 kB/s)
-2020-03-15 21:30:08,431 IN getDebs.sh	lua-lpeg
-2020-03-15 21:30:11,160 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main ndiff all 6.47-3+deb8u2 [257 kB]
-2020-03-15 21:30:16,758 IN getDebs.sh	Fetched 257 kB in 7s (36.5 kB/s)
-2020-03-15 21:30:16,777 IN getDebs.sh	ndiff
-2020-03-15 21:30:19,419 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main nmap armhf 6.47-3+deb8u2 [3,870 kB]
-2020-03-15 21:31:26,616 IN getDebs.sh	Fetched 3,870 kB in 1min 8s (56.5 kB/s)
-2020-03-15 21:31:26,637 IN getDebs.sh	nmap
-2020-03-15 21:31:31,183 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main libidn11 armhf 1.29-1+deb8u3 [133 kB]
-2020-03-15 21:31:35,630 IN getDebs.sh	Fetched 133 kB in 7s (17.3 kB/s)
-2020-03-15 21:31:35,652 IN getDebs.sh	libidn11
-2020-03-15 21:31:38,960 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main libuuid1 armhf 2.25.2-6 [64.4 kB]
-2020-03-15 21:31:40,496 IN getDebs.sh	Fetched 64.4 kB in 3s (18.0 kB/s)
-2020-03-15 21:31:40,518 IN getDebs.sh	libuuid1
-2020-03-15 21:31:43,628 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main zlib1g armhf 1:1.2.8.dfsg-2+deb8u1 [82.3 kB]
-2020-03-15 21:31:45,498 IN getDebs.sh	Fetched 82.3 kB in 3s (22.5 kB/s)
-2020-03-15 21:31:45,518 IN getDebs.sh	zlib1g
-2020-03-15 21:31:48,159 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main ca-certificates all 20141019+deb8u4 [185 kB]
-2020-03-15 21:31:52,707 IN getDebs.sh	Fetched 185 kB in 5s (31.2 kB/s)
-2020-03-15 21:31:52,730 IN getDebs.sh	ca-certificates
-2020-03-15 21:31:55,407 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main wget armhf 1.16-1+deb8u7 [475 kB]
-2020-03-15 21:32:06,257 IN getDebs.sh	Fetched 475 kB in 12s (38.8 kB/s)
-2020-03-15 21:32:06,277 IN getDebs.sh	wget
-2020-03-15 21:32:08,993 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main libcurl3-gnutls armhf 7.38.0-4+deb8u16 [227 kB]
-2020-03-15 21:32:13,566 IN getDebs.sh	Fetched 227 kB in 5s (38.0 kB/s)
-2020-03-15 21:32:13,587 IN getDebs.sh	libcurl3-gnutls
-2020-03-15 21:32:16,299 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main curl armhf 7.38.0-4+deb8u16 [197 kB]
-2020-03-15 21:32:21,212 IN getDebs.sh	Fetched 197 kB in 6s (31.2 kB/s)
-2020-03-15 21:32:21,217 IN getDebs.sh	curl
-2020-03-15 21:32:23,866 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main libtcl8.6 armhf 8.6.2+dfsg-2 [862 kB]
-2020-03-15 21:32:39,410 IN getDebs.sh	Fetched 862 kB in 16s (50.8 kB/s)
-2020-03-15 21:32:39,430 IN getDebs.sh	libtcl8.6
-2020-03-15 21:32:43,145 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main hping3 armhf 3.a2.ds2-7 [97.2 kB]
-2020-03-15 21:32:46,272 IN getDebs.sh	Fetched 97.2 kB in 5s (17.3 kB/s)
-2020-03-15 21:32:46,293 IN getDebs.sh	hping3
-2020-03-15 21:32:48,960 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main libedit2 armhf 3.1-20140620-2 [68.3 kB]
-2020-03-15 21:32:50,860 IN getDebs.sh	Fetched 68.3 kB in 3s (20.9 kB/s)
-2020-03-15 21:32:50,880 IN getDebs.sh	libedit2
-2020-03-15 21:32:53,499 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main libgssapi-krb5-2 armhf 1.12.1+dfsg-19+deb8u5 [130 kB]
-2020-03-15 21:32:56,838 IN getDebs.sh	Fetched 130 kB in 4s (27.8 kB/s)
-2020-03-15 21:32:56,859 IN getDebs.sh	libgssapi-krb5-2
-2020-03-15 21:32:59,510 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main libselinux1 armhf 2.3-2 [80.3 kB]
-2020-03-15 21:33:02,067 IN getDebs.sh	Fetched 80.3 kB in 3s (20.1 kB/s)
-2020-03-15 21:33:02,088 IN getDebs.sh	libselinux1
-2020-03-15 21:33:04,744 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main adduser all 3.113+nmu3 [264 kB]
-2020-03-15 21:33:10,476 IN getDebs.sh	Fetched 264 kB in 7s (36.9 kB/s)
-2020-03-15 21:33:10,496 IN getDebs.sh	adduser
-2020-03-15 21:33:13,334 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main dpkg armhf 1.17.27 [2,930 kB]
-2020-03-15 21:34:08,527 IN getDebs.sh	Fetched 2,930 kB in 56s (51.7 kB/s)
-2020-03-15 21:34:08,530 IN getDebs.sh	dpkg
-2020-03-15 21:34:11,054 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main passwd armhf 1:4.2-3+deb8u4 [927 kB]
-2020-03-15 21:34:26,202 IN getDebs.sh	Fetched 927 kB in 16s (56.2 kB/s)
-2020-03-15 21:34:26,223 IN getDebs.sh	passwd
-2020-03-15 21:34:28,830 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main xauth armhf 1:1.0.9-1 [35.6 kB]
-2020-03-15 21:34:29,619 IN getDebs.sh	Fetched 35.6 kB in 2s (16.5 kB/s)
-2020-03-15 21:34:29,635 IN getDebs.sh	xauth
-2020-03-15 21:34:32,185 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main ssh-askpass armhf 1:1.2.4.1-9 [33.8 kB]
-2020-03-15 21:34:32,942 IN getDebs.sh	Fetched 33.8 kB in 2s (16.2 kB/s)
-2020-03-15 21:34:32,965 IN getDebs.sh	ssh-askpass
-2020-03-15 21:34:35,604 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main libpam-ssh armhf 2.01-2 [58.1 kB]
-2020-03-15 21:34:36,705 IN getDebs.sh	Fetched 58.1 kB in 2s (23.1 kB/s)
-2020-03-15 21:34:36,727 IN getDebs.sh	libpam-ssh
-2020-03-15 21:34:39,318 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main keychain all 2.7.1-1 [42.1 kB]
-2020-03-15 21:34:40,168 IN getDebs.sh	Fetched 42.1 kB in 2s (19.8 kB/s)
-2020-03-15 21:34:40,170 IN getDebs.sh	keychain
-2020-03-15 21:34:42,813 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main monkeysphere all 0.37-2 [75.6 kB]
-2020-03-15 21:34:45,559 IN getDebs.sh	Fetched 75.6 kB in 4s (17.9 kB/s)
-2020-03-15 21:34:45,579 IN getDebs.sh	monkeysphere
-2020-03-15 21:34:48,220 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main openssh-client armhf 1:6.7p1-5+deb8u8 [625 kB]
-2020-03-15 21:35:01,655 IN getDebs.sh	Fetched 625 kB in 14s (42.2 kB/s)
-2020-03-15 21:35:01,676 IN getDebs.sh	openssh-client
-2020-03-15 21:35:04,438 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main libaudit1 armhf 1:2.4-1 [41.5 kB]
-2020-03-15 21:35:05,167 IN getDebs.sh	Fetched 41.5 kB in 2s (18.9 kB/s)
-2020-03-15 21:35:05,189 IN getDebs.sh	libaudit1
-2020-03-15 21:35:07,050 IN getDebs.sh	Get:1 http://archive.raspberrypi.org/debian/ jessie/main libcomerr2 armhf 1.43.3-1~bpo8+1 [62.5 kB]
-2020-03-15 21:35:07,460 IN getDebs.sh	Fetched 62.5 kB in 0s (64.3 kB/s)
-2020-03-15 21:35:07,482 IN getDebs.sh	libcomerr2
-2020-03-15 21:35:10,169 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main libkrb5-3 armhf 1.12.1+dfsg-19+deb8u5 [257 kB]
-2020-03-15 21:35:15,825 IN getDebs.sh	Fetched 257 kB in 7s (36.4 kB/s)
-2020-03-15 21:35:15,847 IN getDebs.sh	libkrb5-3
-2020-03-15 21:35:17,483 IN getDebs.sh	Get:1 http://archive.raspberrypi.org/debian/ jessie/main libpam0g armhf 1.1.8-3.1+deb8u2+rpi3 [121 kB]
-2020-03-15 21:35:18,060 IN getDebs.sh	Fetched 121 kB in 0s (122 kB/s)
-2020-03-15 21:35:18,082 IN getDebs.sh	libpam0g
-2020-03-15 21:35:20,691 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main libsystemd0 armhf 215-17+deb8u13 [86.7 kB]
-2020-03-15 21:35:23,721 IN getDebs.sh	Fetched 86.7 kB in 4s (19.7 kB/s)
-2020-03-15 21:35:23,742 IN getDebs.sh	libsystemd0
-2020-03-15 21:35:26,406 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main libwrap0 armhf 7.6.q-25 [55.5 kB]
-2020-03-15 21:35:27,683 IN getDebs.sh	Fetched 55.5 kB in 2s (21.7 kB/s)
-2020-03-15 21:35:27,684 IN getDebs.sh	libwrap0
-2020-03-15 21:35:30,225 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main debconf all 1.5.56+deb8u1 [167 kB]
-2020-03-15 21:35:35,055 IN getDebs.sh	Fetched 167 kB in 6s (27.0 kB/s)
-2020-03-15 21:35:35,075 IN getDebs.sh	debconf
-2020-03-15 21:35:36,192 IN getDebs.sh	debconf-2.0
-2020-03-15 21:35:38,734 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main init-system-helpers all 1.22 [14.0 kB]
-2020-03-15 21:35:38,747 IN getDebs.sh	Fetched 14.0 kB in 1s (10.3 kB/s)
-2020-03-15 21:35:38,768 IN getDebs.sh	init-system-helpers
-2020-03-15 21:35:41,499 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main lsb-base all 4.1+Debian13+rpi1+nmu1 [26.9 kB]
-2020-03-15 21:35:43,432 IN getDebs.sh	Fetched 26.9 kB in 3s (8,026 B/s)
-2020-03-15 21:35:43,453 IN getDebs.sh	lsb-base
-2020-03-15 21:35:45,052 IN getDebs.sh	Get:1 http://archive.raspberrypi.org/debian/ jessie/main libpam-runtime all 1.1.8-3.1+deb8u2+rpi3 [213 kB]
-2020-03-15 21:35:45,808 IN getDebs.sh	Fetched 213 kB in 1s (195 kB/s)
-2020-03-15 21:35:45,809 IN getDebs.sh	libpam-runtime
-2020-03-15 21:35:47,500 IN getDebs.sh	Get:1 http://archive.raspberrypi.org/debian/ jessie/main libpam-modules armhf 1.1.8-3.1+deb8u2+rpi3 [288 kB]
-2020-03-15 21:35:48,372 IN getDebs.sh	Fetched 288 kB in 1s (226 kB/s)
-2020-03-15 21:35:48,394 IN getDebs.sh	libpam-modules
-2020-03-15 21:35:51,190 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main procps armhf 2:3.3.9-9+deb8u1 [222 kB]
-2020-03-15 21:35:57,686 IN getDebs.sh	Fetched 222 kB in 7s (28.3 kB/s)
-2020-03-15 21:35:57,688 IN getDebs.sh	procps
-2020-03-15 21:36:00,184 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main openssh-sftp-server armhf 1:6.7p1-5+deb8u8 [33.0 kB]
-2020-03-15 21:36:01,338 IN getDebs.sh	Fetched 33.0 kB in 2s (13.1 kB/s)
-2020-03-15 21:36:01,358 IN getDebs.sh	openssh-sftp-server
-2020-03-15 21:36:03,989 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main ncurses-term all 5.9+20140913-1+deb8u3 [454 kB]
-2020-03-15 21:36:13,988 IN getDebs.sh	Fetched 454 kB in 11s (40.0 kB/s)
-2020-03-15 21:36:14,009 IN getDebs.sh	ncurses-term
-2020-03-15 21:36:16,693 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main ssh-import-id all 3.21-1 [17.7 kB]
-2020-03-15 21:36:17,080 IN getDebs.sh	Fetched 17.7 kB in 1s (9,774 B/s)
-2020-03-15 21:36:17,100 IN getDebs.sh	ssh-import-id
-2020-03-15 21:36:19,919 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main rssh armhf 2.3.4-4+deb8u3 [53.2 kB]
-2020-03-15 21:36:21,045 IN getDebs.sh	Fetched 53.2 kB in 2s (20.0 kB/s)
-2020-03-15 21:36:21,066 IN getDebs.sh	rssh
-2020-03-15 21:36:23,861 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main molly-guard all 0.4.5-1.1 [12.7 kB]
-2020-03-15 21:36:23,861 IN getDebs.sh	Fetched 12.7 kB in 1s (8,866 B/s)
-2020-03-15 21:36:23,861 IN getDebs.sh	molly-guard
-2020-03-15 21:36:26,457 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main ufw all 0.33-2 [138 kB]
-2020-03-15 21:36:30,538 IN getDebs.sh	Fetched 138 kB in 5s (25.4 kB/s)
-2020-03-15 21:36:30,558 IN getDebs.sh	ufw
-2020-03-15 21:36:33,198 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main openssh-server armhf 1:6.7p1-5+deb8u8 [312 kB]
-2020-03-15 21:36:40,568 IN getDebs.sh	Fetched 312 kB in 8s (35.8 kB/s)
-2020-03-15 21:36:40,588 IN getDebs.sh	openssh-server
-2020-03-15 21:36:43,187 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main libgd3 armhf 2.1.0-5+deb8u14 [127 kB]
-2020-03-15 21:36:46,412 IN getDebs.sh	Fetched 127 kB in 4s (27.6 kB/s)
-2020-03-15 21:36:46,435 IN getDebs.sh	libgd3
-2020-03-15 21:36:49,804 IN getDebs.sh	Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main fswebcam armhf 20140113-1 [44.0 kB]
-2020-03-15 21:36:50,964 IN getDebs.sh	Fetched 44.0 kB in 3s (13.3 kB/s)
-2020-03-15 21:36:50,984 IN getDebs.sh	fswebcam
-2020-03-15 21:37:05,536 Installing Packages...install.sh
-2020-03-15 21:37:06,059 IN install.sh	python3-minimal Already Present
-2020-03-15 21:37:06,165 IN install.sh	python3.5 Not there..Installing
-2020-03-15 21:37:06,652 IN install.sh	libpython3-stdlib Already Present
-2020-03-15 21:37:06,759 IN install.sh	dh-python Already Present
-2020-03-15 21:37:06,865 IN install.sh	python3-doc Already Present
-2020-03-15 21:37:06,972 IN install.sh	python3-tk Already Present
-2020-03-15 21:37:07,078 IN install.sh	python3-venv Already Present
-2020-03-15 21:37:07,182 IN install.sh	python3 Already Present
-2020-03-15 21:37:07,289 IN install.sh	libc6 Already Present
-2020-03-15 21:37:07,395 IN install.sh	libgcc1 Already Present
-2020-03-15 21:37:07,503 IN install.sh	liblinear3 Not there..Installing
-2020-03-15 21:37:08,382 IN install.sh	liblua5.2-0 Already Present
-2020-03-15 21:37:08,489 IN install.sh	libpcap0.8 Already Present
-2020-03-15 21:37:08,593 IN install.sh	libpcre3 Already Present
-2020-03-15 21:37:08,699 IN install.sh	libssl1.0.0 Already Present
-2020-03-15 21:37:08,805 IN install.sh	libstdc++6 Already Present
-2020-03-15 21:37:08,911 IN install.sh	lua-lpeg Already Present
-2020-03-15 21:37:09,017 IN install.sh	ndiff Already Present
-2020-03-15 21:37:09,123 IN install.sh	nmap Already Present
-2020-03-15 21:37:09,229 IN install.sh	libidn11 Already Present
-2020-03-15 21:37:09,335 IN install.sh	libuuid1 Already Present
-2020-03-15 21:37:09,441 IN install.sh	zlib1g Already Present
-2020-03-15 21:37:09,545 IN install.sh	ca-certificates Already Present
-2020-03-15 21:37:09,651 IN install.sh	wget Already Present
-2020-03-15 21:37:09,757 IN install.sh	libcurl3-gnutls Already Present
-2020-03-15 21:37:09,862 IN install.sh	curl Already Present
-2020-03-15 21:37:09,968 IN install.sh	libtcl8.6 Already Present
-2020-03-15 21:37:10,074 IN install.sh	hping3 Already Present
-2020-03-15 21:37:10,181 IN install.sh	libedit2 Already Present
-2020-03-15 21:37:10,285 IN install.sh	libgssapi-krb5-2 Already Present
-2020-03-15 21:37:10,391 IN install.sh	libselinux1 Already Present
-2020-03-15 21:37:10,498 IN install.sh	adduser Already Present
-2020-03-15 21:37:10,611 IN install.sh	dpkg Already Present
-2020-03-15 21:37:10,711 IN install.sh	passwd Already Present
-2020-03-15 21:37:10,818 IN install.sh	xauth Already Present
-2020-03-15 21:37:10,923 IN install.sh	ssh-askpass Already Present
-2020-03-15 21:37:11,030 IN install.sh	libpam-ssh Already Present
-2020-03-15 21:37:11,135 IN install.sh	keychain Already Present
-2020-03-15 21:37:11,241 IN install.sh	monkeysphere Already Present
-2020-03-15 21:37:11,347 IN install.sh	openssh-client Already Present
-2020-03-15 21:37:11,454 IN install.sh	libaudit1 Already Present
-2020-03-15 21:37:11,561 IN install.sh	libcomerr2 Already Present
-2020-03-15 21:37:11,667 IN install.sh	libkrb5-3 Already Present
-2020-03-15 21:37:11,773 IN install.sh	libpam0g Already Present
-2020-03-15 21:37:11,881 IN install.sh	libsystemd0 Already Present
-2020-03-15 21:37:11,986 IN install.sh	libwrap0 Already Present
-2020-03-15 21:37:12,092 IN install.sh	debconf Already Present
-2020-03-15 21:37:12,197 IN install.sh	debconf-2.0 Not there..Installing
-2020-03-15 21:37:12,625 IN install.sh	init-system-helpers Already Present
-2020-03-15 21:37:12,765 IN install.sh	lsb-base Already Present
-2020-03-15 21:37:12,870 IN install.sh	libpam-runtime Already Present
-2020-03-15 21:37:12,978 IN install.sh	libpam-modules Already Present
-2020-03-15 21:37:13,085 IN install.sh	procps Already Present
-2020-03-15 21:37:13,190 IN install.sh	openssh-sftp-server Already Present
-2020-03-15 21:37:13,295 IN install.sh	ncurses-term Already Present
-2020-03-15 21:37:13,399 IN install.sh	ssh-import-id Already Present
-2020-03-15 21:37:13,560 IN install.sh	rssh Already Present
-2020-03-15 21:37:13,665 IN install.sh	molly-guard Already Present
-2020-03-15 21:37:13,772 IN install.sh	ufw Already Present
-2020-03-15 21:37:13,877 IN install.sh	openssh-server Already Present
-2020-03-15 21:37:13,983 IN install.sh	libgd3 Already Present
-2020-03-15 21:37:14,091 IN install.sh	fswebcam Already Present
-2020-03-15 21:37:14,093 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:37:14,097 "GET /setloaded/192.168.1.10 HTTP/1.1" 200 18
-2020-03-15 21:37:14,099 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:37:14,102 "POST /storeDirectory/192.168.1.10 HTTP/1.1" 200 18
-2020-03-15 21:37:14,102 Loaded 192.168.1.10
-2020-03-15 21:37:24,113 querying DB...
-2020-03-15 21:37:24,117 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:37:24,121 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:37:34,144 querying DB...
-2020-03-15 21:37:34,146 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:37:34,148 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:37:44,151 querying DB...
-2020-03-15 21:37:44,153 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:37:44,156 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:37:54,162 querying DB...
-2020-03-15 21:37:54,164 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:37:54,166 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:38:04,175 querying DB...
-2020-03-15 21:38:04,177 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:38:04,180 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:38:14,191 querying DB...
-2020-03-15 21:38:14,195 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:38:14,199 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:38:24,209 querying DB...
-2020-03-15 21:38:24,212 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:38:24,215 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:38:34,226 querying DB...
-2020-03-15 21:38:34,227 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:38:34,230 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:38:44,231 querying DB...
-2020-03-15 21:38:44,233 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:38:44,235 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:38:54,246 querying DB...
-2020-03-15 21:38:54,248 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:38:54,251 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:39:04,260 querying DB...
-2020-03-15 21:39:04,262 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:39:04,265 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:39:14,275 querying DB...
-2020-03-15 21:39:14,277 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:39:14,280 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:39:24,291 querying DB...
-2020-03-15 21:39:24,293 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:39:24,295 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:39:34,306 querying DB...
-2020-03-15 21:39:34,308 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:39:34,310 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:39:44,322 querying DB...
-2020-03-15 21:39:44,323 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:39:44,326 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:39:54,335 querying DB...
-2020-03-15 21:39:54,337 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:39:54,341 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:40:04,351 querying DB...
-2020-03-15 21:40:04,353 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:40:04,356 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:40:14,363 querying DB...
-2020-03-15 21:40:14,365 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:40:14,368 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:40:24,379 querying DB...
-2020-03-15 21:40:24,380 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:40:24,383 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:40:34,394 querying DB...
-2020-03-15 21:40:34,396 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:40:34,400 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:40:44,410 querying DB...
-2020-03-15 21:40:44,413 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:40:44,417 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:40:54,426 querying DB...
-2020-03-15 21:40:54,428 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:40:54,432 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:41:04,441 querying DB...
-2020-03-15 21:41:04,443 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:41:04,446 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:41:14,448 querying DB...
-2020-03-15 21:41:14,449 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:41:14,453 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:41:24,464 querying DB...
-2020-03-15 21:41:24,465 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:41:24,468 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:41:34,477 querying DB...
-2020-03-15 21:41:34,479 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:41:34,483 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:41:44,494 querying DB...
-2020-03-15 21:41:44,495 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:41:44,498 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:41:54,509 querying DB...
-2020-03-15 21:41:54,512 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:41:54,519 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:42:04,526 querying DB...
-2020-03-15 21:42:04,527 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:42:04,531 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:42:14,542 querying DB...
-2020-03-15 21:42:14,544 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:42:14,548 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:42:24,559 querying DB...
-2020-03-15 21:42:24,561 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:42:24,564 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:42:34,567 querying DB...
-2020-03-15 21:42:34,571 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:42:34,576 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:42:44,582 querying DB...
-2020-03-15 21:42:44,584 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:42:44,586 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:42:54,597 querying DB...
-2020-03-15 21:42:54,599 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:42:54,601 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:43:04,612 querying DB...
-2020-03-15 21:43:04,617 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:43:04,624 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:43:14,627 querying DB...
-2020-03-15 21:43:14,629 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:43:14,632 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:43:24,639 querying DB...
-2020-03-15 21:43:24,641 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:43:24,643 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:43:34,654 querying DB...
-2020-03-15 21:43:34,656 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:43:34,659 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:43:44,669 querying DB...
-2020-03-15 21:43:44,672 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:43:44,676 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:43:54,684 querying DB...
-2020-03-15 21:43:54,686 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:43:54,689 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:44:04,699 querying DB...
-2020-03-15 21:44:04,701 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:44:04,704 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:44:14,711 querying DB...
-2020-03-15 21:44:14,712 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:44:14,715 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:44:24,725 querying DB...
-2020-03-15 21:44:24,727 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:44:24,730 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:44:34,740 querying DB...
-2020-03-15 21:44:34,742 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:44:34,745 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:44:44,755 querying DB...
-2020-03-15 21:44:44,757 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:44:44,760 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:44:54,770 querying DB...
-2020-03-15 21:44:54,772 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:44:54,775 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:45:04,785 querying DB...
-2020-03-15 21:45:04,789 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:45:04,796 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:45:14,808 querying DB...
-2020-03-15 21:45:14,810 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:45:14,815 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:45:24,818 querying DB...
-2020-03-15 21:45:24,821 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:45:24,826 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:45:34,837 querying DB...
-2020-03-15 21:45:34,839 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:45:34,844 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:45:44,856 querying DB...
-2020-03-15 21:45:44,858 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:45:44,861 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:45:54,872 querying DB...
-2020-03-15 21:45:54,874 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:45:54,877 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:46:04,886 querying DB...
-2020-03-15 21:46:04,888 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:46:04,890 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:46:14,898 querying DB...
-2020-03-15 21:46:14,900 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:46:14,903 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:46:24,913 querying DB...
-2020-03-15 21:46:24,916 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:46:24,919 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:46:34,927 querying DB...
-2020-03-15 21:46:34,929 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:46:34,931 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:46:44,939 querying DB...
-2020-03-15 21:46:44,940 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:46:44,943 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:46:54,953 querying DB...
-2020-03-15 21:46:54,957 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:46:54,964 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:47:04,972 querying DB...
-2020-03-15 21:47:04,973 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:47:04,977 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:47:14,986 querying DB...
-2020-03-15 21:47:14,989 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:47:14,994 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:47:24,999 querying DB...
-2020-03-15 21:47:25,001 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:47:25,004 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:47:35,013 querying DB...
-2020-03-15 21:47:35,016 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:47:35,018 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:47:45,020 querying DB...
-2020-03-15 21:47:45,022 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:47:45,025 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:47:55,029 querying DB...
-2020-03-15 21:47:55,032 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:47:55,034 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:48:05,045 querying DB...
-2020-03-15 21:48:05,048 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:48:05,052 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:48:15,064 querying DB...
-2020-03-15 21:48:15,066 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:48:15,070 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:48:25,081 querying DB...
-2020-03-15 21:48:25,083 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:48:25,085 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:48:35,096 querying DB...
-2020-03-15 21:48:35,099 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:48:35,101 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:48:45,110 querying DB...
-2020-03-15 21:48:45,115 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:48:45,120 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:48:55,127 querying DB...
-2020-03-15 21:48:55,129 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:48:55,132 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:49:05,142 querying DB...
-2020-03-15 21:49:05,144 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:49:05,147 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:49:15,158 querying DB...
-2020-03-15 21:49:15,159 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:49:15,162 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:49:25,173 querying DB...
-2020-03-15 21:49:25,175 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:49:25,178 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:49:35,189 querying DB...
-2020-03-15 21:49:35,191 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:49:35,194 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:49:45,203 querying DB...
-2020-03-15 21:49:45,204 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:49:45,207 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:49:55,215 querying DB...
-2020-03-15 21:49:55,216 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:49:55,219 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:50:05,230 querying DB...
-2020-03-15 21:50:05,231 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:50:05,234 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:50:15,243 querying DB...
-2020-03-15 21:50:15,245 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:50:15,248 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:50:25,258 querying DB...
-2020-03-15 21:50:25,260 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:50:25,262 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:50:35,272 querying DB...
-2020-03-15 21:50:35,276 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:50:35,281 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:50:45,292 querying DB...
-2020-03-15 21:50:45,296 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:50:45,302 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:50:55,314 querying DB...
-2020-03-15 21:50:55,318 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:50:55,324 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:51:05,327 querying DB...
-2020-03-15 21:51:05,328 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:51:05,331 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:51:15,343 querying DB...
-2020-03-15 21:51:15,346 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:51:15,349 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:51:25,359 querying DB...
-2020-03-15 21:51:25,363 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:51:25,371 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:51:35,382 querying DB...
-2020-03-15 21:51:35,384 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:51:35,386 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:51:45,395 querying DB...
-2020-03-15 21:51:45,397 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:51:45,400 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:51:55,411 querying DB...
-2020-03-15 21:51:55,413 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:51:55,415 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:52:05,424 querying DB...
-2020-03-15 21:52:05,425 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:52:05,428 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:52:15,439 querying DB...
-2020-03-15 21:52:15,441 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:52:15,444 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:52:25,452 querying DB...
-2020-03-15 21:52:25,454 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:52:25,456 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:52:35,466 querying DB...
-2020-03-15 21:52:35,468 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:52:35,471 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:52:45,481 querying DB...
-2020-03-15 21:52:45,483 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:52:45,488 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:52:55,499 querying DB...
-2020-03-15 21:52:55,501 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:52:55,504 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:53:05,514 querying DB...
-2020-03-15 21:53:05,517 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:53:05,520 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:53:15,530 querying DB...
-2020-03-15 21:53:15,532 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:53:15,534 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:53:25,544 querying DB...
-2020-03-15 21:53:25,546 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:53:25,548 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:53:35,558 querying DB...
-2020-03-15 21:53:35,560 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:53:35,564 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:53:45,575 querying DB...
-2020-03-15 21:53:45,576 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:53:45,579 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:53:55,590 querying DB...
-2020-03-15 21:53:55,592 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:53:55,594 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:54:05,604 querying DB...
-2020-03-15 21:54:05,607 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:54:05,611 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:54:15,620 querying DB...
-2020-03-15 21:54:15,622 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:54:15,626 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:54:25,634 querying DB...
-2020-03-15 21:54:25,636 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:54:25,640 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:54:35,651 querying DB...
-2020-03-15 21:54:35,653 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:54:35,656 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:54:45,663 querying DB...
-2020-03-15 21:54:45,665 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:54:45,667 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:54:55,676 querying DB...
-2020-03-15 21:54:55,677 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:54:55,681 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:55:05,686 querying DB...
-2020-03-15 21:55:05,688 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:55:05,690 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:55:15,700 querying DB...
-2020-03-15 21:55:15,702 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:55:15,705 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:55:25,715 querying DB...
-2020-03-15 21:55:25,717 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:55:25,721 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:55:35,729 querying DB...
-2020-03-15 21:55:35,731 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:55:35,734 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:55:45,745 querying DB...
-2020-03-15 21:55:45,746 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:55:45,749 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:55:55,759 querying DB...
-2020-03-15 21:55:55,761 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:55:55,763 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:56:05,773 querying DB...
-2020-03-15 21:56:05,776 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:56:05,778 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:56:15,788 querying DB...
-2020-03-15 21:56:15,790 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:56:15,793 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:56:25,799 querying DB...
-2020-03-15 21:56:25,801 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:56:25,803 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:56:35,813 querying DB...
-2020-03-15 21:56:35,814 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:56:35,817 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:56:45,827 querying DB...
-2020-03-15 21:56:45,828 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:56:45,831 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:56:55,842 querying DB...
-2020-03-15 21:56:55,844 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:56:55,847 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:57:05,855 querying DB...
-2020-03-15 21:57:05,856 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:57:05,860 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:57:15,869 querying DB...
-2020-03-15 21:57:15,870 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:57:15,874 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:57:25,885 querying DB...
-2020-03-15 21:57:25,887 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:57:25,890 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:57:35,902 querying DB...
-2020-03-15 21:57:35,904 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:57:35,909 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:57:45,918 querying DB...
-2020-03-15 21:57:45,920 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:57:45,923 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:57:55,925 querying DB...
-2020-03-15 21:57:55,927 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:57:55,929 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:58:05,939 querying DB...
-2020-03-15 21:58:05,941 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:58:05,943 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:58:15,954 querying DB...
-2020-03-15 21:58:15,957 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:58:15,960 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:58:25,971 querying DB...
-2020-03-15 21:58:25,974 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:58:25,977 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:58:35,988 querying DB...
-2020-03-15 21:58:35,991 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:58:35,995 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:58:46,006 querying DB...
-2020-03-15 21:58:46,008 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:58:46,011 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:58:56,017 querying DB...
-2020-03-15 21:58:56,019 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:58:56,022 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:59:06,033 querying DB...
-2020-03-15 21:59:06,035 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:59:06,038 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:59:16,047 querying DB...
-2020-03-15 21:59:16,050 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:59:16,053 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:59:26,062 querying DB...
-2020-03-15 21:59:26,067 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:59:26,074 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:59:36,084 querying DB...
-2020-03-15 21:59:36,086 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:59:36,088 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:59:46,091 querying DB...
-2020-03-15 21:59:46,093 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:59:46,096 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 21:59:56,098 querying DB...
-2020-03-15 21:59:56,100 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 21:59:56,104 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:00:06,115 querying DB...
-2020-03-15 22:00:06,117 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:00:06,119 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:00:16,121 querying DB...
-2020-03-15 22:00:16,126 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:00:16,133 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:00:26,145 querying DB...
-2020-03-15 22:00:26,147 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:00:26,150 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:00:36,161 querying DB...
-2020-03-15 22:00:36,165 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:00:36,172 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:00:46,183 querying DB...
-2020-03-15 22:00:46,185 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:00:46,189 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:00:56,198 querying DB...
-2020-03-15 22:00:56,199 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:00:56,202 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:01:06,212 querying DB...
-2020-03-15 22:01:06,213 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:01:06,216 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:01:16,227 querying DB...
-2020-03-15 22:01:16,229 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:01:16,233 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:01:26,243 querying DB...
-2020-03-15 22:01:26,245 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:01:26,248 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:01:36,258 querying DB...
-2020-03-15 22:01:36,261 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:01:36,265 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:01:46,276 querying DB...
-2020-03-15 22:01:46,277 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:01:46,279 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:01:56,290 querying DB...
-2020-03-15 22:01:56,295 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:01:56,303 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:02:06,311 querying DB...
-2020-03-15 22:02:06,312 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:02:06,315 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:02:16,326 querying DB...
-2020-03-15 22:02:16,327 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:02:16,330 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:02:26,331 querying DB...
-2020-03-15 22:02:26,333 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:02:26,337 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:02:36,341 querying DB...
-2020-03-15 22:02:36,343 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:02:36,346 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:02:46,354 querying DB...
-2020-03-15 22:02:46,357 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:02:46,363 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:02:56,372 querying DB...
-2020-03-15 22:02:56,377 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:02:56,384 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:03:06,396 querying DB...
-2020-03-15 22:03:06,398 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:03:06,403 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:03:16,409 querying DB...
-2020-03-15 22:03:16,411 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:03:16,416 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:03:26,426 querying DB...
-2020-03-15 22:03:26,428 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:03:26,431 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:03:36,438 querying DB...
-2020-03-15 22:03:36,439 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:03:36,442 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:03:46,451 querying DB...
-2020-03-15 22:03:46,453 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:03:46,456 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:03:56,465 querying DB...
-2020-03-15 22:03:56,467 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:03:56,470 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:04:06,481 querying DB...
-2020-03-15 22:04:06,483 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:04:06,485 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:04:16,491 querying DB...
-2020-03-15 22:04:16,492 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:04:16,495 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:04:26,504 querying DB...
-2020-03-15 22:04:26,506 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:04:26,509 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:04:36,520 querying DB...
-2020-03-15 22:04:36,521 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:04:36,524 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:04:46,535 querying DB...
-2020-03-15 22:04:46,537 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:04:46,540 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:04:56,551 querying DB...
-2020-03-15 22:04:56,554 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:04:56,558 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:05:06,568 querying DB...
-2020-03-15 22:05:06,571 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:05:06,574 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:05:16,584 querying DB...
-2020-03-15 22:05:16,586 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:05:16,590 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:05:26,599 querying DB...
-2020-03-15 22:05:26,602 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:05:26,604 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:05:36,609 querying DB...
-2020-03-15 22:05:36,611 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:05:36,614 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:05:46,625 querying DB...
-2020-03-15 22:05:46,626 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:05:46,633 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:05:56,644 querying DB...
-2020-03-15 22:05:56,646 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:05:56,651 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:06:06,658 querying DB...
-2020-03-15 22:06:06,660 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:06:06,662 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:06:16,670 querying DB...
-2020-03-15 22:06:16,672 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:06:16,675 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:06:26,685 querying DB...
-2020-03-15 22:06:26,687 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:06:26,690 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:06:36,701 querying DB...
-2020-03-15 22:06:36,706 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:06:36,713 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:06:46,724 querying DB...
-2020-03-15 22:06:46,725 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:06:46,728 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:06:56,738 querying DB...
-2020-03-15 22:06:56,740 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:06:56,745 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:07:06,756 querying DB...
-2020-03-15 22:07:06,759 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:07:06,763 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:07:16,773 querying DB...
-2020-03-15 22:07:16,775 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:07:16,778 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:07:26,787 querying DB...
-2020-03-15 22:07:26,789 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:07:26,792 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:07:36,803 querying DB...
-2020-03-15 22:07:36,804 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:07:36,808 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:07:46,818 querying DB...
-2020-03-15 22:07:46,821 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:07:46,825 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:07:56,833 querying DB...
-2020-03-15 22:07:56,834 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:07:56,837 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:08:06,846 querying DB...
-2020-03-15 22:08:06,850 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:08:06,854 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:08:16,866 querying DB...
-2020-03-15 22:08:16,868 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:08:16,873 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:08:26,878 querying DB...
-2020-03-15 22:08:26,880 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:08:26,883 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:08:36,894 querying DB...
-2020-03-15 22:08:36,897 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:08:36,899 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:08:46,910 querying DB...
-2020-03-15 22:08:46,912 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:08:46,918 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:08:56,929 querying DB...
-2020-03-15 22:08:56,932 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:08:56,935 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:09:06,945 querying DB...
-2020-03-15 22:09:06,947 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:09:06,950 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:09:16,961 querying DB...
-2020-03-15 22:09:16,963 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:09:16,965 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:09:26,974 querying DB...
-2020-03-15 22:09:26,977 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:09:26,982 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:09:36,992 querying DB...
-2020-03-15 22:09:36,994 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:09:36,997 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:09:47,006 querying DB...
-2020-03-15 22:09:47,008 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:09:47,010 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:09:57,019 querying DB...
-2020-03-15 22:09:57,021 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:09:57,025 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:10:07,026 querying DB...
-2020-03-15 22:10:07,027 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:10:07,030 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:10:17,040 querying DB...
-2020-03-15 22:10:17,042 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:10:17,045 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:10:27,055 querying DB...
-2020-03-15 22:10:27,059 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:10:27,066 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:10:37,076 querying DB...
-2020-03-15 22:10:37,077 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:10:37,080 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:10:47,091 querying DB...
-2020-03-15 22:10:47,092 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:10:47,095 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:10:57,106 querying DB...
-2020-03-15 22:10:57,108 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:10:57,111 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:11:07,115 querying DB...
-2020-03-15 22:11:07,117 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:11:07,120 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:11:17,126 querying DB...
-2020-03-15 22:11:17,129 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:11:17,132 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:11:27,134 querying DB...
-2020-03-15 22:11:27,138 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:11:27,145 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:11:37,150 querying DB...
-2020-03-15 22:11:37,152 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:11:37,154 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:11:47,165 querying DB...
-2020-03-15 22:11:47,166 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:11:47,169 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:11:57,178 querying DB...
-2020-03-15 22:11:57,181 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:11:57,185 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:12:07,196 querying DB...
-2020-03-15 22:12:07,198 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:12:07,201 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:12:17,211 querying DB...
-2020-03-15 22:12:17,212 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:12:17,215 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:12:27,226 querying DB...
-2020-03-15 22:12:27,229 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:12:27,235 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:12:37,238 querying DB...
-2020-03-15 22:12:37,241 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:12:37,244 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:12:47,248 querying DB...
-2020-03-15 22:12:47,251 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:12:47,256 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:12:57,264 querying DB...
-2020-03-15 22:12:57,266 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:12:57,269 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:13:07,279 querying DB...
-2020-03-15 22:13:07,281 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:13:07,284 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:13:17,293 querying DB...
-2020-03-15 22:13:17,296 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:13:17,300 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:13:27,310 querying DB...
-2020-03-15 22:13:27,313 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:13:27,318 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:13:37,329 querying DB...
-2020-03-15 22:13:37,331 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:13:37,333 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:13:47,339 querying DB...
-2020-03-15 22:13:47,341 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:13:47,344 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:13:57,354 querying DB...
-2020-03-15 22:13:57,357 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:13:57,360 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:14:07,371 querying DB...
-2020-03-15 22:14:07,372 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:14:07,375 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:14:17,385 querying DB...
-2020-03-15 22:14:17,388 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:14:17,391 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:14:27,399 querying DB...
-2020-03-15 22:14:27,402 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:14:27,409 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:14:37,415 querying DB...
-2020-03-15 22:14:37,418 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:14:37,426 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:14:47,437 querying DB...
-2020-03-15 22:14:47,438 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:14:47,442 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:14:57,454 querying DB...
-2020-03-15 22:14:57,455 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:14:57,458 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:15:07,459 querying DB...
-2020-03-15 22:15:07,461 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:15:07,464 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:15:17,474 querying DB...
-2020-03-15 22:15:17,477 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:15:17,480 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:15:27,491 querying DB...
-2020-03-15 22:15:27,495 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:15:27,502 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:15:37,514 querying DB...
-2020-03-15 22:15:37,519 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:15:37,526 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:15:47,530 querying DB...
-2020-03-15 22:15:47,534 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:15:47,537 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:15:57,547 querying DB...
-2020-03-15 22:15:57,551 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:15:57,558 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:16:07,570 querying DB...
-2020-03-15 22:16:07,575 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:16:07,581 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:16:17,588 querying DB...
-2020-03-15 22:16:17,592 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:16:17,599 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:16:27,604 querying DB...
-2020-03-15 22:16:27,606 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:16:27,611 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:16:37,618 querying DB...
-2020-03-15 22:16:37,620 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:16:37,624 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:16:47,635 querying DB...
-2020-03-15 22:16:47,637 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:16:47,640 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:16:57,650 querying DB...
-2020-03-15 22:16:57,652 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:16:57,655 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:17:07,666 querying DB...
-2020-03-15 22:17:07,670 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:17:07,674 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:17:17,685 querying DB...
-2020-03-15 22:17:17,688 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:17:17,695 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:17:27,707 querying DB...
-2020-03-15 22:17:27,708 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:17:27,711 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:17:37,713 querying DB...
-2020-03-15 22:17:37,716 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:17:37,719 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:17:47,730 querying DB...
-2020-03-15 22:17:47,732 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:17:47,734 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:17:57,744 querying DB...
-2020-03-15 22:17:57,746 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:17:57,748 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:18:07,758 querying DB...
-2020-03-15 22:18:07,760 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:18:07,762 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:18:17,773 querying DB...
-2020-03-15 22:18:17,775 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:18:17,781 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:18:27,787 querying DB...
-2020-03-15 22:18:27,788 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:18:27,791 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:18:37,802 querying DB...
-2020-03-15 22:18:37,804 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:18:37,809 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:18:47,821 querying DB...
-2020-03-15 22:18:47,823 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:18:47,826 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:18:57,838 querying DB...
-2020-03-15 22:18:57,839 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:18:57,842 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:19:07,853 querying DB...
-2020-03-15 22:19:07,854 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:19:07,857 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:19:17,868 querying DB...
-2020-03-15 22:19:17,873 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:19:17,880 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:19:27,889 querying DB...
-2020-03-15 22:19:27,891 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:19:27,893 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:19:37,898 querying DB...
-2020-03-15 22:19:37,900 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:19:37,905 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:19:47,910 querying DB...
-2020-03-15 22:19:47,913 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:19:47,919 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:19:57,930 querying DB...
-2020-03-15 22:19:57,933 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:19:57,936 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:20:07,948 querying DB...
-2020-03-15 22:20:07,952 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:20:07,960 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:20:17,972 querying DB...
-2020-03-15 22:20:17,977 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:20:17,983 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:20:27,993 querying DB...
-2020-03-15 22:20:27,995 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:20:28,000 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:20:38,010 querying DB...
-2020-03-15 22:20:38,012 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:20:38,015 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:20:48,025 querying DB...
-2020-03-15 22:20:48,027 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:20:48,030 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:20:58,038 querying DB...
-2020-03-15 22:20:58,040 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:20:58,042 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:21:08,051 querying DB...
-2020-03-15 22:21:08,055 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:21:08,058 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:21:18,068 querying DB...
-2020-03-15 22:21:18,070 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:21:18,073 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:21:28,083 querying DB...
-2020-03-15 22:21:28,088 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:21:28,093 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:21:38,102 querying DB...
-2020-03-15 22:21:38,103 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:21:38,106 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:21:48,115 querying DB...
-2020-03-15 22:21:48,119 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:21:48,127 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:21:58,138 querying DB...
-2020-03-15 22:21:58,140 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:21:58,142 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:22:08,145 querying DB...
-2020-03-15 22:22:08,148 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:22:08,152 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:22:18,163 querying DB...
-2020-03-15 22:22:18,164 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:22:18,167 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:22:28,172 querying DB...
-2020-03-15 22:22:28,174 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:22:28,177 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:22:38,187 querying DB...
-2020-03-15 22:22:38,189 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:22:38,193 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:22:48,202 querying DB...
-2020-03-15 22:22:48,204 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:22:48,207 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:22:58,215 querying DB...
-2020-03-15 22:22:58,217 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:22:58,220 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:23:08,229 querying DB...
-2020-03-15 22:23:08,231 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:23:08,233 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:23:18,244 querying DB...
-2020-03-15 22:23:18,246 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:23:18,250 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:23:28,252 querying DB...
-2020-03-15 22:23:28,254 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:23:28,256 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:23:38,264 querying DB...
-2020-03-15 22:23:38,266 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:23:38,270 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:23:48,280 querying DB...
-2020-03-15 22:23:48,282 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:23:48,285 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:23:58,294 querying DB...
-2020-03-15 22:23:58,297 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:23:58,302 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:24:08,304 querying DB...
-2020-03-15 22:24:08,306 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:24:08,313 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:24:18,324 querying DB...
-2020-03-15 22:24:18,326 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:24:18,328 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:24:28,335 querying DB...
-2020-03-15 22:24:28,336 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:24:28,339 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:24:38,350 querying DB...
-2020-03-15 22:24:38,352 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:24:38,355 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:24:48,359 querying DB...
-2020-03-15 22:24:48,361 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:24:48,364 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:24:58,373 querying DB...
-2020-03-15 22:24:58,375 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:24:58,382 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:25:08,390 querying DB...
-2020-03-15 22:25:08,393 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:25:08,399 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:25:18,407 querying DB...
-2020-03-15 22:25:18,409 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:25:18,412 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:25:28,424 querying DB...
-2020-03-15 22:25:28,426 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:25:28,432 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:25:38,444 querying DB...
-2020-03-15 22:25:38,446 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:25:38,449 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:25:48,455 querying DB...
-2020-03-15 22:25:48,457 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:25:48,462 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:25:58,471 querying DB...
-2020-03-15 22:25:58,473 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:25:58,476 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:26:08,482 querying DB...
-2020-03-15 22:26:08,484 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:26:08,487 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:26:18,496 querying DB...
-2020-03-15 22:26:18,498 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:26:18,500 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:26:28,511 querying DB...
-2020-03-15 22:26:28,513 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:26:28,515 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:26:38,525 querying DB...
-2020-03-15 22:26:38,527 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:26:38,530 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:26:48,537 querying DB...
-2020-03-15 22:26:48,540 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:26:48,543 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:26:58,547 querying DB...
-2020-03-15 22:26:58,548 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:26:58,551 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:27:08,559 querying DB...
-2020-03-15 22:27:08,562 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:27:08,569 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:27:18,579 querying DB...
-2020-03-15 22:27:18,582 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:27:18,585 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:27:28,589 querying DB...
-2020-03-15 22:27:28,591 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:27:28,594 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:27:38,601 querying DB...
-2020-03-15 22:27:38,604 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:27:38,607 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:27:48,616 querying DB...
-2020-03-15 22:27:48,618 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:27:48,620 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:27:58,630 querying DB...
-2020-03-15 22:27:58,632 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:27:58,635 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:28:08,646 querying DB...
-2020-03-15 22:28:08,648 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:28:08,650 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:28:18,660 querying DB...
-2020-03-15 22:28:18,662 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:28:18,664 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:28:28,665 querying DB...
-2020-03-15 22:28:28,667 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:28:28,671 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:28:38,678 querying DB...
-2020-03-15 22:28:38,679 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:28:38,682 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:28:48,692 querying DB...
-2020-03-15 22:28:48,696 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:28:48,701 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:28:58,710 querying DB...
-2020-03-15 22:28:58,714 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:28:58,721 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:29:08,727 querying DB...
-2020-03-15 22:29:08,729 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:29:08,732 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:29:18,743 querying DB...
-2020-03-15 22:29:18,744 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:29:18,747 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:29:28,756 querying DB...
-2020-03-15 22:29:28,758 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:29:28,762 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:29:38,771 querying DB...
-2020-03-15 22:29:38,775 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:29:38,781 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:29:48,793 querying DB...
-2020-03-15 22:29:48,795 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:29:48,799 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:29:58,810 querying DB...
-2020-03-15 22:29:58,812 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:29:58,817 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:30:08,829 querying DB...
-2020-03-15 22:30:08,831 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:30:08,835 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:30:18,846 querying DB...
-2020-03-15 22:30:18,851 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:30:18,858 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:30:28,861 querying DB...
-2020-03-15 22:30:28,863 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:30:28,865 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:30:38,876 querying DB...
-2020-03-15 22:30:38,878 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:30:38,880 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:30:48,889 querying DB...
-2020-03-15 22:30:48,892 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:30:48,898 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:30:58,908 querying DB...
-2020-03-15 22:30:58,911 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:30:58,916 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:31:08,925 querying DB...
-2020-03-15 22:31:08,926 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:31:08,933 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:31:18,939 querying DB...
-2020-03-15 22:31:18,941 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:31:18,944 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:31:28,955 querying DB...
-2020-03-15 22:31:28,959 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:31:28,966 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:31:38,978 querying DB...
-2020-03-15 22:31:38,981 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:31:38,987 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:31:48,996 querying DB...
-2020-03-15 22:31:49,001 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:31:49,008 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:31:59,019 querying DB...
-2020-03-15 22:31:59,021 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:31:59,024 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:32:09,035 querying DB...
-2020-03-15 22:32:09,039 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:32:09,046 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:32:19,057 querying DB...
-2020-03-15 22:32:19,059 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:32:19,062 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:32:29,072 querying DB...
-2020-03-15 22:32:29,075 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:32:29,079 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:32:39,088 querying DB...
-2020-03-15 22:32:39,092 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:32:39,095 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:32:49,101 querying DB...
-2020-03-15 22:32:49,104 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:32:49,106 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:32:59,117 querying DB...
-2020-03-15 22:32:59,119 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:32:59,123 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:33:09,133 querying DB...
-2020-03-15 22:33:09,136 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:33:09,139 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:33:19,149 querying DB...
-2020-03-15 22:33:19,151 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:33:19,155 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:33:29,165 querying DB...
-2020-03-15 22:33:29,166 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:33:29,170 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:33:39,181 querying DB...
-2020-03-15 22:33:39,183 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:33:39,188 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:33:49,193 querying DB...
-2020-03-15 22:33:49,196 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:33:49,201 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:33:59,209 querying DB...
-2020-03-15 22:33:59,212 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:33:59,215 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:34:09,226 querying DB...
-2020-03-15 22:34:09,228 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:34:09,230 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:34:19,240 querying DB...
-2020-03-15 22:34:19,241 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:34:19,244 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:34:29,254 querying DB...
-2020-03-15 22:34:29,258 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:34:29,262 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:34:39,264 querying DB...
-2020-03-15 22:34:39,266 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:34:39,269 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:34:49,275 querying DB...
-2020-03-15 22:34:49,278 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:34:49,284 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:34:59,293 querying DB...
-2020-03-15 22:34:59,298 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:34:59,304 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:35:09,311 querying DB...
-2020-03-15 22:35:09,314 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:35:09,317 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:35:19,327 querying DB...
-2020-03-15 22:35:19,331 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:35:19,337 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:35:29,350 querying DB...
-2020-03-15 22:35:29,352 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:35:29,355 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:35:39,362 querying DB...
-2020-03-15 22:35:39,364 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:35:39,366 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:35:49,372 querying DB...
-2020-03-15 22:35:49,376 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:35:49,380 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:35:59,390 querying DB...
-2020-03-15 22:35:59,393 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:35:59,398 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:36:09,408 querying DB...
-2020-03-15 22:36:09,410 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:36:09,413 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:36:19,423 querying DB...
-2020-03-15 22:36:19,427 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:36:19,431 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:36:29,442 querying DB...
-2020-03-15 22:36:29,444 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:36:29,448 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:36:39,455 querying DB...
-2020-03-15 22:36:39,457 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:36:39,459 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:36:49,465 querying DB...
-2020-03-15 22:36:49,467 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:36:49,470 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:36:59,480 querying DB...
-2020-03-15 22:36:59,482 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:36:59,485 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:37:09,495 querying DB...
-2020-03-15 22:37:09,500 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:37:09,507 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:37:19,517 querying DB...
-2020-03-15 22:37:19,519 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:37:19,521 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:37:29,532 querying DB...
-2020-03-15 22:37:29,533 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:37:29,538 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:37:39,546 querying DB...
-2020-03-15 22:37:39,548 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:37:39,551 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:37:49,554 querying DB...
-2020-03-15 22:37:49,558 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:37:49,561 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:37:59,571 querying DB...
-2020-03-15 22:37:59,574 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:37:59,577 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:38:09,587 querying DB...
-2020-03-15 22:38:09,589 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:38:09,591 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:38:19,602 querying DB...
-2020-03-15 22:38:19,607 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:38:19,614 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:38:29,622 querying DB...
-2020-03-15 22:38:29,624 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:38:29,626 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:38:39,637 querying DB...
-2020-03-15 22:38:39,641 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:38:39,648 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:38:49,659 querying DB...
-2020-03-15 22:38:49,661 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:38:49,664 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:38:59,670 querying DB...
-2020-03-15 22:38:59,673 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:38:59,676 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:39:09,686 querying DB...
-2020-03-15 22:39:09,690 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:39:09,696 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:39:19,704 querying DB...
-2020-03-15 22:39:19,706 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:39:19,712 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:39:29,721 querying DB...
-2020-03-15 22:39:29,723 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:39:29,727 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:39:39,738 querying DB...
-2020-03-15 22:39:39,740 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:39:39,744 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:39:49,750 querying DB...
-2020-03-15 22:39:49,753 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:39:49,756 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:39:59,767 querying DB...
-2020-03-15 22:39:59,768 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:39:59,771 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:40:09,781 querying DB...
-2020-03-15 22:40:09,783 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:40:09,788 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:40:19,799 querying DB...
-2020-03-15 22:40:19,801 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:40:19,803 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:40:29,812 querying DB...
-2020-03-15 22:40:29,814 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:40:29,817 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:40:39,826 querying DB...
-2020-03-15 22:40:39,830 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:40:39,837 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:40:49,848 querying DB...
-2020-03-15 22:40:49,852 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:40:49,859 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:40:59,870 querying DB...
-2020-03-15 22:40:59,872 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:40:59,874 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:41:09,878 querying DB...
-2020-03-15 22:41:09,880 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:41:09,882 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:41:19,893 querying DB...
-2020-03-15 22:41:19,896 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:41:19,898 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:41:29,903 querying DB...
-2020-03-15 22:41:29,905 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:41:29,909 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:41:39,918 querying DB...
-2020-03-15 22:41:39,920 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:41:39,926 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:41:49,935 querying DB...
-2020-03-15 22:41:49,936 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:41:49,939 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:41:59,950 querying DB...
-2020-03-15 22:41:59,951 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:41:59,954 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:42:09,964 querying DB...
-2020-03-15 22:42:09,967 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:42:09,970 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:42:19,981 querying DB...
-2020-03-15 22:42:19,983 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:42:19,985 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:42:29,996 querying DB...
-2020-03-15 22:42:29,997 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:42:30,000 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:42:40,010 querying DB...
-2020-03-15 22:42:40,012 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:42:40,017 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:42:50,027 querying DB...
-2020-03-15 22:42:50,029 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:42:50,033 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:43:00,044 querying DB...
-2020-03-15 22:43:00,046 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:43:00,050 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:43:10,061 querying DB...
-2020-03-15 22:43:10,071 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:43:10,075 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:43:20,086 querying DB...
-2020-03-15 22:43:20,088 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:43:20,090 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:43:30,100 querying DB...
-2020-03-15 22:43:30,102 Starting new HTTP connection (1): 192.168.1.4
-2020-03-15 22:43:30,104 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-15 22:43:40,109 querying DB...
-2020-03-15 22:43:40,111 Starting new HTTP connection (1): 192.168.1.4
+2020-03-22 19:05:18,513 querying DB...
+2020-03-22 19:05:18,515 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-03-22 19:05:18,519 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-03-22 19:05:28,530 querying DB...
+2020-03-22 19:05:28,532 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-03-22 19:05:28,535 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 155
+2020-03-22 19:05:28,536 192.168.1.18
+2020-03-22 19:05:28,812 None
+2020-03-22 19:05:28,813 Directory Name: amd64_4.4.0-174-generic_Ubuntu_ubuntu_xenial_16.04
+2020-03-22 19:05:28,814 Downloading Packages...getDebs.sh
+2020-03-22 19:05:31,016 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 python3-minimal amd64 3.5.1-3 [23.3 kB]
+2020-03-22 19:05:31,177 IN getDebs.sh	Fetched 23.3 kB in 1s (19.5 kB/s)
+2020-03-22 19:05:31,178 IN getDebs.sh	python3-minimal
+2020-03-22 19:05:31,995 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 python3.5 amd64 3.5.2-2ubuntu0~16.04.9 [165 kB]
+2020-03-22 19:05:32,725 IN getDebs.sh	Fetched 165 kB in 1s (141 kB/s)
+2020-03-22 19:05:32,726 IN getDebs.sh	python3.5
+2020-03-22 19:05:33,457 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libpython3-stdlib amd64 3.5.1-3 [6,818 B]
+2020-03-22 19:05:33,471 IN getDebs.sh	Fetched 6,818 B in 0s (18.9 kB/s)
+2020-03-22 19:05:33,472 IN getDebs.sh	libpython3-stdlib
+2020-03-22 19:05:34,126 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 dh-python all 2.20151103ubuntu1.2 [73.9 kB]
+2020-03-22 19:05:34,370 IN getDebs.sh	Fetched 73.9 kB in 0s (139 kB/s)
+2020-03-22 19:05:34,371 IN getDebs.sh	dh-python
+2020-03-22 19:05:35,350 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 python3-doc all 3.5.1-3 [6,952 B]
+2020-03-22 19:05:35,363 IN getDebs.sh	Fetched 6,952 B in 0s (12.3 kB/s)
+2020-03-22 19:05:35,364 IN getDebs.sh	python3-doc
+2020-03-22 19:05:36,069 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 python3-tk amd64 3.5.1-1 [25.1 kB]
+2020-03-22 19:05:36,191 IN getDebs.sh	Fetched 25.1 kB in 0s (54.7 kB/s)
+2020-03-22 19:05:36,193 IN getDebs.sh	python3-tk
+2020-03-22 19:05:37,844 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 python3-venv amd64 3.5.1-3 [1,106 B]
+2020-03-22 19:05:37,848 IN getDebs.sh	Fetched 1,106 B in 1s (860 B/s)
+2020-03-22 19:05:37,849 IN getDebs.sh	python3-venv
+2020-03-22 19:05:38,537 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 python3 amd64 3.5.1-3 [8,710 B]
+2020-03-22 19:05:38,553 IN getDebs.sh	Fetched 8,710 B in 0s (25.6 kB/s)
+2020-03-22 19:05:38,554 IN getDebs.sh	python3
+2020-03-22 19:05:39,618 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libc6 amd64 2.23-0ubuntu11 [2,577 kB]
+2020-03-22 19:06:01,696 IN getDebs.sh	Fetched 2,577 kB in 22s (113 kB/s)
+2020-03-22 19:06:01,697 IN getDebs.sh	libc6
+2020-03-22 19:06:03,146 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libgcc1 amd64 1:6.0.1-0ubuntu1 [38.5 kB]
+2020-03-22 19:06:03,407 IN getDebs.sh	Fetched 38.5 kB in 1s (29.6 kB/s)
+2020-03-22 19:06:03,409 IN getDebs.sh	libgcc1
+2020-03-22 19:06:04,344 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 liblinear3 amd64 2.1.0+dfsg-1 [39.3 kB]
+2020-03-22 19:06:04,572 IN getDebs.sh	Fetched 39.3 kB in 0s (66.5 kB/s)
+2020-03-22 19:06:04,573 IN getDebs.sh	liblinear3
+2020-03-22 19:06:05,305 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 liblua5.2-0 amd64 5.2.4-1ubuntu1 [106 kB]
+2020-03-22 19:06:05,994 IN getDebs.sh	Fetched 106 kB in 1s (102 kB/s)
+2020-03-22 19:06:05,995 IN getDebs.sh	liblua5.2-0
+2020-03-22 19:06:06,702 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpcap0.8 amd64 1.7.4-2ubuntu0.1 [117 kB]
+2020-03-22 19:06:07,837 IN getDebs.sh	Fetched 117 kB in 1s (79.5 kB/s)
+2020-03-22 19:06:07,838 IN getDebs.sh	libpcap0.8
+2020-03-22 19:06:08,574 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libpcre3 amd64 2:8.38-3.1 [223 kB]
+2020-03-22 19:06:10,467 IN getDebs.sh	Fetched 223 kB in 2s (98.8 kB/s)
+2020-03-22 19:06:10,470 IN getDebs.sh	libpcre3
+2020-03-22 19:06:11,497 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libssl1.0.0 amd64 1.0.2g-1ubuntu4.15 [1,084 kB]
+2020-03-22 19:06:19,989 IN getDebs.sh	Fetched 1,084 kB in 9s (119 kB/s)
+2020-03-22 19:06:19,991 IN getDebs.sh	libssl1.0.0
+2020-03-22 19:06:21,326 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libstdc++6 amd64 5.4.0-6ubuntu1~16.04.12 [393 kB]
+2020-03-22 19:06:23,700 IN getDebs.sh	Fetched 393 kB in 3s (118 kB/s)
+2020-03-22 19:06:23,702 IN getDebs.sh	libstdc++6
+2020-03-22 19:06:24,365 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 lua-lpeg amd64 0.12.2-1ubuntu1 [28.6 kB]
+2020-03-22 19:06:24,515 IN getDebs.sh	Fetched 28.6 kB in 0s (64.4 kB/s)
+2020-03-22 19:06:24,517 IN getDebs.sh	lua-lpeg
+2020-03-22 19:06:25,230 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 ndiff all 7.01-2ubuntu2 [20.1 kB]
+2020-03-22 19:06:25,452 IN getDebs.sh	Fetched 20.1 kB in 0s (35.7 kB/s)
+2020-03-22 19:06:25,453 IN getDebs.sh	ndiff
+2020-03-22 19:06:26,172 IN getDebs.sh	Err:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 nmap amd64 7.01-2ubuntu2
+2020-03-22 19:06:26,172 IN getDebs.sh	500  Internal Server Error [IP: 103.97.84.254 80]
+2020-03-22 19:06:26,177 IN getDebs.sh	nmap
+2020-03-22 19:06:26,861 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libidn11 amd64 1.32-3ubuntu1.2 [46.5 kB]
+2020-03-22 19:06:27,178 IN getDebs.sh	Fetched 46.5 kB in 0s (73.8 kB/s)
+2020-03-22 19:06:27,179 IN getDebs.sh	libidn11
+2020-03-22 19:06:27,857 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libuuid1 amd64 2.27.1-6ubuntu3.10 [14.5 kB]
+2020-03-22 19:06:27,963 IN getDebs.sh	Fetched 14.5 kB in 0s (34.3 kB/s)
+2020-03-22 19:06:27,966 IN getDebs.sh	libuuid1
+2020-03-22 19:06:28,673 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 zlib1g amd64 1:1.2.8.dfsg-2ubuntu4.3 [51.2 kB]
+2020-03-22 19:06:29,057 IN getDebs.sh	Fetched 51.2 kB in 0s (72.4 kB/s)
+2020-03-22 19:06:29,061 IN getDebs.sh	zlib1g
+2020-03-22 19:06:29,785 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 ca-certificates all 20170717~16.04.2 [167 kB]
+2020-03-22 19:06:31,252 IN getDebs.sh	Fetched 167 kB in 1s (94.7 kB/s)
+2020-03-22 19:06:31,253 IN getDebs.sh	ca-certificates
+2020-03-22 19:06:33,263 IN getDebs.sh	Err:1 http://security.ubuntu.com/ubuntu xenial-security/main amd64 wget amd64 1.17.1-1ubuntu1.5
+2020-03-22 19:06:33,263 IN getDebs.sh	500  Internal Server Error [IP: 103.97.84.254 80]
+2020-03-22 19:06:35,655 IN getDebs.sh	Err:1 http://security.ubuntu.com/ubuntu xenial-security/main amd64 wget amd64 1.17.1-1ubuntu1.5
+2020-03-22 19:06:35,655 IN getDebs.sh	500  Internal Server Error [IP: 103.97.84.254 80]
+2020-03-22 19:06:35,662 IN getDebs.sh	wget
+2020-03-22 19:06:42,627 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libcurl3-gnutls amd64 7.47.0-1ubuntu2.14 [184 kB]
+2020-03-22 19:06:44,621 IN getDebs.sh	Fetched 184 kB in 8s (21.5 kB/s)
+2020-03-22 19:06:44,622 IN getDebs.sh	libcurl3-gnutls
+2020-03-22 19:06:45,329 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 curl amd64 7.47.0-1ubuntu2.14 [139 kB]
+2020-03-22 19:06:46,405 IN getDebs.sh	Fetched 139 kB in 1s (98.0 kB/s)
+2020-03-22 19:06:46,406 IN getDebs.sh	curl
+2020-03-22 19:06:47,335 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libtcl8.6 amd64 8.6.5+dfsg-2 [875 kB]
+2020-03-22 19:07:00,007 IN getDebs.sh	Fetched 875 kB in 13s (66.1 kB/s)
+2020-03-22 19:07:00,008 IN getDebs.sh	libtcl8.6
+2020-03-22 19:07:01,133 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 hping3 amd64 3.a2.ds2-7 [107 kB]
+2020-03-22 19:07:02,553 IN getDebs.sh	Fetched 107 kB in 2s (50.0 kB/s)
+2020-03-22 19:07:02,554 IN getDebs.sh	hping3
+2020-03-22 19:07:03,556 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libedit2 amd64 3.1-20150325-1ubuntu2 [76.5 kB]
+2020-03-22 19:07:04,207 IN getDebs.sh	Fetched 76.5 kB in 1s (59.8 kB/s)
+2020-03-22 19:07:04,208 IN getDebs.sh	libedit2
+2020-03-22 19:07:04,895 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgssapi-krb5-2 amd64 1.13.2+dfsg-5ubuntu2.1 [120 kB]
+2020-03-22 19:07:05,750 IN getDebs.sh	Fetched 120 kB in 1s (103 kB/s)
+2020-03-22 19:07:05,751 IN getDebs.sh	libgssapi-krb5-2
+2020-03-22 19:07:06,459 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libselinux1 amd64 2.4-3build2 [55.9 kB]
+2020-03-22 19:07:06,825 IN getDebs.sh	Fetched 55.9 kB in 0s (80.0 kB/s)
+2020-03-22 19:07:06,826 IN getDebs.sh	libselinux1
+2020-03-22 19:07:07,790 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 adduser all 3.113+nmu3ubuntu4 [162 kB]
+2020-03-22 19:07:10,697 IN getDebs.sh	Fetched 162 kB in 3s (46.3 kB/s)
+2020-03-22 19:07:10,700 IN getDebs.sh	adduser
+2020-03-22 19:07:11,623 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 dpkg amd64 1.18.4ubuntu1.6 [2,085 kB]
+2020-03-22 19:07:35,132 IN getDebs.sh	Fetched 2,085 kB in 24s (86.6 kB/s)
+2020-03-22 19:07:35,136 IN getDebs.sh	dpkg
+2020-03-22 19:07:36,313 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 passwd amd64 1:4.2-3.1ubuntu5.4 [780 kB]
+2020-03-22 19:07:42,718 IN getDebs.sh	Fetched 780 kB in 7s (108 kB/s)
+2020-03-22 19:07:42,719 IN getDebs.sh	passwd
+2020-03-22 19:07:43,961 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 xauth amd64 1:1.0.9-1ubuntu2 [22.7 kB]
+2020-03-22 19:07:44,097 IN getDebs.sh	Fetched 22.7 kB in 1s (22.5 kB/s)
+2020-03-22 19:07:44,099 IN getDebs.sh	xauth
+2020-03-22 19:07:44,861 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 ssh-askpass amd64 1:1.2.4.1-9 [34.9 kB]
+2020-03-22 19:07:45,168 IN getDebs.sh	Fetched 34.9 kB in 0s (50.0 kB/s)
+2020-03-22 19:07:45,169 IN getDebs.sh	ssh-askpass
+2020-03-22 19:07:46,077 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 libpam-ssh amd64 2.1+ds1-1 [67.3 kB]
+2020-03-22 19:07:47,112 IN getDebs.sh	Fetched 67.3 kB in 1s (42.6 kB/s)
+2020-03-22 19:07:47,114 IN getDebs.sh	libpam-ssh
+2020-03-22 19:07:47,957 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 keychain all 2.8.1-0.1 [27.4 kB]
+2020-03-22 19:07:48,149 IN getDebs.sh	Fetched 27.4 kB in 0s (40.8 kB/s)
+2020-03-22 19:07:48,151 IN getDebs.sh	keychain
+2020-03-22 19:07:48,982 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 monkeysphere all 0.37-3 [68.1 kB]
+2020-03-22 19:07:49,892 IN getDebs.sh	Fetched 68.1 kB in 1s (49.6 kB/s)
+2020-03-22 19:07:49,894 IN getDebs.sh	monkeysphere
+2020-03-22 19:07:50,919 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 openssh-client amd64 1:7.2p2-4ubuntu2.8 [590 kB]
+2020-03-22 19:07:54,810 IN getDebs.sh	Fetched 590 kB in 4s (130 kB/s)
+2020-03-22 19:07:54,813 IN getDebs.sh	openssh-client
+2020-03-22 19:07:55,564 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libaudit1 amd64 1:2.4.5-1ubuntu2.1 [36.2 kB]
+2020-03-22 19:07:55,822 IN getDebs.sh	Fetched 36.2 kB in 0s (56.4 kB/s)
+2020-03-22 19:07:55,823 IN getDebs.sh	libaudit1
+2020-03-22 19:07:56,855 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libcomerr2 amd64 1.42.13-1ubuntu1.2 [65.8 kB]
+2020-03-22 19:07:57,336 IN getDebs.sh	Fetched 65.8 kB in 1s (58.1 kB/s)
+2020-03-22 19:07:57,337 IN getDebs.sh	libcomerr2
+2020-03-22 19:08:00,117 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libkrb5-3 amd64 1.13.2+dfsg-5ubuntu2.1 [273 kB]
+2020-03-22 19:08:01,741 IN getDebs.sh	Fetched 273 kB in 4s (67.7 kB/s)
+2020-03-22 19:08:01,742 IN getDebs.sh	libkrb5-3
+2020-03-22 19:08:04,087 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpam0g amd64 1.1.8-3.2ubuntu2.1 [55.6 kB]
+2020-03-22 19:08:04,429 IN getDebs.sh	Fetched 55.6 kB in 2s (24.8 kB/s)
+2020-03-22 19:08:04,430 IN getDebs.sh	libpam0g
+2020-03-22 19:08:06,133 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libsystemd0 amd64 229-4ubuntu21.27 [205 kB]
+2020-03-22 19:08:07,630 IN getDebs.sh	Fetched 205 kB in 2s (73.4 kB/s)
+2020-03-22 19:08:07,632 IN getDebs.sh	libsystemd0
+2020-03-22 19:08:08,323 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libwrap0 amd64 7.6.q-25 [46.2 kB]
+2020-03-22 19:08:08,699 IN getDebs.sh	Fetched 46.2 kB in 0s (66.7 kB/s)
+2020-03-22 19:08:08,701 IN getDebs.sh	libwrap0
+2020-03-22 19:08:09,413 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 debconf all 1.5.58ubuntu2 [136 kB]
+2020-03-22 19:08:10,365 IN getDebs.sh	Fetched 136 kB in 1s (105 kB/s)
+2020-03-22 19:08:10,367 IN getDebs.sh	debconf
+2020-03-22 19:08:10,729 IN getDebs.sh	debconf-2.0
+2020-03-22 19:08:11,708 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 init-system-helpers all 1.29ubuntu4 [32.3 kB]
+2020-03-22 19:08:12,467 IN getDebs.sh	Fetched 32.3 kB in 1s (23.9 kB/s)
+2020-03-22 19:08:12,468 IN getDebs.sh	init-system-helpers
+2020-03-22 19:08:13,542 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 lsb-base all 9.20160110ubuntu0.2 [13.7 kB]
+2020-03-22 19:08:13,564 IN getDebs.sh	Fetched 13.7 kB in 0s (19.3 kB/s)
+2020-03-22 19:08:13,566 IN getDebs.sh	lsb-base
+2020-03-22 19:08:14,284 IN getDebs.sh	Err:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 libpam-runtime all 1.1.8-3.2ubuntu2.1
+2020-03-22 19:08:14,284 IN getDebs.sh	500  Internal Server Error [IP: 103.97.84.254 80]
+2020-03-22 19:08:14,568 IN getDebs.sh	Err:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 libpam-runtime all 1.1.8-3.2ubuntu2.1
+2020-03-22 19:08:14,568 IN getDebs.sh	500  Internal Server Error [IP: 103.97.84.254 80]
+2020-03-22 19:08:14,573 IN getDebs.sh	libpam-runtime
+2020-03-22 19:08:15,340 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpam-modules amd64 1.1.8-3.2ubuntu2.1 [244 kB]
+2020-03-22 19:08:17,672 IN getDebs.sh	Fetched 244 kB in 2s (92.8 kB/s)
+2020-03-22 19:08:17,673 IN getDebs.sh	libpam-modules
+2020-03-22 19:08:18,385 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 procps amd64 2:3.3.10-4ubuntu2.4 [222 kB]
+2020-03-22 19:08:19,764 IN getDebs.sh	Fetched 222 kB in 1s (131 kB/s)
+2020-03-22 19:08:19,766 IN getDebs.sh	procps
+2020-03-22 19:08:20,471 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 openssh-sftp-server amd64 1:7.2p2-4ubuntu2.8 [38.9 kB]
+2020-03-22 19:08:20,741 IN getDebs.sh	Fetched 38.9 kB in 0s (65.5 kB/s)
+2020-03-22 19:08:20,742 IN getDebs.sh	openssh-sftp-server
+2020-03-22 19:08:21,798 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 ncurses-term all 6.0+20160213-1ubuntu1 [249 kB]
+2020-03-22 19:08:24,020 IN getDebs.sh	Fetched 249 kB in 2s (87.9 kB/s)
+2020-03-22 19:08:24,021 IN getDebs.sh	ncurses-term
+2020-03-22 19:08:25,144 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 ssh-import-id all 5.5-0ubuntu1 [10.2 kB]
+2020-03-22 19:08:25,163 IN getDebs.sh	Fetched 10.2 kB in 0s (15.8 kB/s)
+2020-03-22 19:08:25,167 IN getDebs.sh	ssh-import-id
+2020-03-22 19:08:26,077 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 rssh amd64 2.3.4-4+deb8u2ubuntu0.16.04.2 [48.1 kB]
+2020-03-22 19:08:26,577 IN getDebs.sh	Fetched 48.1 kB in 1s (47.6 kB/s)
+2020-03-22 19:08:26,580 IN getDebs.sh	rssh
+2020-03-22 19:08:27,281 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 molly-guard all 0.6.3 [12.7 kB]
+2020-03-22 19:08:27,304 IN getDebs.sh	Fetched 12.7 kB in 0s (37.2 kB/s)
+2020-03-22 19:08:27,307 IN getDebs.sh	molly-guard
+2020-03-22 19:08:28,452 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 ufw all 0.35-0ubuntu2 [149 kB]
+2020-03-22 19:08:29,516 IN getDebs.sh	Fetched 149 kB in 1s (85.1 kB/s)
+2020-03-22 19:08:29,517 IN getDebs.sh	ufw
+2020-03-22 19:08:30,200 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 openssh-server amd64 1:7.2p2-4ubuntu2.8 [335 kB]
+2020-03-22 19:08:33,646 IN getDebs.sh	Fetched 335 kB in 3s (89.0 kB/s)
+2020-03-22 19:08:33,647 IN getDebs.sh	openssh-server
+2020-03-22 19:08:34,892 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgd3 amd64 2.1.1-4ubuntu0.16.04.11 [126 kB]
+2020-03-22 19:08:35,927 IN getDebs.sh	Fetched 126 kB in 1s (66.9 kB/s)
+2020-03-22 19:08:35,928 IN getDebs.sh	libgd3
+2020-03-22 19:08:37,002 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 fswebcam amd64 20140113-1 [43.9 kB]
+2020-03-22 19:08:37,826 IN getDebs.sh	Fetched 43.9 kB in 1s (28.7 kB/s)
+2020-03-22 19:08:37,829 IN getDebs.sh	fswebcam
+2020-03-22 19:08:38,395 Installing Packages...install.sh
+2020-03-22 19:08:38,680 IN install.sh	python3-minimal Already Present
+2020-03-22 19:08:38,716 IN install.sh	python3.5 Already Present
+2020-03-22 19:08:38,759 IN install.sh	libpython3-stdlib Already Present
+2020-03-22 19:08:38,807 IN install.sh	dh-python Already Present
+2020-03-22 19:08:38,872 IN install.sh	python3-doc Not there..Installing
+2020-03-22 19:08:39,146 IN install.sh	Selecting previously unselected package python3-doc.
+2020-03-22 19:08:39,287 IN install.sh	(Reading database ... 220706 files and directories currently installed.)
+2020-03-22 19:08:39,301 IN install.sh	Preparing to unpack python3-doc_3.5.1-3_all.deb ...
+2020-03-22 19:08:39,368 IN install.sh	Unpacking python3-doc (3.5.1-3) ...
+2020-03-22 19:08:39,840 IN install.sh	python3-tk Not there..Installing
+2020-03-22 19:08:39,978 IN install.sh	Selecting previously unselected package python3-tk.
+2020-03-22 19:08:40,065 IN install.sh	(Reading database ... 220712 files and directories currently installed.)
+2020-03-22 19:08:40,074 IN install.sh	Preparing to unpack python3-tk_3.5.1-1_amd64.deb ...
+2020-03-22 19:08:40,133 IN install.sh	Unpacking python3-tk (3.5.1-1) ...
+2020-03-22 19:08:40,582 IN install.sh	python3-venv Not there..Installing
+2020-03-22 19:08:40,676 IN install.sh	Selecting previously unselected package python3-venv.
+2020-03-22 19:08:40,761 IN install.sh	(Reading database ... 220718 files and directories currently installed.)
+2020-03-22 19:08:40,770 IN install.sh	Preparing to unpack python3-venv_3.5.1-3_amd64.deb ...
+2020-03-22 19:08:40,830 IN install.sh	Unpacking python3-venv (3.5.1-3) ...
+2020-03-22 19:08:41,193 IN install.sh	Processing triggers for man-db (2.7.5-1) ...
+2020-03-22 19:08:42,315 IN install.sh	python3 Already Present
+2020-03-22 19:08:42,345 IN install.sh	libc6 Already Present
+2020-03-22 19:08:42,376 IN install.sh	libgcc1 Already Present
+2020-03-22 19:08:42,408 IN install.sh	liblinear3 Already Present
+2020-03-22 19:08:42,445 IN install.sh	liblua5.2-0 Already Present
+2020-03-22 19:08:42,473 IN install.sh	libpcap0.8 Already Present
+2020-03-22 19:08:42,501 IN install.sh	libpcre3 Already Present
+2020-03-22 19:08:42,529 IN install.sh	libssl1.0.0 Already Present
+2020-03-22 19:08:42,557 IN install.sh	libstdc++6 Already Present
+2020-03-22 19:08:42,593 IN install.sh	lua-lpeg Already Present
+2020-03-22 19:08:42,621 IN install.sh	ndiff Already Present
+2020-03-22 19:08:42,654 IN install.sh	nmap Already Present
+2020-03-22 19:08:42,687 IN install.sh	libidn11 Already Present
+2020-03-22 19:08:42,724 IN install.sh	libuuid1 Already Present
+2020-03-22 19:08:42,753 IN install.sh	zlib1g Already Present
+2020-03-22 19:08:42,782 IN install.sh	ca-certificates Already Present
+2020-03-22 19:08:42,817 IN install.sh	wget Already Present
+2020-03-22 19:08:42,846 IN install.sh	libcurl3-gnutls Already Present
+2020-03-22 19:08:42,874 IN install.sh	curl Already Present
+2020-03-22 19:08:42,902 IN install.sh	libtcl8.6 Already Present
+2020-03-22 19:08:42,932 IN install.sh	hping3 Not there..Installing
+2020-03-22 19:08:43,078 IN install.sh	Selecting previously unselected package hping3.
+2020-03-22 19:08:43,167 IN install.sh	(Reading database ... 220721 files and directories currently installed.)
+2020-03-22 19:08:43,176 IN install.sh	Preparing to unpack hping3_3.a2.ds2-7_amd64.deb ...
+2020-03-22 19:08:43,232 IN install.sh	Unpacking hping3 (3.a2.ds2-7) ...
+2020-03-22 19:08:43,641 IN install.sh	Setting up hping3 (3.a2.ds2-7) ...
+2020-03-22 19:08:43,863 IN install.sh	Processing triggers for man-db (2.7.5-1) ...
+2020-03-22 19:08:44,836 IN install.sh	libedit2 Already Present
+2020-03-22 19:08:44,866 IN install.sh	libgssapi-krb5-2 Already Present
+2020-03-22 19:08:44,895 IN install.sh	libselinux1 Already Present
+2020-03-22 19:08:44,946 IN install.sh	adduser Already Present
+2020-03-22 19:08:44,991 IN install.sh	dpkg Already Present
+2020-03-22 19:08:45,047 IN install.sh	passwd Already Present
+2020-03-22 19:08:45,084 IN install.sh	xauth Already Present
+2020-03-22 19:08:45,117 IN install.sh	ssh-askpass Not there..Installing
+2020-03-22 19:08:45,384 IN install.sh	Selecting previously unselected package ssh-askpass.
+2020-03-22 19:08:45,486 IN install.sh	(Reading database ... 220751 files and directories currently installed.)
+2020-03-22 19:08:45,496 IN install.sh	Preparing to unpack ssh-askpass_1%3a1.2.4.1-9_amd64.deb ...
+2020-03-22 19:08:45,561 IN install.sh	Unpacking ssh-askpass (1:1.2.4.1-9) ...
+2020-03-22 19:08:45,948 IN install.sh	Setting up ssh-askpass (1:1.2.4.1-9) ...
+2020-03-22 19:08:46,158 IN install.sh	update-alternatives: using /usr/lib/ssh/x11-ssh-askpass to provide /usr/bin/ssh-askpass (ssh-askpass) in auto mode
+2020-03-22 19:08:46,295 IN install.sh	Processing triggers for man-db (2.7.5-1) ...
+2020-03-22 19:08:46,959 IN install.sh	libpam-ssh Not there..Installing
+2020-03-22 19:08:47,210 IN install.sh	Selecting previously unselected package libpam-ssh.
+2020-03-22 19:08:47,297 IN install.sh	(Reading database ... 220767 files and directories currently installed.)
+2020-03-22 19:08:47,306 IN install.sh	Preparing to unpack libpam-ssh_2.1+ds1-1_amd64.deb ...
+2020-03-22 19:08:47,376 IN install.sh	Unpacking libpam-ssh (2.1+ds1-1) ...
+2020-03-22 19:08:47,772 IN install.sh	Setting up libpam-ssh (2.1+ds1-1) ...
+2020-03-22 19:08:49,459 IN install.sh	Processing triggers for man-db (2.7.5-1) ...
+2020-03-22 19:08:49,980 IN install.sh	keychain Not there..Installing
+2020-03-22 19:08:50,106 IN install.sh	Selecting previously unselected package keychain.
+2020-03-22 19:08:50,195 IN install.sh	(Reading database ... 220777 files and directories currently installed.)
+2020-03-22 19:08:50,204 IN install.sh	Preparing to unpack keychain_2.8.1-0.1_all.deb ...
+2020-03-22 19:08:50,260 IN install.sh	Unpacking keychain (2.8.1-0.1) ...
+2020-03-22 19:08:50,556 IN install.sh	Setting up keychain (2.8.1-0.1) ...
+2020-03-22 19:08:50,725 IN install.sh	Processing triggers for man-db (2.7.5-1) ...
+2020-03-22 19:08:51,342 IN install.sh	monkeysphere Not there..Installing
+2020-03-22 19:08:51,573 IN install.sh	Selecting previously unselected package monkeysphere.
+2020-03-22 19:08:51,662 IN install.sh	(Reading database ... 220785 files and directories currently installed.)
+2020-03-22 19:08:51,671 IN install.sh	Preparing to unpack monkeysphere_0.37-3_all.deb ...
+2020-03-22 19:08:51,727 IN install.sh	Unpacking monkeysphere (0.37-3) ...
+2020-03-22 19:08:52,060 IN install.sh	Processing triggers for man-db (2.7.5-1) ...
+2020-03-22 19:08:52,955 IN install.sh	openssh-client Already Present
+2020-03-22 19:08:52,982 IN install.sh	libaudit1 Already Present
+2020-03-22 19:08:53,010 IN install.sh	libcomerr2 Already Present
+2020-03-22 19:08:53,040 IN install.sh	libkrb5-3 Already Present
+2020-03-22 19:08:53,070 IN install.sh	libpam0g Already Present
+2020-03-22 19:08:53,101 IN install.sh	libsystemd0 Already Present
+2020-03-22 19:08:53,130 IN install.sh	libwrap0 Already Present
+2020-03-22 19:08:53,158 IN install.sh	debconf Already Present
+2020-03-22 19:08:53,189 IN install.sh	debconf-2.0 Not there..Installing
+2020-03-22 19:08:53,343 IN install.sh	init-system-helpers Already Present
+2020-03-22 19:08:53,370 IN install.sh	lsb-base Already Present
+2020-03-22 19:08:53,398 IN install.sh	libpam-runtime Already Present
+2020-03-22 19:08:53,426 IN install.sh	libpam-modules Already Present
+2020-03-22 19:08:53,454 IN install.sh	procps Already Present
+2020-03-22 19:08:53,482 IN install.sh	openssh-sftp-server Already Present
+2020-03-22 19:08:53,510 IN install.sh	ncurses-term Already Present
+2020-03-22 19:08:53,538 IN install.sh	ssh-import-id Already Present
+2020-03-22 19:08:53,565 IN install.sh	rssh Not there..Installing
+2020-03-22 19:08:53,921 IN install.sh	Selecting previously unselected package rssh.
+2020-03-22 19:08:54,008 IN install.sh	(Reading database ... 220850 files and directories currently installed.)
+2020-03-22 19:08:54,017 IN install.sh	Preparing to unpack rssh_2.3.4-4+deb8u2ubuntu0.16.04.2_amd64.deb ...
+2020-03-22 19:08:54,086 IN install.sh	Unpacking rssh (2.3.4-4+deb8u2ubuntu0.16.04.2) ...
+2020-03-22 19:08:54,439 IN install.sh	Setting up rssh (2.3.4-4+deb8u2ubuntu0.16.04.2) ...
+2020-03-22 19:08:55,056 IN install.sh	Processing triggers for man-db (2.7.5-1) ...
+2020-03-22 19:08:55,968 IN install.sh	molly-guard Not there..Installing
+2020-03-22 19:08:56,193 IN install.sh	Selecting previously unselected package molly-guard.
+2020-03-22 19:08:56,278 IN install.sh	(Reading database ... 220870 files and directories currently installed.)
+2020-03-22 19:08:56,287 IN install.sh	Preparing to unpack molly-guard_0.6.3_all.deb ...
+2020-03-22 19:08:56,392 IN install.sh	No diversion 'diversion of /sbin/pm-hibernate by molly-guard', none removed.
+2020-03-22 19:08:56,418 IN install.sh	No diversion 'diversion of /sbin/pm-suspend by molly-guard', none removed.
+2020-03-22 19:08:56,445 IN install.sh	No diversion 'diversion of /sbin/pm-suspend-hybrid by molly-guard', none removed.
+2020-03-22 19:08:56,472 IN install.sh	Adding 'diversion of /sbin/halt to /lib/molly-guard/halt by molly-guard'
+2020-03-22 19:08:56,575 IN install.sh	Adding 'diversion of /sbin/poweroff to /lib/molly-guard/poweroff by molly-guard'
+2020-03-22 19:08:56,645 IN install.sh	Adding 'diversion of /sbin/reboot to /lib/molly-guard/reboot by molly-guard'
+2020-03-22 19:08:56,710 IN install.sh	Adding 'diversion of /sbin/shutdown to /lib/molly-guard/shutdown by molly-guard'
+2020-03-22 19:08:56,768 IN install.sh	Adding 'diversion of /sbin/coldreboot to /lib/molly-guard/coldreboot by molly-guard'
+2020-03-22 19:08:56,826 IN install.sh	Unpacking molly-guard (0.6.3) ...
+2020-03-22 19:08:57,264 IN install.sh	Setting up molly-guard (0.6.3) ...
+2020-03-22 19:08:57,613 IN install.sh	Processing triggers for man-db (2.7.5-1) ...
+2020-03-22 19:08:58,152 IN install.sh	ufw Already Present
+2020-03-22 19:08:58,181 IN install.sh	openssh-server Already Present
+2020-03-22 19:08:58,208 IN install.sh	libgd3 Already Present
+2020-03-22 19:08:58,236 IN install.sh	fswebcam Not there..Installing
+2020-03-22 19:08:58,347 IN install.sh	Selecting previously unselected package fswebcam.
+2020-03-22 19:08:58,435 IN install.sh	(Reading database ... 220892 files and directories currently installed.)
+2020-03-22 19:08:58,444 IN install.sh	Preparing to unpack fswebcam_20140113-1_amd64.deb ...
+2020-03-22 19:08:58,492 IN install.sh	Unpacking fswebcam (20140113-1) ...
+2020-03-22 19:08:58,833 IN install.sh	Setting up fswebcam (20140113-1) ...
+2020-03-22 19:08:59,011 IN install.sh	Processing triggers for man-db (2.7.5-1) ...
+2020-03-22 19:08:59,596 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-03-22 19:08:59,605 http://192.168.1.18:5000 "GET /setloaded/192.168.1.18 HTTP/1.1" 200 18
+2020-03-22 19:08:59,608 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-03-22 19:08:59,613 http://192.168.1.18:5000 "POST /storeDirectory/192.168.1.18 HTTP/1.1" 200 18
+2020-03-22 19:08:59,614 Loaded 192.168.1.18
+2020-03-22 19:09:09,624 querying DB...
+2020-03-22 19:09:09,626 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-03-22 19:09:09,629 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-03-22 19:09:19,639 querying DB...
+2020-03-22 19:09:19,641 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-03-22 19:09:19,646 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-03-22 19:09:29,653 querying DB...
+2020-03-22 19:09:29,655 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-03-22 19:09:29,657 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-03-22 19:09:39,668 querying DB...
+2020-03-22 19:09:39,670 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-03-22 19:09:39,674 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-03-22 19:09:49,685 querying DB...
+2020-03-22 19:09:49,687 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-03-22 19:09:49,689 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-03-22 19:09:59,700 querying DB...
+2020-03-22 19:09:59,702 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-03-22 19:09:59,706 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-03-22 19:10:09,715 querying DB...
+2020-03-22 19:10:09,717 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-03-22 19:10:09,720 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-03-22 19:10:19,730 querying DB...
+2020-03-22 19:10:19,733 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-03-22 19:10:19,736 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-03-22 19:10:29,745 querying DB...
+2020-03-22 19:10:29,747 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-03-22 19:10:29,750 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-03-22 19:10:39,761 querying DB...
+2020-03-22 19:10:39,763 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-03-22 19:10:39,766 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-03-22 19:10:49,776 querying DB...
+2020-03-22 19:10:49,779 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-03-22 19:10:49,782 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-03-22 19:10:59,790 querying DB...
+2020-03-22 19:10:59,792 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-03-22 19:10:59,794 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-03-22 19:11:09,804 querying DB...
+2020-03-22 19:11:09,806 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-03-22 19:11:09,810 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-03-22 19:11:19,821 querying DB...
+2020-03-22 19:11:19,822 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-03-22 19:11:19,825 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3

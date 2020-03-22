@@ -1,2 +1,4 @@
-192.168.1.10,pi,123456789
-192.168.1.9,admin,admin1234
+192.168.1.18,satya,satya
+192.168.1.18,satya,satya
+192.168.1.18,satya,satya
+192.168.1.18,satya,satya

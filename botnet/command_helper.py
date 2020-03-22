@@ -1,7 +1,7 @@
 import json
 import requests 
 
-cnc = "http://192.168.29.74:5000"
+cnc = "http://192.168.1.18:5000"
 
 r=requests.get(url=cnc+"/getBots")
 data = r.json()

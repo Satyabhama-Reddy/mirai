@@ -6,7 +6,7 @@ IFS=','
 uname=""
 pass=""
 
-cnc=192.168.29.74:5000
+cnc=192.168.1.18:5000
 [ ! -f $INPUT ] && { echo "$INPUT file not found"; exit 99; }
 while read username password
 do

