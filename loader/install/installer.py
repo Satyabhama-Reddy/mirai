@@ -41,6 +41,7 @@ def load(system):
            stderr=subprocess.STDOUT)
     out.wait()
     stdout,stderr=out.communicate()
+    logger.error(stderr)
     output = stdout.decode('utf-8').replace('"','').split('\n')
     details ={}
     for o in output:
