@@ -1,377 +1,102 @@
-2020-03-22 19:05:18,513 querying DB...
-2020-03-22 19:05:18,515 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-03-22 19:05:18,519 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-22 19:05:28,530 querying DB...
-2020-03-22 19:05:28,532 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-03-22 19:05:28,535 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 155
-2020-03-22 19:05:28,536 192.168.1.18
-2020-03-22 19:05:28,812 None
-2020-03-22 19:05:28,813 Directory Name: amd64_4.4.0-174-generic_Ubuntu_ubuntu_xenial_16.04
-2020-03-22 19:05:28,814 Downloading Packages...getDebs.sh
-2020-03-22 19:05:31,016 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 python3-minimal amd64 3.5.1-3 [23.3 kB]
-2020-03-22 19:05:31,177 IN getDebs.sh	Fetched 23.3 kB in 1s (19.5 kB/s)
-2020-03-22 19:05:31,178 IN getDebs.sh	python3-minimal
-2020-03-22 19:05:31,995 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 python3.5 amd64 3.5.2-2ubuntu0~16.04.9 [165 kB]
-2020-03-22 19:05:32,725 IN getDebs.sh	Fetched 165 kB in 1s (141 kB/s)
-2020-03-22 19:05:32,726 IN getDebs.sh	python3.5
-2020-03-22 19:05:33,457 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libpython3-stdlib amd64 3.5.1-3 [6,818 B]
-2020-03-22 19:05:33,471 IN getDebs.sh	Fetched 6,818 B in 0s (18.9 kB/s)
-2020-03-22 19:05:33,472 IN getDebs.sh	libpython3-stdlib
-2020-03-22 19:05:34,126 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 dh-python all 2.20151103ubuntu1.2 [73.9 kB]
-2020-03-22 19:05:34,370 IN getDebs.sh	Fetched 73.9 kB in 0s (139 kB/s)
-2020-03-22 19:05:34,371 IN getDebs.sh	dh-python
-2020-03-22 19:05:35,350 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 python3-doc all 3.5.1-3 [6,952 B]
-2020-03-22 19:05:35,363 IN getDebs.sh	Fetched 6,952 B in 0s (12.3 kB/s)
-2020-03-22 19:05:35,364 IN getDebs.sh	python3-doc
-2020-03-22 19:05:36,069 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 python3-tk amd64 3.5.1-1 [25.1 kB]
-2020-03-22 19:05:36,191 IN getDebs.sh	Fetched 25.1 kB in 0s (54.7 kB/s)
-2020-03-22 19:05:36,193 IN getDebs.sh	python3-tk
-2020-03-22 19:05:37,844 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 python3-venv amd64 3.5.1-3 [1,106 B]
-2020-03-22 19:05:37,848 IN getDebs.sh	Fetched 1,106 B in 1s (860 B/s)
-2020-03-22 19:05:37,849 IN getDebs.sh	python3-venv
-2020-03-22 19:05:38,537 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 python3 amd64 3.5.1-3 [8,710 B]
-2020-03-22 19:05:38,553 IN getDebs.sh	Fetched 8,710 B in 0s (25.6 kB/s)
-2020-03-22 19:05:38,554 IN getDebs.sh	python3
-2020-03-22 19:05:39,618 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libc6 amd64 2.23-0ubuntu11 [2,577 kB]
-2020-03-22 19:06:01,696 IN getDebs.sh	Fetched 2,577 kB in 22s (113 kB/s)
-2020-03-22 19:06:01,697 IN getDebs.sh	libc6
-2020-03-22 19:06:03,146 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libgcc1 amd64 1:6.0.1-0ubuntu1 [38.5 kB]
-2020-03-22 19:06:03,407 IN getDebs.sh	Fetched 38.5 kB in 1s (29.6 kB/s)
-2020-03-22 19:06:03,409 IN getDebs.sh	libgcc1
-2020-03-22 19:06:04,344 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 liblinear3 amd64 2.1.0+dfsg-1 [39.3 kB]
-2020-03-22 19:06:04,572 IN getDebs.sh	Fetched 39.3 kB in 0s (66.5 kB/s)
-2020-03-22 19:06:04,573 IN getDebs.sh	liblinear3
-2020-03-22 19:06:05,305 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 liblua5.2-0 amd64 5.2.4-1ubuntu1 [106 kB]
-2020-03-22 19:06:05,994 IN getDebs.sh	Fetched 106 kB in 1s (102 kB/s)
-2020-03-22 19:06:05,995 IN getDebs.sh	liblua5.2-0
-2020-03-22 19:06:06,702 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpcap0.8 amd64 1.7.4-2ubuntu0.1 [117 kB]
-2020-03-22 19:06:07,837 IN getDebs.sh	Fetched 117 kB in 1s (79.5 kB/s)
-2020-03-22 19:06:07,838 IN getDebs.sh	libpcap0.8
-2020-03-22 19:06:08,574 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libpcre3 amd64 2:8.38-3.1 [223 kB]
-2020-03-22 19:06:10,467 IN getDebs.sh	Fetched 223 kB in 2s (98.8 kB/s)
-2020-03-22 19:06:10,470 IN getDebs.sh	libpcre3
-2020-03-22 19:06:11,497 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libssl1.0.0 amd64 1.0.2g-1ubuntu4.15 [1,084 kB]
-2020-03-22 19:06:19,989 IN getDebs.sh	Fetched 1,084 kB in 9s (119 kB/s)
-2020-03-22 19:06:19,991 IN getDebs.sh	libssl1.0.0
-2020-03-22 19:06:21,326 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libstdc++6 amd64 5.4.0-6ubuntu1~16.04.12 [393 kB]
-2020-03-22 19:06:23,700 IN getDebs.sh	Fetched 393 kB in 3s (118 kB/s)
-2020-03-22 19:06:23,702 IN getDebs.sh	libstdc++6
-2020-03-22 19:06:24,365 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 lua-lpeg amd64 0.12.2-1ubuntu1 [28.6 kB]
-2020-03-22 19:06:24,515 IN getDebs.sh	Fetched 28.6 kB in 0s (64.4 kB/s)
-2020-03-22 19:06:24,517 IN getDebs.sh	lua-lpeg
-2020-03-22 19:06:25,230 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 ndiff all 7.01-2ubuntu2 [20.1 kB]
-2020-03-22 19:06:25,452 IN getDebs.sh	Fetched 20.1 kB in 0s (35.7 kB/s)
-2020-03-22 19:06:25,453 IN getDebs.sh	ndiff
-2020-03-22 19:06:26,172 IN getDebs.sh	Err:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 nmap amd64 7.01-2ubuntu2
-2020-03-22 19:06:26,172 IN getDebs.sh	500  Internal Server Error [IP: 103.97.84.254 80]
-2020-03-22 19:06:26,177 IN getDebs.sh	nmap
-2020-03-22 19:06:26,861 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libidn11 amd64 1.32-3ubuntu1.2 [46.5 kB]
-2020-03-22 19:06:27,178 IN getDebs.sh	Fetched 46.5 kB in 0s (73.8 kB/s)
-2020-03-22 19:06:27,179 IN getDebs.sh	libidn11
-2020-03-22 19:06:27,857 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libuuid1 amd64 2.27.1-6ubuntu3.10 [14.5 kB]
-2020-03-22 19:06:27,963 IN getDebs.sh	Fetched 14.5 kB in 0s (34.3 kB/s)
-2020-03-22 19:06:27,966 IN getDebs.sh	libuuid1
-2020-03-22 19:06:28,673 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 zlib1g amd64 1:1.2.8.dfsg-2ubuntu4.3 [51.2 kB]
-2020-03-22 19:06:29,057 IN getDebs.sh	Fetched 51.2 kB in 0s (72.4 kB/s)
-2020-03-22 19:06:29,061 IN getDebs.sh	zlib1g
-2020-03-22 19:06:29,785 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 ca-certificates all 20170717~16.04.2 [167 kB]
-2020-03-22 19:06:31,252 IN getDebs.sh	Fetched 167 kB in 1s (94.7 kB/s)
-2020-03-22 19:06:31,253 IN getDebs.sh	ca-certificates
-2020-03-22 19:06:33,263 IN getDebs.sh	Err:1 http://security.ubuntu.com/ubuntu xenial-security/main amd64 wget amd64 1.17.1-1ubuntu1.5
-2020-03-22 19:06:33,263 IN getDebs.sh	500  Internal Server Error [IP: 103.97.84.254 80]
-2020-03-22 19:06:35,655 IN getDebs.sh	Err:1 http://security.ubuntu.com/ubuntu xenial-security/main amd64 wget amd64 1.17.1-1ubuntu1.5
-2020-03-22 19:06:35,655 IN getDebs.sh	500  Internal Server Error [IP: 103.97.84.254 80]
-2020-03-22 19:06:35,662 IN getDebs.sh	wget
-2020-03-22 19:06:42,627 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libcurl3-gnutls amd64 7.47.0-1ubuntu2.14 [184 kB]
-2020-03-22 19:06:44,621 IN getDebs.sh	Fetched 184 kB in 8s (21.5 kB/s)
-2020-03-22 19:06:44,622 IN getDebs.sh	libcurl3-gnutls
-2020-03-22 19:06:45,329 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 curl amd64 7.47.0-1ubuntu2.14 [139 kB]
-2020-03-22 19:06:46,405 IN getDebs.sh	Fetched 139 kB in 1s (98.0 kB/s)
-2020-03-22 19:06:46,406 IN getDebs.sh	curl
-2020-03-22 19:06:47,335 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libtcl8.6 amd64 8.6.5+dfsg-2 [875 kB]
-2020-03-22 19:07:00,007 IN getDebs.sh	Fetched 875 kB in 13s (66.1 kB/s)
-2020-03-22 19:07:00,008 IN getDebs.sh	libtcl8.6
-2020-03-22 19:07:01,133 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 hping3 amd64 3.a2.ds2-7 [107 kB]
-2020-03-22 19:07:02,553 IN getDebs.sh	Fetched 107 kB in 2s (50.0 kB/s)
-2020-03-22 19:07:02,554 IN getDebs.sh	hping3
-2020-03-22 19:07:03,556 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libedit2 amd64 3.1-20150325-1ubuntu2 [76.5 kB]
-2020-03-22 19:07:04,207 IN getDebs.sh	Fetched 76.5 kB in 1s (59.8 kB/s)
-2020-03-22 19:07:04,208 IN getDebs.sh	libedit2
-2020-03-22 19:07:04,895 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgssapi-krb5-2 amd64 1.13.2+dfsg-5ubuntu2.1 [120 kB]
-2020-03-22 19:07:05,750 IN getDebs.sh	Fetched 120 kB in 1s (103 kB/s)
-2020-03-22 19:07:05,751 IN getDebs.sh	libgssapi-krb5-2
-2020-03-22 19:07:06,459 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libselinux1 amd64 2.4-3build2 [55.9 kB]
-2020-03-22 19:07:06,825 IN getDebs.sh	Fetched 55.9 kB in 0s (80.0 kB/s)
-2020-03-22 19:07:06,826 IN getDebs.sh	libselinux1
-2020-03-22 19:07:07,790 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 adduser all 3.113+nmu3ubuntu4 [162 kB]
-2020-03-22 19:07:10,697 IN getDebs.sh	Fetched 162 kB in 3s (46.3 kB/s)
-2020-03-22 19:07:10,700 IN getDebs.sh	adduser
-2020-03-22 19:07:11,623 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 dpkg amd64 1.18.4ubuntu1.6 [2,085 kB]
-2020-03-22 19:07:35,132 IN getDebs.sh	Fetched 2,085 kB in 24s (86.6 kB/s)
-2020-03-22 19:07:35,136 IN getDebs.sh	dpkg
-2020-03-22 19:07:36,313 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 passwd amd64 1:4.2-3.1ubuntu5.4 [780 kB]
-2020-03-22 19:07:42,718 IN getDebs.sh	Fetched 780 kB in 7s (108 kB/s)
-2020-03-22 19:07:42,719 IN getDebs.sh	passwd
-2020-03-22 19:07:43,961 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 xauth amd64 1:1.0.9-1ubuntu2 [22.7 kB]
-2020-03-22 19:07:44,097 IN getDebs.sh	Fetched 22.7 kB in 1s (22.5 kB/s)
-2020-03-22 19:07:44,099 IN getDebs.sh	xauth
-2020-03-22 19:07:44,861 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 ssh-askpass amd64 1:1.2.4.1-9 [34.9 kB]
-2020-03-22 19:07:45,168 IN getDebs.sh	Fetched 34.9 kB in 0s (50.0 kB/s)
-2020-03-22 19:07:45,169 IN getDebs.sh	ssh-askpass
-2020-03-22 19:07:46,077 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 libpam-ssh amd64 2.1+ds1-1 [67.3 kB]
-2020-03-22 19:07:47,112 IN getDebs.sh	Fetched 67.3 kB in 1s (42.6 kB/s)
-2020-03-22 19:07:47,114 IN getDebs.sh	libpam-ssh
-2020-03-22 19:07:47,957 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 keychain all 2.8.1-0.1 [27.4 kB]
-2020-03-22 19:07:48,149 IN getDebs.sh	Fetched 27.4 kB in 0s (40.8 kB/s)
-2020-03-22 19:07:48,151 IN getDebs.sh	keychain
-2020-03-22 19:07:48,982 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 monkeysphere all 0.37-3 [68.1 kB]
-2020-03-22 19:07:49,892 IN getDebs.sh	Fetched 68.1 kB in 1s (49.6 kB/s)
-2020-03-22 19:07:49,894 IN getDebs.sh	monkeysphere
-2020-03-22 19:07:50,919 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 openssh-client amd64 1:7.2p2-4ubuntu2.8 [590 kB]
-2020-03-22 19:07:54,810 IN getDebs.sh	Fetched 590 kB in 4s (130 kB/s)
-2020-03-22 19:07:54,813 IN getDebs.sh	openssh-client
-2020-03-22 19:07:55,564 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libaudit1 amd64 1:2.4.5-1ubuntu2.1 [36.2 kB]
-2020-03-22 19:07:55,822 IN getDebs.sh	Fetched 36.2 kB in 0s (56.4 kB/s)
-2020-03-22 19:07:55,823 IN getDebs.sh	libaudit1
-2020-03-22 19:07:56,855 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libcomerr2 amd64 1.42.13-1ubuntu1.2 [65.8 kB]
-2020-03-22 19:07:57,336 IN getDebs.sh	Fetched 65.8 kB in 1s (58.1 kB/s)
-2020-03-22 19:07:57,337 IN getDebs.sh	libcomerr2
-2020-03-22 19:08:00,117 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libkrb5-3 amd64 1.13.2+dfsg-5ubuntu2.1 [273 kB]
-2020-03-22 19:08:01,741 IN getDebs.sh	Fetched 273 kB in 4s (67.7 kB/s)
-2020-03-22 19:08:01,742 IN getDebs.sh	libkrb5-3
-2020-03-22 19:08:04,087 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpam0g amd64 1.1.8-3.2ubuntu2.1 [55.6 kB]
-2020-03-22 19:08:04,429 IN getDebs.sh	Fetched 55.6 kB in 2s (24.8 kB/s)
-2020-03-22 19:08:04,430 IN getDebs.sh	libpam0g
-2020-03-22 19:08:06,133 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libsystemd0 amd64 229-4ubuntu21.27 [205 kB]
-2020-03-22 19:08:07,630 IN getDebs.sh	Fetched 205 kB in 2s (73.4 kB/s)
-2020-03-22 19:08:07,632 IN getDebs.sh	libsystemd0
-2020-03-22 19:08:08,323 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libwrap0 amd64 7.6.q-25 [46.2 kB]
-2020-03-22 19:08:08,699 IN getDebs.sh	Fetched 46.2 kB in 0s (66.7 kB/s)
-2020-03-22 19:08:08,701 IN getDebs.sh	libwrap0
-2020-03-22 19:08:09,413 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 debconf all 1.5.58ubuntu2 [136 kB]
-2020-03-22 19:08:10,365 IN getDebs.sh	Fetched 136 kB in 1s (105 kB/s)
-2020-03-22 19:08:10,367 IN getDebs.sh	debconf
-2020-03-22 19:08:10,729 IN getDebs.sh	debconf-2.0
-2020-03-22 19:08:11,708 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 init-system-helpers all 1.29ubuntu4 [32.3 kB]
-2020-03-22 19:08:12,467 IN getDebs.sh	Fetched 32.3 kB in 1s (23.9 kB/s)
-2020-03-22 19:08:12,468 IN getDebs.sh	init-system-helpers
-2020-03-22 19:08:13,542 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 lsb-base all 9.20160110ubuntu0.2 [13.7 kB]
-2020-03-22 19:08:13,564 IN getDebs.sh	Fetched 13.7 kB in 0s (19.3 kB/s)
-2020-03-22 19:08:13,566 IN getDebs.sh	lsb-base
-2020-03-22 19:08:14,284 IN getDebs.sh	Err:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 libpam-runtime all 1.1.8-3.2ubuntu2.1
-2020-03-22 19:08:14,284 IN getDebs.sh	500  Internal Server Error [IP: 103.97.84.254 80]
-2020-03-22 19:08:14,568 IN getDebs.sh	Err:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 libpam-runtime all 1.1.8-3.2ubuntu2.1
-2020-03-22 19:08:14,568 IN getDebs.sh	500  Internal Server Error [IP: 103.97.84.254 80]
-2020-03-22 19:08:14,573 IN getDebs.sh	libpam-runtime
-2020-03-22 19:08:15,340 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpam-modules amd64 1.1.8-3.2ubuntu2.1 [244 kB]
-2020-03-22 19:08:17,672 IN getDebs.sh	Fetched 244 kB in 2s (92.8 kB/s)
-2020-03-22 19:08:17,673 IN getDebs.sh	libpam-modules
-2020-03-22 19:08:18,385 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 procps amd64 2:3.3.10-4ubuntu2.4 [222 kB]
-2020-03-22 19:08:19,764 IN getDebs.sh	Fetched 222 kB in 1s (131 kB/s)
-2020-03-22 19:08:19,766 IN getDebs.sh	procps
-2020-03-22 19:08:20,471 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 openssh-sftp-server amd64 1:7.2p2-4ubuntu2.8 [38.9 kB]
-2020-03-22 19:08:20,741 IN getDebs.sh	Fetched 38.9 kB in 0s (65.5 kB/s)
-2020-03-22 19:08:20,742 IN getDebs.sh	openssh-sftp-server
-2020-03-22 19:08:21,798 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 ncurses-term all 6.0+20160213-1ubuntu1 [249 kB]
-2020-03-22 19:08:24,020 IN getDebs.sh	Fetched 249 kB in 2s (87.9 kB/s)
-2020-03-22 19:08:24,021 IN getDebs.sh	ncurses-term
-2020-03-22 19:08:25,144 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 ssh-import-id all 5.5-0ubuntu1 [10.2 kB]
-2020-03-22 19:08:25,163 IN getDebs.sh	Fetched 10.2 kB in 0s (15.8 kB/s)
-2020-03-22 19:08:25,167 IN getDebs.sh	ssh-import-id
-2020-03-22 19:08:26,077 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 rssh amd64 2.3.4-4+deb8u2ubuntu0.16.04.2 [48.1 kB]
-2020-03-22 19:08:26,577 IN getDebs.sh	Fetched 48.1 kB in 1s (47.6 kB/s)
-2020-03-22 19:08:26,580 IN getDebs.sh	rssh
-2020-03-22 19:08:27,281 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 molly-guard all 0.6.3 [12.7 kB]
-2020-03-22 19:08:27,304 IN getDebs.sh	Fetched 12.7 kB in 0s (37.2 kB/s)
-2020-03-22 19:08:27,307 IN getDebs.sh	molly-guard
-2020-03-22 19:08:28,452 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 ufw all 0.35-0ubuntu2 [149 kB]
-2020-03-22 19:08:29,516 IN getDebs.sh	Fetched 149 kB in 1s (85.1 kB/s)
-2020-03-22 19:08:29,517 IN getDebs.sh	ufw
-2020-03-22 19:08:30,200 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 openssh-server amd64 1:7.2p2-4ubuntu2.8 [335 kB]
-2020-03-22 19:08:33,646 IN getDebs.sh	Fetched 335 kB in 3s (89.0 kB/s)
-2020-03-22 19:08:33,647 IN getDebs.sh	openssh-server
-2020-03-22 19:08:34,892 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgd3 amd64 2.1.1-4ubuntu0.16.04.11 [126 kB]
-2020-03-22 19:08:35,927 IN getDebs.sh	Fetched 126 kB in 1s (66.9 kB/s)
-2020-03-22 19:08:35,928 IN getDebs.sh	libgd3
-2020-03-22 19:08:37,002 IN getDebs.sh	Get:1 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 fswebcam amd64 20140113-1 [43.9 kB]
-2020-03-22 19:08:37,826 IN getDebs.sh	Fetched 43.9 kB in 1s (28.7 kB/s)
-2020-03-22 19:08:37,829 IN getDebs.sh	fswebcam
-2020-03-22 19:08:38,395 Installing Packages...install.sh
-2020-03-22 19:08:38,680 IN install.sh	python3-minimal Already Present
-2020-03-22 19:08:38,716 IN install.sh	python3.5 Already Present
-2020-03-22 19:08:38,759 IN install.sh	libpython3-stdlib Already Present
-2020-03-22 19:08:38,807 IN install.sh	dh-python Already Present
-2020-03-22 19:08:38,872 IN install.sh	python3-doc Not there..Installing
-2020-03-22 19:08:39,146 IN install.sh	Selecting previously unselected package python3-doc.
-2020-03-22 19:08:39,287 IN install.sh	(Reading database ... 220706 files and directories currently installed.)
-2020-03-22 19:08:39,301 IN install.sh	Preparing to unpack python3-doc_3.5.1-3_all.deb ...
-2020-03-22 19:08:39,368 IN install.sh	Unpacking python3-doc (3.5.1-3) ...
-2020-03-22 19:08:39,840 IN install.sh	python3-tk Not there..Installing
-2020-03-22 19:08:39,978 IN install.sh	Selecting previously unselected package python3-tk.
-2020-03-22 19:08:40,065 IN install.sh	(Reading database ... 220712 files and directories currently installed.)
-2020-03-22 19:08:40,074 IN install.sh	Preparing to unpack python3-tk_3.5.1-1_amd64.deb ...
-2020-03-22 19:08:40,133 IN install.sh	Unpacking python3-tk (3.5.1-1) ...
-2020-03-22 19:08:40,582 IN install.sh	python3-venv Not there..Installing
-2020-03-22 19:08:40,676 IN install.sh	Selecting previously unselected package python3-venv.
-2020-03-22 19:08:40,761 IN install.sh	(Reading database ... 220718 files and directories currently installed.)
-2020-03-22 19:08:40,770 IN install.sh	Preparing to unpack python3-venv_3.5.1-3_amd64.deb ...
-2020-03-22 19:08:40,830 IN install.sh	Unpacking python3-venv (3.5.1-3) ...
-2020-03-22 19:08:41,193 IN install.sh	Processing triggers for man-db (2.7.5-1) ...
-2020-03-22 19:08:42,315 IN install.sh	python3 Already Present
-2020-03-22 19:08:42,345 IN install.sh	libc6 Already Present
-2020-03-22 19:08:42,376 IN install.sh	libgcc1 Already Present
-2020-03-22 19:08:42,408 IN install.sh	liblinear3 Already Present
-2020-03-22 19:08:42,445 IN install.sh	liblua5.2-0 Already Present
-2020-03-22 19:08:42,473 IN install.sh	libpcap0.8 Already Present
-2020-03-22 19:08:42,501 IN install.sh	libpcre3 Already Present
-2020-03-22 19:08:42,529 IN install.sh	libssl1.0.0 Already Present
-2020-03-22 19:08:42,557 IN install.sh	libstdc++6 Already Present
-2020-03-22 19:08:42,593 IN install.sh	lua-lpeg Already Present
-2020-03-22 19:08:42,621 IN install.sh	ndiff Already Present
-2020-03-22 19:08:42,654 IN install.sh	nmap Already Present
-2020-03-22 19:08:42,687 IN install.sh	libidn11 Already Present
-2020-03-22 19:08:42,724 IN install.sh	libuuid1 Already Present
-2020-03-22 19:08:42,753 IN install.sh	zlib1g Already Present
-2020-03-22 19:08:42,782 IN install.sh	ca-certificates Already Present
-2020-03-22 19:08:42,817 IN install.sh	wget Already Present
-2020-03-22 19:08:42,846 IN install.sh	libcurl3-gnutls Already Present
-2020-03-22 19:08:42,874 IN install.sh	curl Already Present
-2020-03-22 19:08:42,902 IN install.sh	libtcl8.6 Already Present
-2020-03-22 19:08:42,932 IN install.sh	hping3 Not there..Installing
-2020-03-22 19:08:43,078 IN install.sh	Selecting previously unselected package hping3.
-2020-03-22 19:08:43,167 IN install.sh	(Reading database ... 220721 files and directories currently installed.)
-2020-03-22 19:08:43,176 IN install.sh	Preparing to unpack hping3_3.a2.ds2-7_amd64.deb ...
-2020-03-22 19:08:43,232 IN install.sh	Unpacking hping3 (3.a2.ds2-7) ...
-2020-03-22 19:08:43,641 IN install.sh	Setting up hping3 (3.a2.ds2-7) ...
-2020-03-22 19:08:43,863 IN install.sh	Processing triggers for man-db (2.7.5-1) ...
-2020-03-22 19:08:44,836 IN install.sh	libedit2 Already Present
-2020-03-22 19:08:44,866 IN install.sh	libgssapi-krb5-2 Already Present
-2020-03-22 19:08:44,895 IN install.sh	libselinux1 Already Present
-2020-03-22 19:08:44,946 IN install.sh	adduser Already Present
-2020-03-22 19:08:44,991 IN install.sh	dpkg Already Present
-2020-03-22 19:08:45,047 IN install.sh	passwd Already Present
-2020-03-22 19:08:45,084 IN install.sh	xauth Already Present
-2020-03-22 19:08:45,117 IN install.sh	ssh-askpass Not there..Installing
-2020-03-22 19:08:45,384 IN install.sh	Selecting previously unselected package ssh-askpass.
-2020-03-22 19:08:45,486 IN install.sh	(Reading database ... 220751 files and directories currently installed.)
-2020-03-22 19:08:45,496 IN install.sh	Preparing to unpack ssh-askpass_1%3a1.2.4.1-9_amd64.deb ...
-2020-03-22 19:08:45,561 IN install.sh	Unpacking ssh-askpass (1:1.2.4.1-9) ...
-2020-03-22 19:08:45,948 IN install.sh	Setting up ssh-askpass (1:1.2.4.1-9) ...
-2020-03-22 19:08:46,158 IN install.sh	update-alternatives: using /usr/lib/ssh/x11-ssh-askpass to provide /usr/bin/ssh-askpass (ssh-askpass) in auto mode
-2020-03-22 19:08:46,295 IN install.sh	Processing triggers for man-db (2.7.5-1) ...
-2020-03-22 19:08:46,959 IN install.sh	libpam-ssh Not there..Installing
-2020-03-22 19:08:47,210 IN install.sh	Selecting previously unselected package libpam-ssh.
-2020-03-22 19:08:47,297 IN install.sh	(Reading database ... 220767 files and directories currently installed.)
-2020-03-22 19:08:47,306 IN install.sh	Preparing to unpack libpam-ssh_2.1+ds1-1_amd64.deb ...
-2020-03-22 19:08:47,376 IN install.sh	Unpacking libpam-ssh (2.1+ds1-1) ...
-2020-03-22 19:08:47,772 IN install.sh	Setting up libpam-ssh (2.1+ds1-1) ...
-2020-03-22 19:08:49,459 IN install.sh	Processing triggers for man-db (2.7.5-1) ...
-2020-03-22 19:08:49,980 IN install.sh	keychain Not there..Installing
-2020-03-22 19:08:50,106 IN install.sh	Selecting previously unselected package keychain.
-2020-03-22 19:08:50,195 IN install.sh	(Reading database ... 220777 files and directories currently installed.)
-2020-03-22 19:08:50,204 IN install.sh	Preparing to unpack keychain_2.8.1-0.1_all.deb ...
-2020-03-22 19:08:50,260 IN install.sh	Unpacking keychain (2.8.1-0.1) ...
-2020-03-22 19:08:50,556 IN install.sh	Setting up keychain (2.8.1-0.1) ...
-2020-03-22 19:08:50,725 IN install.sh	Processing triggers for man-db (2.7.5-1) ...
-2020-03-22 19:08:51,342 IN install.sh	monkeysphere Not there..Installing
-2020-03-22 19:08:51,573 IN install.sh	Selecting previously unselected package monkeysphere.
-2020-03-22 19:08:51,662 IN install.sh	(Reading database ... 220785 files and directories currently installed.)
-2020-03-22 19:08:51,671 IN install.sh	Preparing to unpack monkeysphere_0.37-3_all.deb ...
-2020-03-22 19:08:51,727 IN install.sh	Unpacking monkeysphere (0.37-3) ...
-2020-03-22 19:08:52,060 IN install.sh	Processing triggers for man-db (2.7.5-1) ...
-2020-03-22 19:08:52,955 IN install.sh	openssh-client Already Present
-2020-03-22 19:08:52,982 IN install.sh	libaudit1 Already Present
-2020-03-22 19:08:53,010 IN install.sh	libcomerr2 Already Present
-2020-03-22 19:08:53,040 IN install.sh	libkrb5-3 Already Present
-2020-03-22 19:08:53,070 IN install.sh	libpam0g Already Present
-2020-03-22 19:08:53,101 IN install.sh	libsystemd0 Already Present
-2020-03-22 19:08:53,130 IN install.sh	libwrap0 Already Present
-2020-03-22 19:08:53,158 IN install.sh	debconf Already Present
-2020-03-22 19:08:53,189 IN install.sh	debconf-2.0 Not there..Installing
-2020-03-22 19:08:53,343 IN install.sh	init-system-helpers Already Present
-2020-03-22 19:08:53,370 IN install.sh	lsb-base Already Present
-2020-03-22 19:08:53,398 IN install.sh	libpam-runtime Already Present
-2020-03-22 19:08:53,426 IN install.sh	libpam-modules Already Present
-2020-03-22 19:08:53,454 IN install.sh	procps Already Present
-2020-03-22 19:08:53,482 IN install.sh	openssh-sftp-server Already Present
-2020-03-22 19:08:53,510 IN install.sh	ncurses-term Already Present
-2020-03-22 19:08:53,538 IN install.sh	ssh-import-id Already Present
-2020-03-22 19:08:53,565 IN install.sh	rssh Not there..Installing
-2020-03-22 19:08:53,921 IN install.sh	Selecting previously unselected package rssh.
-2020-03-22 19:08:54,008 IN install.sh	(Reading database ... 220850 files and directories currently installed.)
-2020-03-22 19:08:54,017 IN install.sh	Preparing to unpack rssh_2.3.4-4+deb8u2ubuntu0.16.04.2_amd64.deb ...
-2020-03-22 19:08:54,086 IN install.sh	Unpacking rssh (2.3.4-4+deb8u2ubuntu0.16.04.2) ...
-2020-03-22 19:08:54,439 IN install.sh	Setting up rssh (2.3.4-4+deb8u2ubuntu0.16.04.2) ...
-2020-03-22 19:08:55,056 IN install.sh	Processing triggers for man-db (2.7.5-1) ...
-2020-03-22 19:08:55,968 IN install.sh	molly-guard Not there..Installing
-2020-03-22 19:08:56,193 IN install.sh	Selecting previously unselected package molly-guard.
-2020-03-22 19:08:56,278 IN install.sh	(Reading database ... 220870 files and directories currently installed.)
-2020-03-22 19:08:56,287 IN install.sh	Preparing to unpack molly-guard_0.6.3_all.deb ...
-2020-03-22 19:08:56,392 IN install.sh	No diversion 'diversion of /sbin/pm-hibernate by molly-guard', none removed.
-2020-03-22 19:08:56,418 IN install.sh	No diversion 'diversion of /sbin/pm-suspend by molly-guard', none removed.
-2020-03-22 19:08:56,445 IN install.sh	No diversion 'diversion of /sbin/pm-suspend-hybrid by molly-guard', none removed.
-2020-03-22 19:08:56,472 IN install.sh	Adding 'diversion of /sbin/halt to /lib/molly-guard/halt by molly-guard'
-2020-03-22 19:08:56,575 IN install.sh	Adding 'diversion of /sbin/poweroff to /lib/molly-guard/poweroff by molly-guard'
-2020-03-22 19:08:56,645 IN install.sh	Adding 'diversion of /sbin/reboot to /lib/molly-guard/reboot by molly-guard'
-2020-03-22 19:08:56,710 IN install.sh	Adding 'diversion of /sbin/shutdown to /lib/molly-guard/shutdown by molly-guard'
-2020-03-22 19:08:56,768 IN install.sh	Adding 'diversion of /sbin/coldreboot to /lib/molly-guard/coldreboot by molly-guard'
-2020-03-22 19:08:56,826 IN install.sh	Unpacking molly-guard (0.6.3) ...
-2020-03-22 19:08:57,264 IN install.sh	Setting up molly-guard (0.6.3) ...
-2020-03-22 19:08:57,613 IN install.sh	Processing triggers for man-db (2.7.5-1) ...
-2020-03-22 19:08:58,152 IN install.sh	ufw Already Present
-2020-03-22 19:08:58,181 IN install.sh	openssh-server Already Present
-2020-03-22 19:08:58,208 IN install.sh	libgd3 Already Present
-2020-03-22 19:08:58,236 IN install.sh	fswebcam Not there..Installing
-2020-03-22 19:08:58,347 IN install.sh	Selecting previously unselected package fswebcam.
-2020-03-22 19:08:58,435 IN install.sh	(Reading database ... 220892 files and directories currently installed.)
-2020-03-22 19:08:58,444 IN install.sh	Preparing to unpack fswebcam_20140113-1_amd64.deb ...
-2020-03-22 19:08:58,492 IN install.sh	Unpacking fswebcam (20140113-1) ...
-2020-03-22 19:08:58,833 IN install.sh	Setting up fswebcam (20140113-1) ...
-2020-03-22 19:08:59,011 IN install.sh	Processing triggers for man-db (2.7.5-1) ...
-2020-03-22 19:08:59,596 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-03-22 19:08:59,605 http://192.168.1.18:5000 "GET /setloaded/192.168.1.18 HTTP/1.1" 200 18
-2020-03-22 19:08:59,608 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-03-22 19:08:59,613 http://192.168.1.18:5000 "POST /storeDirectory/192.168.1.18 HTTP/1.1" 200 18
-2020-03-22 19:08:59,614 Loaded 192.168.1.18
-2020-03-22 19:09:09,624 querying DB...
-2020-03-22 19:09:09,626 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-03-22 19:09:09,629 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-22 19:09:19,639 querying DB...
-2020-03-22 19:09:19,641 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-03-22 19:09:19,646 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-22 19:09:29,653 querying DB...
-2020-03-22 19:09:29,655 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-03-22 19:09:29,657 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-22 19:09:39,668 querying DB...
-2020-03-22 19:09:39,670 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-03-22 19:09:39,674 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-22 19:09:49,685 querying DB...
-2020-03-22 19:09:49,687 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-03-22 19:09:49,689 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-22 19:09:59,700 querying DB...
-2020-03-22 19:09:59,702 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-03-22 19:09:59,706 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-22 19:10:09,715 querying DB...
-2020-03-22 19:10:09,717 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-03-22 19:10:09,720 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-22 19:10:19,730 querying DB...
-2020-03-22 19:10:19,733 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-03-22 19:10:19,736 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-22 19:10:29,745 querying DB...
-2020-03-22 19:10:29,747 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-03-22 19:10:29,750 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-22 19:10:39,761 querying DB...
-2020-03-22 19:10:39,763 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-03-22 19:10:39,766 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-22 19:10:49,776 querying DB...
-2020-03-22 19:10:49,779 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-03-22 19:10:49,782 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-22 19:10:59,790 querying DB...
-2020-03-22 19:10:59,792 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-03-22 19:10:59,794 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-22 19:11:09,804 querying DB...
-2020-03-22 19:11:09,806 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-03-22 19:11:09,810 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-03-22 19:11:19,821 querying DB...
-2020-03-22 19:11:19,822 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-03-22 19:11:19,825 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-03-29 18:01:19,153 querying DB...
+2020-03-29 18:01:19,156 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-03-29 18:01:19,159 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 156
+2020-03-29 18:01:19,159 192.168.1.18
+2020-03-29 18:01:19,363 None
+2020-03-29 18:01:19,364 Directory Name: amd64_4.4.0-174-generic_Ubuntu_ubuntu_xenial_16.04
+2020-03-29 18:01:19,364 Pushing Packages...moveDebs.sh
+2020-03-29 18:01:20,164 Installing Packages...install.sh
+2020-03-29 18:01:20,406 IN install.sh	python3-minimal Already Present
+2020-03-29 18:01:20,432 IN install.sh	python3.5 Already Present
+2020-03-29 18:01:20,458 IN install.sh	libpython3-stdlib Already Present
+2020-03-29 18:01:20,484 IN install.sh	dh-python Already Present
+2020-03-29 18:01:20,510 IN install.sh	python3-doc Already Present
+2020-03-29 18:01:20,537 IN install.sh	python3-tk Already Present
+2020-03-29 18:01:20,563 IN install.sh	python3-venv Already Present
+2020-03-29 18:01:20,589 IN install.sh	python3 Already Present
+2020-03-29 18:01:20,624 IN install.sh	libc6 Already Present
+2020-03-29 18:01:20,652 IN install.sh	libgcc1 Already Present
+2020-03-29 18:01:20,678 IN install.sh	liblinear3 Already Present
+2020-03-29 18:01:20,704 IN install.sh	liblua5.2-0 Already Present
+2020-03-29 18:01:20,730 IN install.sh	libpcap0.8 Already Present
+2020-03-29 18:01:20,756 IN install.sh	libpcre3 Already Present
+2020-03-29 18:01:20,795 IN install.sh	libssl1.0.0 Already Present
+2020-03-29 18:01:20,853 IN install.sh	libstdc++6 Already Present
+2020-03-29 18:01:20,892 IN install.sh	lua-lpeg Already Present
+2020-03-29 18:01:20,939 IN install.sh	ndiff Already Present
+2020-03-29 18:01:20,969 IN install.sh	nmap Already Present
+2020-03-29 18:01:20,995 IN install.sh	libidn11 Already Present
+2020-03-29 18:01:21,022 IN install.sh	libuuid1 Already Present
+2020-03-29 18:01:21,048 IN install.sh	zlib1g Already Present
+2020-03-29 18:01:21,075 IN install.sh	ca-certificates Already Present
+2020-03-29 18:01:21,102 IN install.sh	wget Already Present
+2020-03-29 18:01:21,131 IN install.sh	libcurl3-gnutls Already Present
+2020-03-29 18:01:21,157 IN install.sh	curl Already Present
+2020-03-29 18:01:21,183 IN install.sh	libtcl8.6 Already Present
+2020-03-29 18:01:21,210 IN install.sh	hping3 Already Present
+2020-03-29 18:01:21,237 IN install.sh	libedit2 Already Present
+2020-03-29 18:01:21,265 IN install.sh	libgssapi-krb5-2 Already Present
+2020-03-29 18:01:21,292 IN install.sh	libselinux1 Already Present
+2020-03-29 18:01:21,319 IN install.sh	adduser Already Present
+2020-03-29 18:01:21,345 IN install.sh	dpkg Already Present
+2020-03-29 18:01:21,372 IN install.sh	passwd Already Present
+2020-03-29 18:01:21,398 IN install.sh	xauth Already Present
+2020-03-29 18:01:21,425 IN install.sh	ssh-askpass Already Present
+2020-03-29 18:01:21,450 IN install.sh	libpam-ssh Already Present
+2020-03-29 18:01:21,477 IN install.sh	keychain Already Present
+2020-03-29 18:01:21,503 IN install.sh	monkeysphere Already Present
+2020-03-29 18:01:21,530 IN install.sh	openssh-client Already Present
+2020-03-29 18:01:21,556 IN install.sh	libaudit1 Already Present
+2020-03-29 18:01:21,582 IN install.sh	libcomerr2 Already Present
+2020-03-29 18:01:21,608 IN install.sh	libkrb5-3 Already Present
+2020-03-29 18:01:21,635 IN install.sh	libpam0g Already Present
+2020-03-29 18:01:21,661 IN install.sh	libsystemd0 Already Present
+2020-03-29 18:01:21,688 IN install.sh	libwrap0 Already Present
+2020-03-29 18:01:21,714 IN install.sh	debconf Already Present
+2020-03-29 18:01:21,741 IN install.sh	debconf-2.0 Not there..Installing
+2020-03-29 18:01:22,056 IN install.sh	init-system-helpers Already Present
+2020-03-29 18:01:22,082 IN install.sh	lsb-base Already Present
+2020-03-29 18:01:22,108 IN install.sh	libpam-runtime Already Present
+2020-03-29 18:01:22,135 IN install.sh	libpam-modules Already Present
+2020-03-29 18:01:22,161 IN install.sh	procps Already Present
+2020-03-29 18:01:22,187 IN install.sh	openssh-sftp-server Already Present
+2020-03-29 18:01:22,214 IN install.sh	ncurses-term Already Present
+2020-03-29 18:01:22,240 IN install.sh	ssh-import-id Already Present
+2020-03-29 18:01:22,267 IN install.sh	rssh Already Present
+2020-03-29 18:01:22,293 IN install.sh	molly-guard Already Present
+2020-03-29 18:01:22,319 IN install.sh	ufw Already Present
+2020-03-29 18:01:22,346 IN install.sh	openssh-server Already Present
+2020-03-29 18:01:22,372 IN install.sh	libgd3 Already Present
+2020-03-29 18:01:22,398 IN install.sh	fswebcam Already Present
+2020-03-29 18:01:22,399 loading bot code...load.sh
+2020-03-29 18:01:23,001 IN load.sh	done
+2020-03-29 18:01:23,002 IN load.sh	satya
+2020-03-29 18:01:28,002 IN load.sh	satya
+2020-03-29 18:01:33,003 IN load.sh	satya
+2020-03-29 18:01:38,004 IN load.sh	satya
+2020-03-29 18:01:43,005 IN load.sh	satya
+2020-03-29 18:01:48,007 IN load.sh	satya
+2020-03-29 18:01:53,007 IN load.sh	satya
+2020-03-29 18:01:58,009 IN load.sh	satya
+2020-03-29 18:02:03,011 IN load.sh	satya
+2020-03-29 18:02:08,013 IN load.sh	satya
+2020-03-29 18:02:13,013 IN load.sh	satya
+2020-03-29 18:02:18,014 IN load.sh	satya
+2020-03-29 18:02:23,015 IN load.sh	satya
+2020-03-29 18:02:28,017 IN load.sh	satya
+2020-03-29 18:02:33,018 IN load.sh	satya
+2020-03-29 18:02:38,019 IN load.sh	satya
+2020-03-29 18:02:43,020 IN load.sh	satya
+2020-03-29 18:02:48,021 IN load.sh	satya
+2020-03-29 18:02:53,022 IN load.sh	satya
+2020-03-29 18:02:58,023 IN load.sh	satya
+2020-03-29 18:03:03,023 IN load.sh	satya
+2020-03-29 18:03:08,025 IN load.sh	satya
+2020-03-29 18:03:13,026 IN load.sh	satya
+2020-03-29 18:03:18,027 IN load.sh	satya
+2020-03-29 18:03:23,028 IN load.sh	satya
+2020-03-29 18:03:28,029 IN load.sh	satya
+2020-03-29 18:03:33,030 IN load.sh	satya
+2020-03-29 18:03:38,031 IN load.sh	satya
+2020-03-29 18:03:43,032 IN load.sh	satya
+2020-03-29 18:03:48,033 IN load.sh	satya

