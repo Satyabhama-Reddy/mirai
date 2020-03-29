@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+              .hide { position:absolute; top:-10px; left:-10px; width:1px; height:1px; }
+            table {
+              border-collapse: collapse;
+              width: 100%;
+            }
+            
+            th, td {
+              text-align: left;
+              padding: 8px;
+            }
+            
+            tr:nth-child(even){background-color: #f2f2f2}
+            
+            th {
+              background-color: #4CAF50;
+              color: white;
+              text-align: center;
+            }
+            .button {
+                border: none;
+                color: white;
+                text-align: center;
+                text-decoration: none;
+                cursor: pointer;
+                padding: 10px;
+                }
+                .buttonr {
+                text-align: center;
+                text-decoration: none;
+                cursor: pointer;
+                padding: 10px;
+                margin: 20px;
+                float: right;
+                }
+            .button3 {background-color: #f44336;
+            margin-left :40%;} /* Red */ 
+
+            </style>
+    </head>
+   <body onload="periodic_refresh()">
+    <div style="overflow-x:auto;">
+      <table border=1>
+        <tr>
+         {% for head in heads %}
+                <th>{{ head }}</th>
+         {% endfor %}
+         <th>Remove</th>
+        </tr>
+        {% for bot in bots %}
+        <tr>
+            {% for head in heads %}
+                <td>{{ bot[head] }}</td>
+            {% endfor %}
+            <td>
+                <button class="button button3"  onclick="submit('/removeBot/{{ bot.ip }}')">X</button>
+            </td>
+        </tr>
+        {% endfor %}
+         <!-- {'1': {'username': 'satya', 'directoryName': '', 'password': 'satya', 'loaded': 0, 'ip': '192.168.1.18', 'botId': 87}} -->
+      </table>
+      </div>
+      <button class="buttonr"  onclick="reset()">Reset DB</button>
+      <script>
+            function submit(url){
+                const http = new XMLHttpRequest();
+                http.open("GET",url);
+                http.send();
+                http.onreadystatechange = (e)=> {
+                    console.log(http.responseText);
+                    window.location.reload(true);
+                }
+            }
+            function periodic_refresh(){
+                var id = setInterval(function(){window.location.reload(true);},5000);
+            }
+            function reset(){
+                url = "/resetDB"
+                const http = new XMLHttpRequest();
+                http.open("GET",url);
+                http.send();
+                http.onreadystatechange = (e)=> {
+                    console.log(http.responseText);
+                    window.location.reload(true);
+                }
+            }
+    </script>
+   </body>
+   <iframe name="hiddenFrame" class="hide"></iframe>
+
+</html>

