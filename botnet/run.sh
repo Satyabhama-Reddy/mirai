@@ -41,7 +41,7 @@ nwscan()
 }
 
 
-# brute force try to ssh into the machine
+# brute force try to ssh into the machine main function
 sshTry()
 {
 	INPUT=password.csv
