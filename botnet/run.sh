@@ -1,5 +1,7 @@
 #!/bin/bash
+
 rm userPassIPFile.txt
+
 if [ $# -le 0 ]
 then
 	echo "please enter the IP ID in the form of x.x.x"
@@ -22,6 +24,21 @@ else
 	echo "trying with $ip.0/24"
 fi
 
+is_alive_ping()
+{
+  ping -c 1 $1 > /dev/null
+  [ $? -eq 0 ] && echo $i
+}
+
+
+nwscan()
+{
+for i in $1{2..254}
+do
+is_alive_ping $i & disown
+done
+}
+
 n=1
 k=1
 while (($n <=5 ))
@@ -32,7 +49,7 @@ echo "running the script for the $k th time"
 echo ""
 echo ""
 echo "Scanning the Network"
-./nwscan.sh $ip > ips.txt
+nwscan $ip > ips.txt
 echo ""
 echo ""
 echo "Devices on the network"
