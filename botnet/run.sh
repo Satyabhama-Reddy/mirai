@@ -55,7 +55,7 @@ sshTry()
 	[ ! -f $INPUT ] && { echo "$INPUT file not found"; exit 99; }
 	while read username password
 	do
-		trap 'echo ""; echo"" ;echo "Skipped by the user"; echo"";echo "exiting this $1";exit 0' INT
+		trap 'echo ""; echo"" ;echo "Skipped by the user"; echo"";echo "exiting this $1";return' INT
 		uname=$username
 		pass=$password
 		echo "trying $username and $password."
