@@ -1,4 +1,4 @@
-. ~/predownload/.config_file
+. ~/predownload/.config
 while [ 1 ]
 do
     echo $var1

