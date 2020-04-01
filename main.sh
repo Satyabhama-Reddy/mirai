@@ -49,3 +49,23 @@ echo "The PiD for the server Process"
 lsof -i:10000
 echo ""
 
+
+
+echo "Server Log"
+tail -n 10 ./logs/victim.log
+echo ""
+
+echo "Run Log"
+tail -n 10 ./logs/victim.log
+echo ""
+
+echo "Loader Log"
+tail -n 10 ./logs/victim.log
+echo ""
+
+echo "victim Log"
+tail -n 10 ./logs/victim.log
+echo ""
+
+
+
