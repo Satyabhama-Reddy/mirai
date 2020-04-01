@@ -8,7 +8,7 @@ import string
 import random
   
 #Create and configure logger 
-logging.basicConfig(filename="../../logs/loader.log", 
+logging.basicConfig(filename="./logs/loader.log", 
                     format='%(asctime)s %(message)s', 
                     filemode='w') 
   

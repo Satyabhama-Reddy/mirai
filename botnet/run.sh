@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ../.config
+source ./.config
 
 val=""
 echo $destIP > temp.txt
