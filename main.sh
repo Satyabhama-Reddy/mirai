@@ -30,7 +30,11 @@ nohup python installer.py &
 
 cd ../botnet
 
-./run.sh
+nohup ./run.sh &
+
+cd ../logs
+
+tail -f loader.log
 
 sleep 2
 
