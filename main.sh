@@ -50,6 +50,7 @@ lsof -i:10000
 echo ""
 
 
+sleep 10
 
 echo "Server Log"
 tail -n 10 ./logs/victim.log
