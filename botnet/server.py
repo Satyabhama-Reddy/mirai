@@ -6,8 +6,12 @@ from collections import Counter
 import subprocess
 import threading
 from datetime import datetime
+import logging
+
+logging.basicConfig(filename='./logs/server.log',level=logging.DEBUG)
 
 app = Flask(__name__)
+
 CORS(app)
 
 def execute(cmd):
