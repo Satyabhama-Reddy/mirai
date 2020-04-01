@@ -49,10 +49,3 @@ echo "The PiD for the server Process"
 lsof -i:10000
 echo ""
 
-
-cd ../logs
-
-tail -f loader.log
-
-sleep 2
-
