@@ -31,7 +31,7 @@ echo ""
 echo "Starting the loader"
 nohup python ./loader/install/installer.py &
 echo "Loader booted"
-echo "Find the logs in <project root>/logs/server.log"
+echo "Find the logs in <project root>/logs/loader.log"
 
 
 echo "staring the run.sh process"

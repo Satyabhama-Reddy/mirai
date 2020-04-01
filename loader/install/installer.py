@@ -19,7 +19,7 @@ logger=logging.getLogger()
 ip = "127.0.0.1"
 port = "5000" 
 logger.setLevel(logging.DEBUG) 
-with open("../../.config","r") as f:
+with open("./.config","r") as f:
     for line in f:
         k,v=line.strip().split("=")
         k = k.strip()
