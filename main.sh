@@ -41,7 +41,7 @@ echo "Find the logs in <project root>/logs/run.log"
 
 echo "Starting the victim server"
 echo ""
-nohup python ./victim/victim.py > ./logs/vivtim.log 2>&1 &
+nohup python ./victim/victim.py > ./logs/victim.log 2>&1 &
 echo "The victim Server is up and running"
 echo "Find the logs in <project root>/logs/victim.log"
 echo ""
