@@ -4,7 +4,7 @@ from flask import abort
 import time
 count = 1
 app = Flask(__name__) 
-  
+
 @app.route('/') 
 def hello_world(): 
     global count

