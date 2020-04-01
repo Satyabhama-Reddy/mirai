@@ -8,7 +8,7 @@ import string
 import random
   
 #Create and configure logger 
-logging.basicConfig(filename="../../logs/loader.log", 
+logging.basicConfig(filename="logs/loader.log", 
                     format='%(asctime)s %(message)s', 
                     filemode='w') 
   
@@ -19,7 +19,7 @@ logger=logging.getLogger()
 ip = "127.0.0.1"
 port = "5000" 
 logger.setLevel(logging.DEBUG) 
-with open("../../.config","r") as f:
+with open(".config","r") as f:
     for line in f:
         k,v=line.strip().split("=")
         k = k.strip()
@@ -45,10 +45,10 @@ def execute(cmd):
     if return_code:
         raise subprocess.CalledProcessError(return_code, cmd)
 
-
+path = "loader/install/"
 def load(system):
     logger.info(system["ip"])
-    out = subprocess.Popen(['sh', 'getOS.sh', system["username"],system["password"],system["ip"]], 
+    out = subprocess.Popen(['sh', path+'getOS.sh', system["username"],system["password"],system["ip"]], 
            stdout=subprocess.PIPE, 
            stderr=subprocess.STDOUT)
     out.wait()
@@ -79,22 +79,22 @@ def load(system):
     directoryName=directoryName.replace(" ", "")
     directoryName=directoryName.replace("/", "")
     logger.info("Directory Name: "+directoryName)
-    if(directoryName not in os.listdir("debs")):
+    if(directoryName not in os.listdir(path+"debs")):
         logger.info("Downloading Packages...getDebs.sh")
-        for line in execute(['sh', 'getDebs.sh', system["username"],system["password"],system["ip"],directoryName]):
+        for line in execute(['sh', path+'getDebs.sh', system["username"],system["password"],system["ip"],directoryName]):
             logger.info("IN getDebs.sh\t"+line.strip())
     else:
         logger.info("Pushing Packages...moveDebs.sh")
-        for line in execute(['sh', 'moveDebs.sh', system["username"],system["password"],system["ip"],directoryName]):
+        for line in execute(['sh', path+'moveDebs.sh', system["username"],system["password"],system["ip"],directoryName]):
             logger.info("IN moveDebs.sh\t"+line.strip())
 
     logger.info("Installing Packages...install.sh")
-    for line in execute(['sh', 'install.sh', system["username"],system["password"],system["ip"]]):
+    for line in execute(['sh', path+'install.sh', system["username"],system["password"],system["ip"]]):
         logger.info("IN install.sh\t"+line.strip())
         
     
     logger.info("loading bot code...load.sh")
-    for line in execute(['sh', 'load.sh', system["username"],system["password"],system["ip"],randomFileName(10)]):
+    for line in execute(['sh', path+'load.sh', system["username"],system["password"],system["ip"],randomFileName(10)]):
         logger.info("IN load.sh\t"+line.strip())
 
     return os.path.abspath("debs/"+directoryName)
