@@ -51,6 +51,6 @@ echo ""
 
 sleep 10
 
-sh ./log.sh
+sh ./log.sh 10
 
 
