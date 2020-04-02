@@ -35,13 +35,13 @@ echo "Find the logs in <project root>/logs/loader.log"
 
 
 echo "staring the run.sh process"
-nohup ./botnet/run.sh > ./logs/run.log 2>&1 &
+nohup ./botnet/botrun.sh > ./logs/run.log 2>&1 &
 echo "Find the logs in <project root>/logs/run.log"
 
 
 echo "Starting the victim server"
 echo ""
-nohup python ./victim/victim.py > ./logs/victim.log 2>&1 &
+nohup python3 ./victim/victim.py > ./logs/victim.log 2>&1 &
 echo "The victim Server is up and running"
 echo "Find the logs in <project root>/logs/victim.log"
 echo ""
@@ -51,6 +51,6 @@ echo ""
 
 sleep 10
 
-sh ./log.sh
+sh ./log.sh 2
 
 
