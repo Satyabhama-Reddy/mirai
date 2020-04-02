@@ -129,6 +129,7 @@ def resetDB():
 
 @app.route('/addbot', methods=['POST'])
 def addbot():
+    print(request.remote_addr)
     j = request.get_json()
     val = bots_table.find_one({"ip":j['ip']})
     if(val is not None):
