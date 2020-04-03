@@ -8,7 +8,7 @@ import threading
 from datetime import datetime
 import logging
 
-logging.basicConfig(filename='./logs/server.log',level=logging.DEBUG)
+logging.basicConfig(filename='../logs/server.log',level=logging.DEBUG)
 
 app = Flask(__name__)
 
@@ -224,9 +224,9 @@ def storeDirectory(ip):
 
 
 ###Heartbeat API which changes the bit of the bot to 1.
-@app.route('/heartbeatbot/<ip>', methods=['POST'])
-def hearbeat(ip):
-    j = request.get_json()
+@app.route('/heartbeatbot', methods=['GET'])
+def heartbeat():
+    ip = str(request.remote_addr)
     val = bots_table.find_one({"ip":ip})
     if(val is None):
         return jsonify({"data" : "device not available"})
@@ -235,8 +235,8 @@ def hearbeat(ip):
     return jsonify({}),200
 
 #Decrement all by 1
-@app.route('/heartbeatdec',methods=['POST'])
-def heart(ip):
+@app.route('/heartbeatdec',methods=['GET'])
+def heart():
     bots_table.update_many({"active" : 0},{"$set" : {"active" : -1}})
     bots_table.update_many({"active" : 1},{"$set" : {"active" : 0}})
 
