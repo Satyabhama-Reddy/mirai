@@ -8,7 +8,7 @@ import threading
 from datetime import datetime
 import logging
 
-logging.basicConfig(filename='../logs/server.log',level=logging.DEBUG)
+logging.basicConfig(filename='./logs/server.log',level=logging.DEBUG)
 
 app = Flask(__name__)
 
@@ -137,7 +137,7 @@ def addbot():
             return jsonify({'code':200,'data':"bot already exists"})
         bots_table.delete_one({"ip":j['ip']})
     nextId = getNextSequence(counter,"botId")  
-    result=bots_table.insert_one({'botId':nextId,"ip":j['ip'],"username":j['username'],"password":j['password'],"loaded":0,"directoryName":"","sourceIP":request.remote_addr})
+    result=bots_table.insert_one({'botId':nextId,"ip":j['ip'],"username":j['username'],"password":j['password'],"loaded":0,"directoryName":"","sourceIP":request.remote_addr,"active":1})
     return jsonify({'code':200})
 
 
@@ -222,8 +222,11 @@ def storeDirectory(ip):
     bots_table.update_one({ 'ip': ip },{"$set":{"directoryName":j["directoryName"]}})
     return jsonify({'code':200})
 
+### =========================================================================================================
+### Heartbeat API which changes the bit of the bot to 1.
+### =========================================================================================================
 
-###Heartbeat API which changes the bit of the bot to 1.
+
 @app.route('/heartbeatbot', methods=['GET'])
 def heartbeat():
     ip = str(request.remote_addr)
@@ -234,7 +237,11 @@ def heartbeat():
     bots_table.update_one({'ip' : ip},{"$set" :{"active" : 1}})
     return jsonify({}),200
 
-#Decrement all by 1
+### =========================================================================================================
+### Decrement all by 1
+### =========================================================================================================
+
+
 @app.route('/heartbeatdec',methods=['GET'])
 def heart():
     bots_table.update_many({"active" : 0},{"$set" : {"active" : -1}})
