@@ -27,12 +27,16 @@ echo ""
 echo "The PiD for the server Process"
 lsof -i:5000
 echo ""
+echo "sleeping for 3 seconds"
+sleep 5
+
 
 echo "Starting the loader"
 python3 ./loader/install/installer.py > logs/loader.out &
 echo "Loader booted"
 echo "Find the logs in <project root>/logs/loader.log"
-
+echo "sleeping for 3 seconds"
+sleep 5
 
 echo "staring the run.sh process"
 ./botnet/run.sh > ./logs/run.log 2>&1 &
@@ -49,7 +53,7 @@ echo "The PiD for the server Process"
 lsof -i:10000
 echo ""
 
-sleep 10
+sleep 3
 
 sh ./log.sh 10
 
