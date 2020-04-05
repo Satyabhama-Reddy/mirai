@@ -8,7 +8,7 @@ import threading
 from datetime import datetime
 import logging
 
-logging.basicConfig(filename='./logs/server.log',level=logging.DEBUG)
+logging.basicConfig(filename='../logs/server.log',level=logging.DEBUG)
 
 app = Flask(__name__)
 
@@ -244,7 +244,7 @@ def heartbeat():
 
 @app.route('/heartbeatdec',methods=['GET'])
 def heart():
-    bots_table.update_many({"active" : 0},{"$set" : {"active" : -1}})
+    bots_table.update_many({"active" : 0},{"$set" : {"active" : -1,"loaded" : 0}})
     bots_table.update_many({"active" : 1},{"$set" : {"active" : 0}})
 
     return jsonify({}),200
