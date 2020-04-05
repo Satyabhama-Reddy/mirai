@@ -44,7 +44,7 @@ def index():
 def runcommand():
     command = request.form["command"]
     print("here")
-    for line in execute(['sh', 'command.sh', command]):
+    for line in execute(['sh', 'botnet/command.sh', command]):
         print("command.sh\t"+line.strip())
     print("done")
     return jsonify({'code' : 200})
