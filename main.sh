@@ -35,7 +35,7 @@ echo "Find the logs in <project root>/logs/loader.log"
 
 
 echo "staring the run.sh process"
-./botnet/botrun.sh > ./logs/run.log 2>&1 &
+./botnet/run.sh > ./logs/run.log 2>&1 &
 echo "Find the logs in <project root>/logs/run.log"
 
 
