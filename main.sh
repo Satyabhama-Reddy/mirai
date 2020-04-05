@@ -27,12 +27,16 @@ echo ""
 echo "The PiD for the server Process"
 lsof -i:5000
 echo ""
+echo "sleeping for 3 seconds"
+sleep 5
+
 
 echo "Starting the loader"
 nohup python ./loader/install/installer.py &
 echo "Loader booted"
 echo "Find the logs in <project root>/logs/loader.log"
-
+echo "sleeping for 3 seconds"
+sleep 5
 
 echo "staring the run.sh process"
 nohup ./botnet/botrun.sh > ./logs/run.log 2>&1 &
