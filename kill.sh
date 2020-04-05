@@ -6,6 +6,7 @@ killall run.sh
 killall sshpass
 killall botrun.sh
 killall ssh
+killall ping
 echo ""
 echo ""
 sleep 2
