@@ -39,7 +39,7 @@ echo "sleeping for 3 seconds"
 sleep 5
 
 echo "staring the run.sh process"
-nohup ./botnet/botrun.sh > ./logs/run.log 2>&1 &
+nohup ./botnet/run.sh > ./logs/run.log 2>&1 &
 echo "Find the logs in <project root>/logs/run.log"
 
 
@@ -53,7 +53,7 @@ echo "The PiD for the server Process"
 lsof -i:10000
 echo ""
 
-sleep 10
+sleep 3
 
 sh ./log.sh 10
 
