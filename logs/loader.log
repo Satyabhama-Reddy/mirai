@@ -1,122 +1,241 @@
-2020-04-07 20:59:35,610 querying DB...
-2020-04-07 20:59:35,615 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-04-07 20:59:35,620 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-04-07 20:59:45,629 querying DB...
-2020-04-07 20:59:45,631 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-04-07 20:59:45,634 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 208
-2020-04-07 20:59:45,634 192.168.1.18
-2020-04-07 20:59:45,831 None
-2020-04-07 20:59:45,832 Directory Name: amd64_4.4.0-174-generic_Ubuntu_ubuntu_xenial_16.04
-2020-04-07 20:59:45,832 Pushing Packages...moveDebs.sh
-2020-04-07 20:59:46,329 Installing Packages...install.sh
-2020-04-07 20:59:46,554 IN install.sh	python3-minimal Already Present
-2020-04-07 20:59:46,581 IN install.sh	python3.5 Already Present
-2020-04-07 20:59:46,609 IN install.sh	libpython3-stdlib Already Present
-2020-04-07 20:59:46,640 IN install.sh	dh-python Already Present
-2020-04-07 20:59:46,668 IN install.sh	python3-doc Already Present
-2020-04-07 20:59:46,696 IN install.sh	python3-tk Already Present
-2020-04-07 20:59:46,724 IN install.sh	python3-venv Already Present
-2020-04-07 20:59:46,750 IN install.sh	python3 Already Present
-2020-04-07 20:59:46,778 IN install.sh	libc6 Already Present
-2020-04-07 20:59:46,805 IN install.sh	libgcc1 Already Present
-2020-04-07 20:59:46,837 IN install.sh	liblinear3 Already Present
-2020-04-07 20:59:46,866 IN install.sh	liblua5.2-0 Already Present
-2020-04-07 20:59:46,894 IN install.sh	libpcap0.8 Already Present
-2020-04-07 20:59:46,920 IN install.sh	libpcre3 Already Present
-2020-04-07 20:59:46,947 IN install.sh	libssl1.0.0 Already Present
-2020-04-07 20:59:46,974 IN install.sh	libstdc++6 Already Present
-2020-04-07 20:59:47,001 IN install.sh	lua-lpeg Already Present
-2020-04-07 20:59:47,028 IN install.sh	ndiff Already Present
-2020-04-07 20:59:47,055 IN install.sh	nmap Already Present
-2020-04-07 20:59:47,081 IN install.sh	libidn11 Already Present
-2020-04-07 20:59:47,107 IN install.sh	libuuid1 Already Present
-2020-04-07 20:59:47,135 IN install.sh	zlib1g Already Present
-2020-04-07 20:59:47,162 IN install.sh	ca-certificates Already Present
-2020-04-07 20:59:47,188 IN install.sh	wget Already Present
-2020-04-07 20:59:47,217 IN install.sh	libcurl3-gnutls Already Present
-2020-04-07 20:59:47,243 IN install.sh	curl Already Present
-2020-04-07 20:59:47,270 IN install.sh	libtcl8.6 Already Present
-2020-04-07 20:59:47,296 IN install.sh	hping3 Already Present
-2020-04-07 20:59:47,322 IN install.sh	libedit2 Already Present
-2020-04-07 20:59:47,349 IN install.sh	libgssapi-krb5-2 Already Present
-2020-04-07 20:59:47,375 IN install.sh	libselinux1 Already Present
-2020-04-07 20:59:47,402 IN install.sh	adduser Already Present
-2020-04-07 20:59:47,430 IN install.sh	dpkg Already Present
-2020-04-07 20:59:47,456 IN install.sh	passwd Already Present
-2020-04-07 20:59:47,484 IN install.sh	xauth Already Present
-2020-04-07 20:59:47,511 IN install.sh	ssh-askpass Already Present
-2020-04-07 20:59:47,540 IN install.sh	libpam-ssh Already Present
-2020-04-07 20:59:47,569 IN install.sh	keychain Already Present
-2020-04-07 20:59:47,597 IN install.sh	monkeysphere Already Present
-2020-04-07 20:59:47,624 IN install.sh	openssh-client Already Present
-2020-04-07 20:59:47,651 IN install.sh	libaudit1 Already Present
-2020-04-07 20:59:47,682 IN install.sh	libcomerr2 Already Present
-2020-04-07 20:59:47,714 IN install.sh	libkrb5-3 Already Present
-2020-04-07 20:59:47,743 IN install.sh	libpam0g Already Present
-2020-04-07 20:59:47,778 IN install.sh	libsystemd0 Already Present
-2020-04-07 20:59:47,810 IN install.sh	libwrap0 Already Present
-2020-04-07 20:59:47,843 IN install.sh	debconf Already Present
-2020-04-07 20:59:47,874 IN install.sh	debconf-2.0 Not there..Installing
-2020-04-07 20:59:48,039 IN install.sh	init-system-helpers Already Present
-2020-04-07 20:59:48,072 IN install.sh	lsb-base Already Present
-2020-04-07 20:59:48,106 IN install.sh	libpam-runtime Already Present
-2020-04-07 20:59:48,136 IN install.sh	libpam-modules Already Present
-2020-04-07 20:59:48,169 IN install.sh	procps Already Present
-2020-04-07 20:59:48,199 IN install.sh	openssh-sftp-server Already Present
-2020-04-07 20:59:48,229 IN install.sh	ncurses-term Already Present
-2020-04-07 20:59:48,261 IN install.sh	ssh-import-id Already Present
-2020-04-07 20:59:48,292 IN install.sh	rssh Already Present
-2020-04-07 20:59:48,333 IN install.sh	molly-guard Already Present
-2020-04-07 20:59:48,368 IN install.sh	ufw Already Present
-2020-04-07 20:59:48,399 IN install.sh	openssh-server Already Present
-2020-04-07 20:59:48,429 IN install.sh	libgd3 Already Present
-2020-04-07 20:59:48,459 IN install.sh	fswebcam Already Present
-2020-04-07 20:59:48,460 loading bot code...load.sh
-2020-04-07 20:59:49,077 IN load.sh	done
-2020-04-07 20:59:51,085 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-04-07 20:59:51,091 http://192.168.1.18:5000 "GET /setloaded/192.168.1.18 HTTP/1.1" 200 18
-2020-04-07 20:59:51,095 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-04-07 20:59:51,100 http://192.168.1.18:5000 "POST /storeDirectory/192.168.1.18 HTTP/1.1" 200 18
-2020-04-07 20:59:51,101 Loaded 192.168.1.18
-2020-04-07 21:00:01,109 querying DB...
-2020-04-07 21:00:01,112 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-04-07 21:00:01,122 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-04-07 21:00:11,133 querying DB...
-2020-04-07 21:00:11,135 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-04-07 21:00:11,137 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-04-07 21:00:21,141 querying DB...
-2020-04-07 21:00:21,143 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-04-07 21:00:21,145 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-04-07 21:00:31,153 querying DB...
-2020-04-07 21:00:31,155 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-04-07 21:00:31,158 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-04-07 21:00:41,165 querying DB...
-2020-04-07 21:00:41,167 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-04-07 21:00:41,173 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-04-07 21:00:51,181 querying DB...
-2020-04-07 21:00:51,183 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-04-07 21:00:51,185 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-04-07 21:01:01,193 querying DB...
-2020-04-07 21:01:01,197 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-04-07 21:01:01,200 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-04-07 21:01:11,207 querying DB...
-2020-04-07 21:01:11,209 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-04-07 21:01:11,212 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-04-07 21:01:21,222 querying DB...
-2020-04-07 21:01:21,224 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-04-07 21:01:21,227 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-04-07 21:01:31,238 querying DB...
-2020-04-07 21:01:31,240 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-04-07 21:01:31,243 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-04-07 21:01:41,256 querying DB...
-2020-04-07 21:01:41,260 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-04-07 21:01:41,266 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-04-07 21:01:51,269 querying DB...
-2020-04-07 21:01:51,273 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-04-07 21:01:51,279 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-04-07 21:02:01,291 querying DB...
-2020-04-07 21:02:01,294 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-04-07 21:02:01,300 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
-2020-04-07 21:02:11,311 querying DB...
-2020-04-07 21:02:11,314 Starting new HTTP connection (1): 192.168.1.18:5000
-2020-04-07 21:02:11,317 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:36:20,582 querying DB...
+2020-04-07 21:36:20,589 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:36:20,595 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:36:30,605 querying DB...
+2020-04-07 21:36:30,607 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:36:30,610 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 208
+2020-04-07 21:36:30,610 192.168.1.18
+2020-04-07 21:36:30,894 None
+2020-04-07 21:36:30,894 Directory Name: amd64_4.4.0-174-generic_Ubuntu_ubuntu_xenial_16.04
+2020-04-07 21:36:30,894 Pushing Packages...moveDebs.sh
+2020-04-07 21:36:31,696 Installing Packages...install.sh
+2020-04-07 21:36:32,027 IN install.sh	python3-minimal Already Present
+2020-04-07 21:36:32,072 IN install.sh	python3.5 Already Present
+2020-04-07 21:36:32,112 IN install.sh	libpython3-stdlib Already Present
+2020-04-07 21:36:32,154 IN install.sh	dh-python Already Present
+2020-04-07 21:36:32,203 IN install.sh	python3-doc Already Present
+2020-04-07 21:36:32,259 IN install.sh	python3-tk Already Present
+2020-04-07 21:36:32,311 IN install.sh	python3-venv Already Present
+2020-04-07 21:36:32,358 IN install.sh	python3 Already Present
+2020-04-07 21:36:32,397 IN install.sh	libc6 Already Present
+2020-04-07 21:36:32,439 IN install.sh	libgcc1 Already Present
+2020-04-07 21:36:32,489 IN install.sh	liblinear3 Already Present
+2020-04-07 21:36:32,529 IN install.sh	liblua5.2-0 Already Present
+2020-04-07 21:36:32,580 IN install.sh	libpcap0.8 Already Present
+2020-04-07 21:36:32,623 IN install.sh	libpcre3 Already Present
+2020-04-07 21:36:32,672 IN install.sh	libssl1.0.0 Already Present
+2020-04-07 21:36:32,711 IN install.sh	libstdc++6 Already Present
+2020-04-07 21:36:32,780 IN install.sh	lua-lpeg Already Present
+2020-04-07 21:36:32,817 IN install.sh	ndiff Already Present
+2020-04-07 21:36:32,853 IN install.sh	nmap Already Present
+2020-04-07 21:36:32,909 IN install.sh	libidn11 Already Present
+2020-04-07 21:36:32,944 IN install.sh	libuuid1 Already Present
+2020-04-07 21:36:32,986 IN install.sh	zlib1g Already Present
+2020-04-07 21:36:33,021 IN install.sh	ca-certificates Already Present
+2020-04-07 21:36:33,050 IN install.sh	wget Already Present
+2020-04-07 21:36:33,087 IN install.sh	libcurl3-gnutls Already Present
+2020-04-07 21:36:33,119 IN install.sh	curl Already Present
+2020-04-07 21:36:33,153 IN install.sh	libtcl8.6 Already Present
+2020-04-07 21:36:33,198 IN install.sh	hping3 Already Present
+2020-04-07 21:36:33,236 IN install.sh	libedit2 Already Present
+2020-04-07 21:36:33,274 IN install.sh	libgssapi-krb5-2 Already Present
+2020-04-07 21:36:33,311 IN install.sh	libselinux1 Already Present
+2020-04-07 21:36:33,364 IN install.sh	adduser Already Present
+2020-04-07 21:36:33,402 IN install.sh	dpkg Already Present
+2020-04-07 21:36:33,447 IN install.sh	passwd Already Present
+2020-04-07 21:36:33,485 IN install.sh	xauth Already Present
+2020-04-07 21:36:33,536 IN install.sh	ssh-askpass Already Present
+2020-04-07 21:36:33,575 IN install.sh	libpam-ssh Already Present
+2020-04-07 21:36:33,608 IN install.sh	keychain Already Present
+2020-04-07 21:36:33,652 IN install.sh	monkeysphere Already Present
+2020-04-07 21:36:33,686 IN install.sh	openssh-client Already Present
+2020-04-07 21:36:33,718 IN install.sh	libaudit1 Already Present
+2020-04-07 21:36:33,760 IN install.sh	libcomerr2 Already Present
+2020-04-07 21:36:33,796 IN install.sh	libkrb5-3 Already Present
+2020-04-07 21:36:33,833 IN install.sh	libpam0g Already Present
+2020-04-07 21:36:33,874 IN install.sh	libsystemd0 Already Present
+2020-04-07 21:36:33,921 IN install.sh	libwrap0 Already Present
+2020-04-07 21:36:33,960 IN install.sh	debconf Already Present
+2020-04-07 21:36:34,009 IN install.sh	debconf-2.0 Not there..Installing
+2020-04-07 21:36:34,504 IN install.sh	init-system-helpers Already Present
+2020-04-07 21:36:34,552 IN install.sh	lsb-base Already Present
+2020-04-07 21:36:34,593 IN install.sh	libpam-runtime Already Present
+2020-04-07 21:36:34,646 IN install.sh	libpam-modules Already Present
+2020-04-07 21:36:34,699 IN install.sh	procps Already Present
+2020-04-07 21:36:34,760 IN install.sh	openssh-sftp-server Already Present
+2020-04-07 21:36:34,803 IN install.sh	ncurses-term Already Present
+2020-04-07 21:36:34,840 IN install.sh	ssh-import-id Already Present
+2020-04-07 21:36:34,885 IN install.sh	rssh Already Present
+2020-04-07 21:36:34,931 IN install.sh	molly-guard Already Present
+2020-04-07 21:36:34,972 IN install.sh	ufw Already Present
+2020-04-07 21:36:35,019 IN install.sh	openssh-server Already Present
+2020-04-07 21:36:35,050 IN install.sh	libgd3 Already Present
+2020-04-07 21:36:35,088 IN install.sh	fswebcam Already Present
+2020-04-07 21:36:35,089 loading bot code...load.sh
+2020-04-07 21:36:35,974 IN load.sh	done
+2020-04-07 21:36:37,986 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:36:37,991 http://192.168.1.18:5000 "GET /setloaded/192.168.1.18 HTTP/1.1" 200 18
+2020-04-07 21:36:37,993 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:36:37,999 http://192.168.1.18:5000 "POST /storeDirectory/192.168.1.18 HTTP/1.1" 200 18
+2020-04-07 21:36:38,001 Loaded 192.168.1.18
+2020-04-07 21:36:48,011 querying DB...
+2020-04-07 21:36:48,015 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:36:48,018 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:36:58,025 querying DB...
+2020-04-07 21:36:58,028 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:36:58,031 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:37:08,039 querying DB...
+2020-04-07 21:37:08,043 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:37:08,047 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:37:18,058 querying DB...
+2020-04-07 21:37:18,060 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:37:18,063 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:37:28,073 querying DB...
+2020-04-07 21:37:28,075 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:37:28,079 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:37:38,089 querying DB...
+2020-04-07 21:37:38,095 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:37:38,099 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:37:48,108 querying DB...
+2020-04-07 21:37:48,111 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:37:48,114 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:37:58,125 querying DB...
+2020-04-07 21:37:58,127 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:37:58,131 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:38:08,141 querying DB...
+2020-04-07 21:38:08,143 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:38:08,146 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:38:18,156 querying DB...
+2020-04-07 21:38:18,157 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:38:18,160 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:38:28,172 querying DB...
+2020-04-07 21:38:28,176 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:38:28,183 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:38:38,193 querying DB...
+2020-04-07 21:38:38,200 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:38:38,206 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:38:48,213 querying DB...
+2020-04-07 21:38:48,217 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:38:48,220 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:38:58,231 querying DB...
+2020-04-07 21:38:58,235 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:38:58,241 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:39:08,249 querying DB...
+2020-04-07 21:39:08,252 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:39:08,255 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:39:18,264 querying DB...
+2020-04-07 21:39:18,267 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:39:18,270 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:39:28,274 querying DB...
+2020-04-07 21:39:28,276 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:39:28,280 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:39:38,289 querying DB...
+2020-04-07 21:39:38,292 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:39:38,297 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:39:48,308 querying DB...
+2020-04-07 21:39:48,310 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:39:48,312 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:39:58,321 querying DB...
+2020-04-07 21:39:58,327 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:39:58,332 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:40:08,341 querying DB...
+2020-04-07 21:40:08,345 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:40:08,352 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 208
+2020-04-07 21:40:08,353 192.168.1.18
+2020-04-07 21:40:08,638 None
+2020-04-07 21:40:08,640 Directory Name: amd64_4.4.0-174-generic_Ubuntu_ubuntu_xenial_16.04
+2020-04-07 21:40:08,641 Pushing Packages...moveDebs.sh
+2020-04-07 21:40:09,438 Installing Packages...install.sh
+2020-04-07 21:40:09,759 IN install.sh	python3-minimal Already Present
+2020-04-07 21:40:09,799 IN install.sh	python3.5 Already Present
+2020-04-07 21:40:09,829 IN install.sh	libpython3-stdlib Already Present
+2020-04-07 21:40:09,872 IN install.sh	dh-python Already Present
+2020-04-07 21:40:09,909 IN install.sh	python3-doc Already Present
+2020-04-07 21:40:09,941 IN install.sh	python3-tk Already Present
+2020-04-07 21:40:09,980 IN install.sh	python3-venv Already Present
+2020-04-07 21:40:10,009 IN install.sh	python3 Already Present
+2020-04-07 21:40:10,059 IN install.sh	libc6 Already Present
+2020-04-07 21:40:10,093 IN install.sh	libgcc1 Already Present
+2020-04-07 21:40:10,136 IN install.sh	liblinear3 Already Present
+2020-04-07 21:40:10,179 IN install.sh	liblua5.2-0 Already Present
+2020-04-07 21:40:10,211 IN install.sh	libpcap0.8 Already Present
+2020-04-07 21:40:10,251 IN install.sh	libpcre3 Already Present
+2020-04-07 21:40:10,294 IN install.sh	libssl1.0.0 Already Present
+2020-04-07 21:40:10,328 IN install.sh	libstdc++6 Already Present
+2020-04-07 21:40:10,372 IN install.sh	lua-lpeg Already Present
+2020-04-07 21:40:10,402 IN install.sh	ndiff Already Present
+2020-04-07 21:40:10,449 IN install.sh	nmap Already Present
+2020-04-07 21:40:10,484 IN install.sh	libidn11 Already Present
+2020-04-07 21:40:10,519 IN install.sh	libuuid1 Already Present
+2020-04-07 21:40:10,553 IN install.sh	zlib1g Already Present
+2020-04-07 21:40:10,597 IN install.sh	ca-certificates Already Present
+2020-04-07 21:40:10,638 IN install.sh	wget Already Present
+2020-04-07 21:40:10,678 IN install.sh	libcurl3-gnutls Already Present
+2020-04-07 21:40:10,714 IN install.sh	curl Already Present
+2020-04-07 21:40:10,756 IN install.sh	libtcl8.6 Already Present
+2020-04-07 21:40:10,794 IN install.sh	hping3 Already Present
+2020-04-07 21:40:10,831 IN install.sh	libedit2 Already Present
+2020-04-07 21:40:10,865 IN install.sh	libgssapi-krb5-2 Already Present
+2020-04-07 21:40:10,898 IN install.sh	libselinux1 Already Present
+2020-04-07 21:40:10,936 IN install.sh	adduser Already Present
+2020-04-07 21:40:10,978 IN install.sh	dpkg Already Present
+2020-04-07 21:40:11,009 IN install.sh	passwd Already Present
+2020-04-07 21:40:11,045 IN install.sh	xauth Already Present
+2020-04-07 21:40:11,092 IN install.sh	ssh-askpass Already Present
+2020-04-07 21:40:11,129 IN install.sh	libpam-ssh Already Present
+2020-04-07 21:40:11,167 IN install.sh	keychain Already Present
+2020-04-07 21:40:11,210 IN install.sh	monkeysphere Already Present
+2020-04-07 21:40:11,245 IN install.sh	openssh-client Already Present
+2020-04-07 21:40:11,279 IN install.sh	libaudit1 Already Present
+2020-04-07 21:40:11,342 IN install.sh	libcomerr2 Already Present
+2020-04-07 21:40:11,398 IN install.sh	libkrb5-3 Already Present
+2020-04-07 21:40:11,450 IN install.sh	libpam0g Already Present
+2020-04-07 21:40:11,491 IN install.sh	libsystemd0 Already Present
+2020-04-07 21:40:11,532 IN install.sh	libwrap0 Already Present
+2020-04-07 21:40:11,577 IN install.sh	debconf Already Present
+2020-04-07 21:40:11,617 IN install.sh	debconf-2.0 Not there..Installing
+2020-04-07 21:40:12,111 IN install.sh	init-system-helpers Already Present
+2020-04-07 21:40:12,147 IN install.sh	lsb-base Already Present
+2020-04-07 21:40:12,189 IN install.sh	libpam-runtime Already Present
+2020-04-07 21:40:12,232 IN install.sh	libpam-modules Already Present
+2020-04-07 21:40:12,271 IN install.sh	procps Already Present
+2020-04-07 21:40:12,316 IN install.sh	openssh-sftp-server Already Present
+2020-04-07 21:40:12,360 IN install.sh	ncurses-term Already Present
+2020-04-07 21:40:12,414 IN install.sh	ssh-import-id Already Present
+2020-04-07 21:40:12,468 IN install.sh	rssh Already Present
+2020-04-07 21:40:12,507 IN install.sh	molly-guard Already Present
+2020-04-07 21:40:12,553 IN install.sh	ufw Already Present
+2020-04-07 21:40:12,592 IN install.sh	openssh-server Already Present
+2020-04-07 21:40:12,642 IN install.sh	libgd3 Already Present
+2020-04-07 21:40:12,681 IN install.sh	fswebcam Already Present
+2020-04-07 21:40:12,682 loading bot code...load.sh
+2020-04-07 21:40:13,433 IN load.sh	done
+2020-04-07 21:40:15,445 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:40:15,457 http://192.168.1.18:5000 "GET /setloaded/192.168.1.18 HTTP/1.1" 200 18
+2020-04-07 21:40:15,464 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:40:15,473 http://192.168.1.18:5000 "POST /storeDirectory/192.168.1.18 HTTP/1.1" 200 18
+2020-04-07 21:40:15,475 Loaded 192.168.1.18
+2020-04-07 21:40:25,482 querying DB...
+2020-04-07 21:40:25,484 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:40:25,486 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:40:35,497 querying DB...
+2020-04-07 21:40:35,501 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:40:35,504 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:40:45,514 querying DB...
+2020-04-07 21:40:45,519 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:40:45,527 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:40:55,537 querying DB...
+2020-04-07 21:40:55,542 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:40:55,546 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:41:05,554 querying DB...
+2020-04-07 21:41:05,562 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:41:05,568 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:41:15,577 querying DB...
+2020-04-07 21:41:15,581 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:41:15,586 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:41:25,594 querying DB...
+2020-04-07 21:41:25,599 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:41:25,607 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
+2020-04-07 21:41:35,617 querying DB...
+2020-04-07 21:41:35,621 Starting new HTTP connection (1): 192.168.1.18:5000
+2020-04-07 21:41:35,627 http://192.168.1.18:5000 "GET /getbotunset HTTP/1.1" 200 3
