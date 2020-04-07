@@ -109,6 +109,8 @@ def removeBot(ip):
     val = bots_table.find_one({"ip":ip})
     if(val is not None):
         bots_table.delete_one({"ip":ip})
+        for line in execute(['sh', 'loader/cleanup.sh',val["username"],val["password"],ip]):
+            print("cleanup.sh\t"+line.strip())
         return jsonify({'code':200})
     else:
         return jsonify({'code':200,"data":"ip not found"})
@@ -118,7 +120,10 @@ def removeBot(ip):
 ### =========================================================================================================
 @app.route('/resetDB', methods=['GET'])
 def resetDB():
-    bots_table.remove({})
+    # bots_table.remove({})
+    val=bots_table.find()
+    for x in val:
+        removeBot(x.pop("ip"))
     return jsonify({'code':200})
 
 

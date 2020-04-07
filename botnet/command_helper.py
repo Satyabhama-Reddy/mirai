@@ -3,7 +3,7 @@ import requests
 
 cnc=""
 port=""
-with open('../.config') as f:
+with open('.config') as f:
 	for line in f:
 		if("cnc" in line):
 			cnc=line.split("=")[1].split("\n")[0]
