@@ -1,5 +1,5 @@
 #!/bin/bash
-python3 command_helper.py > values.txt
+python3 ./botnet/command_helper.py > values.txt
 INPUT=values.txt
 OLDIFS=$IFS
 IFS=','
