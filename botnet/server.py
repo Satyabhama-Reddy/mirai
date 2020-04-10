@@ -251,7 +251,10 @@ def heartbeat():
 def heart():
     bots_table.update_many({"active" : 0},{"$set" : {"active" : -1,"loaded" : 0,"directoryName":""}})
     bots_table.update_many({"active" : 1},{"$set" : {"active" : 0}})
-
+    val=bots_table.find({"active" : -1})
+    for x in val:
+        for line in execute(['sh', 'loader/cleanup.sh',x["username"],x["password"],x["ip"]]):
+            print("cleanup.sh\t"+line.strip())
     return jsonify({}),200
 
 
